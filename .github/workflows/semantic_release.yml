@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    if: github.repository == 'alandtse/vr_address_tools'
+    if: github.repository == 'alandtse/fallout_vr_address_library'
     runs-on: ubuntu-latest
 
     steps:
@@ -78,13 +78,13 @@ jobs:
       - name: Generate release csv
         if: ${{ env.old_version != env.release_version }}
         run: |
-          mkdir -p release/SKSE/Plugins
-          poetry run ./vr_address_tools.py release/SKSE/Plugins/ generate -rv ${{ env.release_version }}
+          mkdir -p release/F4SE/Plugins
+          poetry run ./vr_address_tools.py release/F4SE/Plugins/ generate -rv ${{ env.release_version }}
       - name: Create .7z
         if: ${{ env.old_version != env.release_version }}
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 vr_addresslib-${{ env.release_version }}.7z ./release/SKSE
+          args: 7z a -t7z -mx=9 vr_addresslib-${{ env.release_version }}.7z ./release/F4SE
       - name: Sleep
         # add delay so upload does not kill the release notes from semantic-release
         if: ${{ env.old_version != env.release_version }}
@@ -114,9 +114,9 @@ jobs:
         env:
           UNEX_COOKIES: ${{ secrets.UNEX_COOKIES }}
           UNEX_APIKEY: ${{ secrets.UNEX_APIKEY }}
-          UNEX_FILEDESCRIPTION: https://github.com/alandtse/vr_address_tools/compare/${{ env.old_version }}...${{ env.release_version }}
-          UNEX_MODID: 58101
-          UNEX_GAME: skyrimspecialedition
+          UNEX_FILEDESCRIPTION: https://github.com/alandtse/fallout_vr_address_library/compare/${{ env.old_version }}...${{ env.release_version }}
+          UNEX_MODID: 64879
+          UNEX_GAME: fallout4
           UNEX_FILENAME: VR Address Library
           UNEX_PREVIOUSFILE: "auto"
           file: vr_addresslib-${{ env.release_version }}.7z
