@@ -10,6 +10,7 @@ jobs:
   deploy:
     if: github.repository == 'alandtse/fallout_vr_address_library'
     runs-on: ubuntu-latest
+    environment: Publishing
 
     steps:
       - name: Checkout
