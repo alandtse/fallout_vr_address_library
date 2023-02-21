@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.2.0...v1.3.0) (2023-02-21)
+
+
+### Features
+
+* add fNewBatteryCapacity ([1c83b54](https://github.com/alandtse/fallout_vr_address_library/commit/1c83b54450d6789c8025e294949f94cd1ba3f6cd))
+* add some bakaframework addresses ([f89bfc6](https://github.com/alandtse/fallout_vr_address_library/commit/f89bfc6b69936cf171a57d9c3bcddae44ce3b4eb))
+
 # 1.0.0 (2022-12-02)
 
 
