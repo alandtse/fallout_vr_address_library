@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.3.0...v1.4.0) (2023-03-28)
+
+
+### Features
+
+* add commonlibf4 addresses ([55952ee](https://github.com/alandtse/fallout_vr_address_library/commit/55952eec3277da14d09623deee646e55b618df53))
+
 # [1.3.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.2.0...v1.3.0) (2023-02-21)
 
 
