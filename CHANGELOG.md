@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.4.0...v1.5.0) (2023-04-07)
+
+
+### Features
+
+* add NativeFunctionBase callback ([#2](https://github.com/alandtse/fallout_vr_address_library/issues/2)) ([d0c3fac](https://github.com/alandtse/fallout_vr_address_library/commit/d0c3facecf61b0f8a69cecbed92af9650baee890))
+
 # [1.4.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.3.0...v1.4.0) (2023-03-28)
 
 
