@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.5.0...v1.6.0) (2023-08-11)
+
+
+### Features
+
+* add upscalar and NavCut addresses ([5ec9036](https://github.com/alandtse/fallout_vr_address_library/commit/5ec9036e2571a857aa49678f4a1fe4a77ccb70f9))
+
 # [1.5.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.4.0...v1.5.0) (2023-04-07)
 
 
