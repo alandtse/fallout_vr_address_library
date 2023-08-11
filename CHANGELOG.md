@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/alandtse/fallout_vr_address_library/compare/v1.6.0...v1.6.1) (2023-08-11)
+
+
+### Bug Fixes
+
+* correct confidence for UpdateDynamicNavmesh ([475d0f8](https://github.com/alandtse/fallout_vr_address_library/commit/475d0f8fc746605d1a76c7d363ae08fb2f0d7feb))
+
 # [1.6.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.5.0...v1.6.0) (2023-08-11)
 
 
