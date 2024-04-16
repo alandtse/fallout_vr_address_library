@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.6.1...v1.7.0) (2024-04-16)
+
+
+### Features
+
+* add offsets related to pipboy image space from flat ([#6](https://github.com/alandtse/fallout_vr_address_library/issues/6)) ([458fb1e](https://github.com/alandtse/fallout_vr_address_library/commit/458fb1e652c9e60657fa13bb9bd5f3d313a60c2a))
+
 ## [1.6.1](https://github.com/alandtse/fallout_vr_address_library/compare/v1.6.0...v1.6.1) (2023-08-11)
 
 
