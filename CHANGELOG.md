@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.7.0...v1.8.0) (2024-06-20)
+
+
+### Features
+
+* add PlayerCharacter::UpdateActor3DPosition ([482955e](https://github.com/alandtse/fallout_vr_address_library/commit/482955e69f33ae474af955475e1ef23dfa7a39f7))
+
 # [1.7.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.6.1...v1.7.0) (2024-04-16)
 
 
