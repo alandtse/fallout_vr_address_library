@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.8.0...v1.9.0) (2024-06-20)
+
+
+### Features
+
+* add BakaMaxPapyrusOps ([a990af3](https://github.com/alandtse/fallout_vr_address_library/commit/a990af3edcbeb65d8e4d2bc39d6e61eee8292e97))
+
 # [1.8.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.7.0...v1.8.0) (2024-06-20)
 
 
