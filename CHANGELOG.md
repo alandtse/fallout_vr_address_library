@@ -1,3 +1,11 @@
+# [1.11.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.10.0...v1.11.0) (2024-07-03)
+
+
+### Features
+
+* add BackportedBA2Support ([df90f4f](https://github.com/alandtse/fallout_vr_address_library/commit/df90f4fb755ae8f372887a7a486c3e7b1c26d2a7))
+* add BSUtilityShader::CreateCommandBuffer ([0bca469](https://github.com/alandtse/fallout_vr_address_library/commit/0bca46992954fb2428bc36d3b1c09ee5f10decbc))
+
 # [1.10.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.9.0...v1.10.0) (2024-06-26)
 
 
