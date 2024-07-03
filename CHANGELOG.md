@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.9.0...v1.10.0) (2024-06-26)
+
+
+### Features
+
+* add CreateTexture2D and ImageSpaceAdapter ([340668b](https://github.com/alandtse/fallout_vr_address_library/commit/340668b88bbaee1ee7e0da79a39025bc268b58e9))
+* add InteriorNavCut fix ([455b94d](https://github.com/alandtse/fallout_vr_address_library/commit/455b94d1e8a551b7007180f91f2001137a956fcf))
+
 # [1.9.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.8.0...v1.9.0) (2024-06-20)
 
 
