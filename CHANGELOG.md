@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.12.0...v1.13.0) (2024-07-17)
+
+
+### Features
+
+* add GCBugFix ([8645bc4](https://github.com/alandtse/fallout_vr_address_library/commit/8645bc4e04acdc83cc42b3bf7e91fb9a21607b72))
+
 # [1.12.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.11.0...v1.12.0) (2024-07-15)
 
 
