@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.11.0...v1.12.0) (2024-07-15)
+
+
+### Features
+
+* add EscapeFreezeFix ([b8fd700](https://github.com/alandtse/fallout_vr_address_library/commit/b8fd7007a545b7f6888af0d6ea1187f4c74d1a2b))
+* add support for spid ([5253583](https://github.com/alandtse/fallout_vr_address_library/commit/5253583929890f38f67049ea6787c22b06c7f83b))
+
 # [1.11.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.10.0...v1.11.0) (2024-07-03)
 
 
