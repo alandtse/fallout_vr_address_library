@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/alandtse/fallout_vr_address_library/compare/v1.13.0...v1.13.1) (2025-07-04)
+
+
+### Bug Fixes
+
+* fix PlayerCamera* GetSingleton() ([12095a0](https://github.com/alandtse/fallout_vr_address_library/commit/12095a062e07e3e743142137a17a94fd068f01e6))
+
 # [1.13.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.12.0...v1.13.0) (2024-07-17)
 
 
