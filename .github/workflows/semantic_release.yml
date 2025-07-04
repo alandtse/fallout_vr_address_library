@@ -15,7 +15,7 @@ jobs:
       - name: Get VR Address Tools
         run: git clone https://github.com/alandtse/vr_address_tools.git .
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           path: "fallout_vr_address_library"
@@ -33,7 +33,7 @@ jobs:
       #----------------------------------------------
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
@@ -99,7 +99,7 @@ jobs:
         # https://github.com/agc93/nexus-uploader using fork https://github.com/BUTR/BUTR.NexusUploader
         if: steps.semantic.outputs.new_release_published == 'true'
         env:
-          UNEX_SESSION_COOKIE: ${{ secrets.NEXUSMODS_SESSION_COOKIE }}
+          UNEX_SESSION_COOKIE: ${{ secrets.UNEX_NEXUSMODS_SESSION_COOKIE }}
           UNEX_APIKEY: ${{ secrets.UNEX_APIKEY }}
           UNEX_FILEDESCRIPTION: https://github.com/alandtse/fallout_vr_address_library/compare/${{ steps.semantic.outputs.last_release_git_tag }}...${{ steps.semantic.outputs.new_release_git_tag }}
           UNEX_MODID: 64879
