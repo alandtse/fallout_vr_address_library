@@ -103,7 +103,7 @@ jobs:
   nexus-upload:
     needs: release
     if: needs.release.outputs.new_release_published == 'true' || github.event_name == 'workflow_dispatch'
-    uses: alandtse/nexus-workflows/.github/workflows/upload-nexus.yml@dceaf2d82ecf19569a0282930cc4322422c44b3a # v1.5.2
+    uses: alandtse/nexus-workflows/.github/workflows/upload-nexus.yml@main
     with:
       nexus_game_id: fallout4
       nexus_mod_id: "64879"
