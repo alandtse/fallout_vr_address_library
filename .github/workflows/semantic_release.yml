@@ -21,7 +21,7 @@ jobs:
       - name: Get VR Address Tools
         run: git clone https://github.com/alandtse/vr_address_tools.git .
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           path: "fallout_vr_address_library"
@@ -39,10 +39,10 @@ jobs:
       #----------------------------------------------
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .venv
-          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
       #----------------------------------------------
       # install dependencies if cache does not exist
       #----------------------------------------------
@@ -55,11 +55,11 @@ jobs:
       - name: Install library
         run: poetry install --no-interaction
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version: 14
+          node-version: 22
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v6
         id: semantic # Need an `id` for output variables
         with:
           # You can specify specifying version range for the extra plugins if you prefer.
@@ -95,7 +95,7 @@ jobs:
           overwrite: true
       - name: Upload artifacts for nexus job
         if: steps.semantic.outputs.new_release_published == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-artifacts
           path: vr_addresslib-${{ steps.semantic.outputs.new_release_version }}.7z
@@ -103,32 +103,19 @@ jobs:
   nexus-upload:
     needs: release
     if: needs.release.outputs.new_release_published == 'true' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Download release artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: release-artifacts
-      - name: Setup Dotnet
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 6.x.x
-      - name: Download NexusUploader
-        run: dotnet tool install -g BUTR.NexusUploader
-      - name: Upload files to Nexus
-        # https://github.com/agc93/nexus-uploader using fork https://github.com/BUTR/BUTR.NexusUploader
-        env:
-          UNEX_SESSION_COOKIE: ${{ secrets.UNEX_NEXUSMODS_SESSION_COOKIE }}
-          UNEX_APIKEY: ${{ secrets.UNEX_APIKEY }}
-          UNEX_FILEDESCRIPTION: https://github.com/alandtse/fallout_vr_address_library/compare/${{ needs.release.outputs.last_release_git_tag }}..${{ needs.release.outputs.new_release_git_tag }}
-          UNEX_MODID: 64879
-          UNEX_GAME: fallout4
-          UNEX_FILENAME: VR Address Library
-          UNEX_PREVIOUSFILE: "auto"
-          file: vr_addresslib-${{ needs.release.outputs.new_release_version }}.7z
-          version: ${{ needs.release.outputs.new_release_version }}
-          changelog: ${{ needs.release.outputs.new_release_notes }}
-        run: |
-          unex upload $UNEX_MODID $file -v $version
-          unex changelog $version -c "$changelog"
+    uses: alandtse/nexus-workflows/.github/workflows/upload-nexus.yml@main
+    with:
+      nexus_game_id: fallout4
+      nexus_mod_id: "64879"
+      artifact_name: release-artifacts
+      mod_version: ${{ needs.release.outputs.new_release_version }}
+      mod_filename: VR Address Library
+      changelog: ${{ needs.release.outputs.new_release_notes }}
+      file_description: https://github.com/alandtse/fallout_vr_address_library/compare/${{ needs.release.outputs.last_release_git_tag }}..${{ needs.release.outputs.new_release_git_tag }}
+      previous_file: auto
+      # Idempotent re-runs; v1.5.2 fixes duplicate changelog reposts on an
+      # already-uploaded version (alandtse/nexus-workflows#8).
+      check_existing: true
+    secrets:
+      UNEX_NEXUSMODS_SESSION_COOKIE: ${{ secrets.UNEX_NEXUSMODS_SESSION_COOKIE }}
+      UNEX_APIKEY: ${{ secrets.UNEX_APIKEY }}
