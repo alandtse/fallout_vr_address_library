@@ -3,7 +3,7 @@ name: Send submodule updates to parent repo
 
 on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -12,8 +12,8 @@ jobs:
     if: github.repository == 'alandtse/fallout_vr_address_library'
 
     steps:
-      - uses: actions/checkout@v2
-        with: 
+      - uses: actions/checkout@v7
+        with:
           repository: alandtse/vr_address_tools
           token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
 
