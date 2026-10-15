@@ -79,6 +79,7 @@ id,fo4,vr,status,name
 1459,0x142d9b968,0x142ddd1c8,3,BSScript__NativeFunction1_BGSShaderParticleGeometryData_void_float__0
 1473,0x143866cd0,0x1438c3658,2,Scaleform__GFx__State
 1476,0x140891510,0x140884210,4,CombatBehaviorGunSuppressiveFireCharge::Enter(void)
+1481,0x140d72f20,0x140dc3820,3,void Actor::SetCurrentScene(BGSScene* a_scene)
 1502,0x142de1e90,0x142e239f0,2,DAT_142de1e90
 1516,0x142309710,0x142393820,2,"Scaleform::HashSetBase<Scaleform::HashNode<ushort,ushort,Scaleform::IdentityHash<ushort>>,Scaleform::HashNode<ushort,ushort,Scaleform::IdentityHash<ushort>>::NodeHashF,Scaleform::HashNode<ushort,ushort,Scaleform::IdentityHash<ushort>>::NodeAltHashF,Scaleform::AllocatorLH<ushort,261>,Scaleform::HashsetNodeEntry<Scaleform::HashNode<ushort,ushort,Scaleform::IdentityHash<ushort>>,Scaleform::HashNode<ushort,ushort,Scaleform::IdentityHash<ushort>>::NodeHashF>>::Clear(void)"
 1528,0x142c18378,0x142c4d2a0,2,PTR_shutdown_142c18378
@@ -625,6 +626,7 @@ id,fo4,vr,status,name
 10671,0x143865680,0x1438c2240,2,DAT_143865680
 10673,0x142c84f28,0x142cb9fe8,2,s_(nullptr)_142c84f28
 10676,0x140d718d0,0x140dc21f0,4,Actor::CheckBreathTimer(void)
+10685,0x140401df0,0x1403ea0f0,3,NiPoint3 TESObjectREFR::GetLookingAtLocation()
 10693,0x1458d4680,0x145936760,2,DAT_1458d4680
 10737,0x142680da0,0x14268a180,2,"std::_Sort_heap<bnet::HttpHeader<bnet::BasicSubString<char>,bnet::BasicSubString<char>>*>(bnet::HttpHeader<bnet::BasicSubString<char>,bnet::BasicSubString<char>>*,bnet::HttpHeader<bnet::BasicSubString<char>,bnet::BasicSubString<char>>*)"
 10739,0x141b54c50,0x141bd45b0,4,"BSFile::BSFile(char*,NiFile::OpenMode,unsigned___int64,bool)"
@@ -1785,6 +1787,7 @@ id,fo4,vr,status,name
 28957,0x1421635e0,0x1421ed6f0,4,"Scaleform::HashsetCachedNodeEntry<Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>,Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>::NodeHashF>::HashsetCachedNodeEntry<Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>,Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>::NodeHashF>(Scaleform::HashsetCachedNodeEntry<Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>,Scaleform::HashNode<unsigned___int64,Scaleform::GFx::AS3::Value,Scaleform::FixedSizeHash<unsigned___int64>>::NodeHashF>&)"
 28978,0x141365a30,0x1413ea640,2,"GameScript::`anonymous_namespace'::StoryEventArguments<GameScript::`anonymous_namespace'::RefStoryEventArgConverter,GameScript::A0x72564e18::RefStoryEventArgConverter,GameScript::A0x72564e18::LocationStoryEventArgConverter,GameScript::A0x72564e18::BoolStoryEventArgConverter,GameScript::A0x72564e18::EmptyStoryEventArgConverter,GameScript::A0x72564e18::EmptyStoryEventArgConverter>::StoryEventArguments<GameScript::`anonymous_namespace'::RefStoryEventArgConverter,GameScript::A0x72564e18::RefStoryEventArgConverter,GameScript::A0x72564e18::LocationStoryEventArgConverter,GameScript::A0x72564e18::BoolStoryEventArgConverter,GameScript::A0x72564e18::EmptyStoryEventArgConverter,GameScript::A0x72564e18::EmptyStoryEventArgConverter>(BGSStoryEvent&,BSScript::IVirtualMachine&,char*,char*,char*,char*,char*,char*)"
 28992,0x1413b9370,0x14143dff0,4,"GameScript::`anonymous_namespace'::st_Debug_DumpAliasData(BSScript::IVirtualMachine*,uint,void*,TESQuest*)"
+29012,0x140dc2570,0x140e134c0,4,void Actor::DestroyActorMover()
 29021,0x1438555c8,0x1438b1f88,2,hclWorldListener
 29049,0x141025e60,0x1410a7b70,4,CombatGroup::CopyTarget(CombatTarget&)
 29053,0x142dd0788,0x142e12038,2,s_Ttadd_reference_pose_142dd0788
@@ -2932,6 +2935,7 @@ id,fo4,vr,status,name
 47672,0x14139ff50,0x141424bd0,4,"BSScript::TypeTraits<SpellItem&>::GetFromStackFrame(BSScript::StackFrame&,uint,uint,BSScript::IVirtualMachine&)"
 47696,0x1437341d0,0x14375c440,2,DAT_1437341d0
 47733,0x140324280,0x14030a1e0,4,"TBO_InstanceData::PostAttach3D(NiAVObject*,TESObjectREFR*)"
+47756,0x140ea3d10,0x140f0dcb0,3,"void PlayerCharacter::GetEyeAngles(float& a_eyeHeading, float& a_eyeLooking)"
 47766,0x141541d90,0x1415c8c90,2,"hkArray<hkcdDynamicTree::Codec32,hkContainerHeapAllocator>::swap(hkArray<hkcdDynamicTree::Codec32,hkContainerHeapAllocator>&)"
 47783,0x1402627d0,0x14053f360,4,"std::string::assign(char*,unsigned___int64)"
 47841,0x142ea4b10,0x142eebde0,2,s_m_minimumNumberOfEventsBeforeSen_142ea4b10
@@ -2981,6 +2985,7 @@ id,fo4,vr,status,name
 48649,0x142cbf650,0x142cf37e0,3,Moon_0
 48664,0x14202a860,0x1420b3230,4,_collideAndSolveSingleCollidable_hclPlaneShape_hclRegularContactHandler_
 48668,0x14250c270,0x142596340,2,BSTSmartPointerIntrusiveRefCount<PathIdleData>::Release(PathIdleData*)
+48670,0x140eb3fd0,0x140f222c0,3,"std::uint32_t PlayerCharacter::ModCrimeGoldValue(TESFaction* a_faction, bool a_violent, std::int32_t a_amount)"
 48675,0x140869890,0x14085c590,4,"AStarSearch<CombatNavmeshSearchNode,BSFastNavmeshEdgeHandle,3>::AddNode(unsigned___int64,CombatNavmeshSearchNode&,float,float)"
 48694,0x143729c60,0x143751e98,2,DAT_143729c60
 48723,0x141c97350,0x141d171f0,4,BSTextureDB::ExistsIn(BSResource::ID&)
@@ -3238,6 +3243,7 @@ id,fo4,vr,status,name
 52413,0x145ad6f38,0x145b38778,2,DAT_145ad6f38
 52421,0x1400c1da0,0x1400c2990,4,ExtraAttachedArrows3D::DataItem::SaveGame(BGSSaveFormBuffer*)
 52423,0x143735700,0x14375d9a0,3,BSTDerivedCreator_BGSPackageDataLocation_IPackageData_
+52455,0x1403257b0,0x14030b710,3,"COMMAND_REFUSAL_TYPE TESBoundObject::CalculateDoFavor(Actor* a_actor, bool a_owned, TESObjectREFR* a_ref, float a_moralityMult)"
 52464,0x142db8898,0x142dfa1b8,2,u_src\lib_json\jsoncpp.cpp_142db8898
 52485,0x142d57b40,0x142d986c0,3,MissileProjectile_6
 52489,0x1400a7570,0x1400a8180,2,BGSLoadGameBuffer::LoadFormID<TESQuest>(TESQuest*&)
@@ -4114,6 +4120,7 @@ id,fo4,vr,status,name
 67307,0x146544360,0x1465a54c0,2,DAT_146544360
 67325,0x145a6bb00,0x145ace1a0,2,DAT_145a6bb00
 67331,0x141281a00,0x141300530,4,"RemoveAllEqual<HUDModeType,ArrayEqualFunctor<HUDModeType,HUDModeType>,BSTArrayHeapAllocator,HUDModeType>(BSTArray<HUDModeType,BSTArrayHeapAllocator>&,HUDModeType&,ArrayEqualFunctor<HUDModeType,HUDModeType>&)"
+67333,0x140430510,0x140418950,4,"bool TESObjectREFR::PopulateGraphProjectsToLoad(NiAVObject* a_obj3D, BSScrapArray<BSStaticStringT<260>>& a_projectFilenames)"
 67346,0x142d5a8c8,0x142d9b4c8,3,BSTDerivedCreator_CombatMantlePathController_CombatObjectBase__0
 67413,0x142df4730,0x142e362a0,2,DAT_142df4730
 67430,0x14231bfb0,0x1423a60c0,4,"Scaleform::GFx::StrokeStyleSwfReader::Read(Scaleform::GFx::LoadProcess*,Scaleform::GFx::TagType)"
@@ -5356,6 +5363,7 @@ id,fo4,vr,status,name
 88430,0x141cca3b0,0x141d4a220,4,"BSOcclusionPlane::GetFrustumPlanes(NiPoint3&,NiFrustumPlanes&)"
 88450,0x142ee7e30,0x142f2df60,2,s__not_found._142ee7e30
 88458,0x1438ab1c0,0x143907bf0,2,AutoRegisterMovementAgentCreator_MovementHandlerAgentStrafing_
+88459,0x1403f3ff0,0x1403dc290,3,BGSAnimationSequencer* TESObjectREFR::GetSequencer()
 88476,0x142d1e3a8,0x142d543d8,3,LooksMenu_1
 88487,0x145ad68b0,0x145b380f0,2,DAT_145ad68b0
 88488,0x140ae59b0,0x140afff30,2,"Interface3D::Renderer::Create(BSFixedString&,UI_DEPTH_PRIORITY,float,bool)"
@@ -5408,6 +5416,7 @@ id,fo4,vr,status,name
 89214,0x143088a68,0x1430a84f8,3,BSImagespaceShaderBrightPassBlur9_0
 89234,0x145a674e8,0x145ac9690,2,DAT_145a674e8
 89260,0x1400a5ce0,0x1400a68f0,2,"BSTArray<ExtraLinkedRef::LinkedRef,BSTSmallArrayHeapAllocator<16>>::ForEach<_lambda_f18c530fb7bdbdde52df5004e472dc83_>(_lambda_f18c530fb7bdbdde52df5004e472dc83_&)"
+89267,0x140d8e5c0,0x140ddf210,3,void Actor::RemoveAllObjectsWorn()
 89279,0x1400f9630,0x1400f9680,4,TES::ClearDeadCount(TESActorBase*)
 89282,0x14376cf80,0x1437977b0,3,BSTGlobalEvent__EventSource_BSTValueRequestEvent_HUDObjectiveDisplayEvent__
 89293,0x142d48e98,0x142d89248,3,PathingStreamSaveGame_0
@@ -8440,6 +8449,7 @@ id,fo4,vr,status,name
 140524,0x145c0a870,0x143710528,2,NiFloatData
 140581,0x1413b25b0,0x141437230,2,"BSScript::NativeFunction0<BGSRefAlias,TESObjectREFR*>::NativeFunction0<BGSRefAlias,TESObjectREFR*>(char*,char*,TESObjectREFR*_(*)(BSScript::IVirtualMachine*,uint,BGSRefAlias*),BSTSmartPointer<BSScript::IVirtualMachine,BSTSmartPointerIntrusiveRefCount>&)"
 140588,0x1428a1b20,0x1428d8390,4,BSInstanceGroup::Add(BSGeometry*)
+140592,0x1403f8390,0x1403e05f0,3,void TESObjectREFR::FadeCurrentDialogue()
 140602,0x143746830,0x14376ec20,3,BSTDerivedCreator_PathingRequestFlyAction_BSPathingRequest_
 140648,0x1438413f0,0x14387d250,2,hkTrackerSetLayoutHandler
 140675,0x1418cd0d0,0x14194f380,4,hkbBlenderGenerator::updateChildrenActiveFlags(void)
@@ -8608,6 +8618,7 @@ id,fo4,vr,status,name
 143582,0x1408323b0,0x140822ad0,2,BGSAudioMonitors::Update(float)
 143615,0x142141880,0x1421cb990,4,Scaleform::Render::ContextImpl::Entry::getWritableData(uint)
 143653,0x140702790,0x1406f09b0,4,"BGSProcedureTravelExecState::Process(BGSProcessContext&,bool)"
+143678,0x140430d30,0x140419170,3,bool TESObjectREFR::CheckAndFixSkinAndBoneOrder(NiNode& a_node)
 143683,0x14244c3f0,0x1424d6500,4,XmlParseXmlDecl
 143685,0x140df4150,0x140e451f0,2,BSTEventSource<BSMovementDataChangedEvent>::UnregisterSink(BSTEventSink<BSMovementDataChangedEvent>*)
 143687,0x142127050,0x1421b1160,4,Scaleform::GFx::ResourceFileInfo::ResourceFileInfo(void)
@@ -10156,6 +10167,7 @@ id,fo4,vr,status,name
 170270,0x140661790,0x14064fb20,4,CombatFormulas::GetNumCrippledAttackConditions(Actor&)
 170287,0x142d1ae40,0x142d50b68,2,s_ButtonVisible_142d1ae40
 170291,0x140871740,0x140864440,2,"CombatPathRequestGeneric<CombatPathingGoalPolicyCharge,CombatPathingSearchPolicyCharge>::GetClassType(void)"
+170292,0x141ba4640,0x141c23c90,3,"void NiAVObject::PreAttachUpdate(NiNode* a_parent, NiUpdateData& a_data)"
 170301,0x143093b20,0x1430b3990,3,BSImagespaceShaderSAORawAOEditor_1
 170305,0x1400be1b0,0x1400beda0,4,"ExtraGuardedRefData::AddGuard(Actor*,unsigned___int64,bool)"
 170309,0x143731b10,0x143759d60,2,PTR_s_Error_143731b10
@@ -11339,6 +11351,7 @@ id,fo4,vr,status,name
 190731,0x1401f9090,0x1402089a0,4,"Workshop::AddOtherContainers(BSScrapArray<NiPointer<TESObjectREFR>>&,BGSLocation*,bool)"
 190749,0x1420aba90,0x1421358f0,4,Scaleform::GFx::AS3::ASVM::GetResourceMovieDef(Scaleform::GFx::AS3::Instances::fl::Object*)
 190755,0x142d941c0,0x142dd5a10,2,s_Cannot_equip_a_None_spell_142d941c0
+190756,0x1404090b0,0x1403f13c0,3,bool TESObjectREFR::InitNonNPCAnimation(NiNode& a_node)
 190789,0x142e3b440,0x142e80990,2,DAT_142e3b440
 190810,0x143852110,0x1438aead0,2,hkSignal3_hknpWorld_hknpConstraintCinfoconst_hkHandle_unsignedint_2147483647_hknpConstraintIdDiscriminant____Slot
 190817,0x145ade558,0x145b3f8b8,2,DAT_145ade558
@@ -11507,6 +11520,7 @@ id,fo4,vr,status,name
 193730,0x1400fdcc0,0x1400fdc90,4,"TES::GetUnusedCachedParticleObject(NiAVObject*,NiPointer<NiAVObject>&)"
 193769,0x142cec7d0,0x142d20fc0,2,s_Cowardly_142cec7d0
 193789,0x142d40110,0x142d7d408,3,Actor_13
+193795,0x140d78420,0x140dc8d00,3,void Actor::KillDying()
 193832,0x140fdbd10,0x141060320,4,"BSTArray<BGSInventoryItem,BSTArrayHeapAllocator>::ForEach<_lambda_e1a4d50e37f4b1d048ed608bccb1cdbd_>(_lambda_e1a4d50e37f4b1d048ed608bccb1cdbd_&)"
 193833,0x142e3acd0,0x142e80240,2,DAT_142e3acd0
 193848,0x141b01454,0x141b83dd4,4,"XAPOBaseWaveHlpNameSpace::ChannelMaskFromWaveFormat(tWAVEFORMATEX*,int)"
@@ -11542,6 +11556,7 @@ id,fo4,vr,status,name
 194333,0x14384c6e8,0x143888758,2,NiPSysModifierBoolCtlr
 194354,0x142cbf8d0,0x142cf3a90,2,s_half_wax_142cbf8d0
 194365,0x1430385b0,0x14307df00,3,bnet__Callback_bnet__BNetErrorResult_bnet__EmptyStatus__0
+194369,0x140eb4250,0x140f22540,3,std::uint32_t PlayerCharacter::GetCrimeGoldValue(TESFaction* a_faction)
 194373,0x142c5eaf8,0x142c957e0,2,s_AimHeadingMaxCW_142c5eaf8
 194380,0x14255fe30,0x1425e9f10,4,"`anonymous_namespace'::GetAdjacentTriAndEdge(BSNavmesh&,ushort,int,ushort&,int&)"
 194385,0x1410c4200,0x141145f80,4,CombatBehaviorParallel::Enter(void)
@@ -12289,6 +12304,7 @@ id,fo4,vr,status,name
 206750,0x140e13370,0x140e67540,4,Actor::UnloadPermanentMagic(void)
 206754,0x1412f4d80,0x141379b90,4,"BSTScatterTableKernel<BSTScatterTableTraits<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy,BSTScatterTableDefaultHashPolicy<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy>>,8>>::ConditionalRemoveAt<BSTScatterTableKernel<BSTScatterTableTraits<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy,BSTScatterTableDefaultHashPolicy<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy>>,8>>::AlwaysMatchFunctor>(BSTScatterTableEntry<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy>*,uint,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>&,BSTScatterTableKernel<BSTScatterTableTraits<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>,BSTSetKeyValuePolicy,BSTScatterTableDefaultHashPolicy<BSTSmartPointer<BSScript::Object,BSTSmartPointerIntrusiveRefCount>>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSTSmartPointer<BSScript::Object,BSTSmar"
 206774,0x142dcdc48,0x142e0f4f8,2,s_StateMachine\hkbStateMachine.cpp_142dcdc48
+206778,0x140eba5f0,0x140f28e30,3,NiPoint3 PlayerCharacter::CalculateLOSLocation(ACTOR_LOS_LOCATION a_location)
 206803,0x1420d8100,0x142161f60,4,Scaleform::GFx::AS3::AvmButton::SwitchStateIntl(Scaleform::GFx::Button::ButtonState)
 206808,0x14075aac0,0x140748d80,4,"NavMeshObstacleManager::UpdateObstaclesForReference(uint,TESObjectREFR*)"
 206813,0x143031538,0x143077a08,2,s_Goal_Location_is_not_on_the_navm_143031538
@@ -12406,7 +12422,9 @@ id,fo4,vr,status,name
 208553,0x14041cb90,0x140404ea0,4,"BSTArray<BGSInventoryItem,BSTArrayHeapAllocator>::ForEach<TESObjectREFR::FindLeveledItemObjectFunctor>(TESObjectREFR::FindLeveledItemObjectFunctor&)"
 208569,0x141ac8770,0x141b4b0f0,4,BSSoundHandle::ClearFollowedObject(void)
 208585,0x142df4bd4,0x142e36744,2,DAT_142df4bd4
+208615,0x140402360,0x1403ea660,3,bool TESObjectREFR::ClampToGround()
 208622,0x1458d4bf0,0x145936cd0,2,DAT_1458d4bf0
+208626,0x140dc5780,0x140e166c0,3,void Actor::GetPhysicsTransform(NiTransform& a_transform)
 208629,0x140299630,0x14027f8f0,4,"BSDismember::CalculateValidDismembermentLocations(Actor*,bool)"
 208639,0x142d2c718,0x142d62de8,2,s_IsActive_142d2c718
 208646,0x1437a4140,0x1437dfd20,2,AutoRegisterFactory_BSTDerivedCreator_PickNewIdleHandler_IHandlerFunctor_Actor_BSFixedString___BSTCreateFactoryManager_BSFixedString_IHandlerFunctor_Actor_BSFixedString__256__
@@ -14146,6 +14164,7 @@ id,fo4,vr,status,name
 239079,0x142937b90,0x142992524,4,"`eh_vector_copy_constructor_iterator'(void*,void*,unsigned___int64,int,void_(*)(void*,void*),void_(*)(void*))"
 239094,0x14149bf60,0x1415216c0,2,Json::Reader::readNumber(void)
 239097,0x1424a9ac0,0x142533a20,4,"BSTObjectArena<BSTSmartPointer<PathingTaskData,BSTSmartPointerIntrusiveRefCount>,BSTObjectArenaScrapAlloc,32>::~BSTObjectArena<BSTSmartPointer<PathingTaskData,BSTSmartPointerIntrusiveRefCount>,BSTObjectArenaScrapAlloc,32>(void)"
+239100,0x1403256d0,0x14030b630,3,"bool TESBoundObject::GetActivateText(TESObjectREFR* a_activatedRef, BSStringT<char,-1,DynamicMemoryManagementPol>& a_text)"
 239102,0x143728208,0x143750440,2,PTR_s_Textures\Gore\ScreenBloodAlpha01_143728208
 239118,0x14377bb48,0x1437aadf8,2,DAT_14377bb48
 239135,0x1423e8010,0x142472120,4,Scaleform::Render::Text::Highlighter::GetHighlighterPtr(uint)
@@ -14206,6 +14225,7 @@ id,fo4,vr,status,name
 240214,0x1401d0bf0,0x1401d9840,2,"BSVisit::TraverseScenegraphGeometries<BSVisit::BSVisitControl_(BSGeometry*)>(NiAVObject*,BSVisit::BSVisitControl_(&)(BSGeometry*))"
 240224,0x1436db820,0x1437029b0,2,PTR_s_HSAtomicCommand_1436db820
 240252,0x142dbf710,0x142e01310,2,DAT_142dbf710
+240284,0x140e9eca0,0x140f07e90,3,"ObjectRefHandle PlayerCharacter::DropObject(BGSObjectInstance& a_object, BSTSmallArray<std::uint32_t,4>* a_stackData, std::int32_t a_count, NiPoint3* a_dropLocation, NiPoint3* a_rotation)"
 240296,0x142e05c38,0x142e477c8,2,s_IntegrateMotions_142e05c38
 240299,0x141a1e730,0x141aa10a0,2,hkbInternal::hks::HksCharacterBuffer::setDataLen(unsigned___int64)
 240300,0x142d515a0,0x142d92120,2,s_bFreezeSpeedUpdate_142d515a0
@@ -15115,6 +15135,7 @@ id,fo4,vr,status,name
 255542,0x141ff87d0,0x14208f970,4,"hkSimdInt<256>::compareFractions(hkSimdInt<256>&,hkSimdInt<256>&,hkSimdInt<256>&,hkSimdInt<256>&)"
 255602,0x141afc590,0x141b7ef10,4,BSXAudio2GameSound::InitialSubmit(void)
 255607,0x1438a6e28,0x143903828,2,PathSmootherRayCastUseTrianglePath
+255627,0x140ebb050,0x140f29950,3,"void PlayerCharacter::DoReparentWeapon(TESObjectWEAP* a_weapon, BGSEquipIndex a_equipIndex, bool a_weaponDrawn)"
 255700,0x1416a75d0,0x141727e60,4,"`anonymous_namespace'::MarkLoadedIdleForRemoval(unsigned___int64,unsigned___int64)"
 255712,0x142e077b8,0x142e49348,2,s_(Unknown)_142e077b8
 255718,0x14254c400,0x1425d64e0,4,"MovementPathManagerAgentAvoidBox::ProcessDoorOnPath(BSTSmartPointer<BSPathingDoor,BSTSmartPointerIntrusiveRefCount>&,IMovementQueryPathFollowing*)"
@@ -15456,6 +15477,7 @@ id,fo4,vr,status,name
 261705,0x1416a66f0,0x141726f80,4,"AnimationFileManagerSingleton::RequestIdles(BSFixedString&,BSTSmartPointer<BShkbAnimationGraph,BSTSmartPointerIntrusiveRefCount>&,BSFixedString&,BSTSmartPointer<BSAnimationGraphManager,BSTSmartPointerIntrusiveRefCount>&)"
 261707,0x142c4a1e8,0x142c80ad8,3,BSTEventSink_TESPickNewIdleEvent__0
 261711,0x14105bfb0,0x1410ddcf0,2,"CreateMagicItem<CombatMagicCasterStagger>(CombatInventoryItem::TYPE,TESForm*,float)"
+261739,0x140c21820,0x140c35660,3,"BSEventNotifyControl PipboyManager::ProcessEvent(BSAnimationGraphEvent& a_event, BSTEventSource<BSAnimationGraphEvent>* a_source)"
 261740,0x142cf14e8,0x142d25ba8,3,AutoRegisterFactory_BSTDerivedCreator_BGSProcedureTravelExecState_IProcedureTreeExecState__BGSProcedureTreeExecStateFactory__0
 261772,0x1417f4bf0,0x1418778f0,4,"hkPackfileHeader::getSectionHeader(void*,int)"
 261796,0x143863ad0,0x1438c0440,2,hkSignal1_hknpWorld___MemberSlot_hknpBSCharacterRigidBody_void_hknpCharacterRigidBody____hknpWorld__
@@ -15569,6 +15591,7 @@ id,fo4,vr,status,name
 263296,0x14219b3d0,0x1422254e0,2,"Scaleform::ArrayBase<Scaleform::ArrayData<Scaleform::GFx::AS3::SPtr<Scaleform::GFx::AS3::Instances::fl::XML>,Scaleform::AllocatorLH<Scaleform::GFx::AS3::SPtr<Scaleform::GFx::AS3::Instances::fl::XML>,2>,Scaleform::ArrayDefaultPolicy>>::RemoveAt(unsigned___int64)"
 263304,0x140cff7a0,0x140d49d60,4,"BGSSaveLoadUtilities::DecompressBuffer(void*,uint,void*,uint,bool)"
 263307,0x1425140b0,0x14259e180,4,"BSNavmeshInfoMap::TraverseConnectedNavmeshInfos(BSNavmeshInfo&,BSNavmeshInfoMap::IRecursiveVisitor&)"
+263314,0x141ba45d0,0x141c23c20,3,void NiAVObject::UpdateTransformAndBounds(NiUpdateData& a_data)
 263322,0x142e22da8,0x142e66568,3,NiLookAtInterpolator_0
 263344,0x143032d58,0x143079228,3,MovementMessageWarpToLocation_0
 263374,0x14100a310,0x14108bfe0,4,CombatCoverSearchData::SaveGame(BGSSaveGameBuffer*)
@@ -17185,6 +17208,7 @@ id,fo4,vr,status,name
 290600,0x1430a0c88,0x1430c2e98,2,PTR_FUN_1430a0c88
 290611,0x14373ec78,0x143766fd8,2,DAT_14373ec78
 290642,0x1410cbb80,0x14114d900,4,CombatBehaviorTreeNode::FindChildIndex(BSFixedString&)
+290644,0x140da67e0,0x140df74d0,3,void Actor::ApplyPerksFromBase()
 290652,0x140436d00,0x14041f140,4,"TESObjectREFR_Events::SendPerkEntryRun(uint,ushort,NiPointer<TESObjectREFR>&,NiPointer<TESObjectREFR>&)"
 290656,0x1405f3370,0x1405ddca0,4,"BSTArray<BSTSmallArray<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,1>,BSTArrayHeapAllocator>::ConstructDefaultItems(uint,uint)"
 290673,0x141654810,0x1416dc560,4,"hkString::sprintf(char*,char*,...)"
@@ -18731,6 +18755,7 @@ id,fo4,vr,status,name
 316440,0x140a27b70,0x140a2b4f0,4,"CompareArrays<HUDDirectionalHitIndicatorData,ArrayEqualFunctor<HUDDirectionalHitIndicatorData,HUDDirectionalHitIndicatorData>,BSTArrayHeapAllocator,BSTArrayHeapAllocator>(BSTArray<HUDDirectionalHitIndicatorData,BSTArrayHeapAllocator>&,BSTArray<HUDDirectionalHitIndicatorData,BSTArrayHeapAllocator>&,ArrayEqualFunctor<HUDDirectionalHitIndicatorData,HUDDirectionalHitIndicatorData>&)"
 316462,0x142127090,0x1421b11a0,4,Scaleform::GFx::ResourceKey::ResourceKey(Scaleform::GFx::ResourceKey&)
 316466,0x14292de40,0x142988910,4,FutBinaryFileC::FutBinaryFileC(std::string&)
+316478,0x14031b980,0x140301970,3,bool TESLevCharacter::Load(TESFile* a_file)
 316481,0x14371e4b8,0x1437466d0,2,DAT_14371e4b8
 316516,0x142dfb99c,0x142e3d51c,2,DAT_142dfb99c
 316522,0x142cecfb8,0x142d21688,2,s_EnergyResist_142cecfb8
@@ -19406,6 +19431,7 @@ id,fo4,vr,status,name
 327630,0x14149a9c0,0x141520120,2,std::deque<Json::Reader::ErrorInfo>::push_back(Json::Reader::ErrorInfo&)
 327642,0x1404e07a0,0x1404c9840,4,"ScriptLocals::SetActionFlag(TESForm*,uint)"
 327674,0x1400a5ef0,0x1400a6b00,4,BGSObjectInstanceExtra::ForEachModIndexData<_lambda_1460dde6f5dbefdd71e5555a266ad00f_>(_lambda_1460dde6f5dbefdd71e5555a266ad00f_&)
+327680,0x140d8e7d0,0x140ddf420,3,"void Actor::PostRemoveWornObject(BGSObjectInstance& a_object, BGSEquipSlot* a_equipSlot)"
 327682,0x140262680,0x14053f210,4,"std::string::assign(std::string&,unsigned___int64,unsigned___int64)"
 327687,0x14227dd40,0x142307e50,4,"Scaleform::Render::Text::Paragraph::InsertString(Scaleform::Render::Text::Allocator*,wchar_t*,unsigned___int64,unsigned___int64)"
 327736,0x14083ec50,0x14082f4d0,4,VATSCamera::BaseState::Update(VATSCamera::StateOutput&)
@@ -19736,6 +19762,7 @@ id,fo4,vr,status,name
 333066,0x145a67a20,0x145ac9734,2,DAT_145a67a20
 333091,0x14063c3e0,0x140626f80,4,TESHavokUtilities::SetPlayerGrabThrownObject(bhkNPCollisionObject*)
 333098,0x143719b78,0x143741d90,2,DAT_143719b78
+333148,0x140411c00,0x1403f9f10,3,"void TESObjectREFR::InitDefaultWornImpl(bool a_weapon, bool a_allowChanges)"
 333168,0x141c79e50,0x141cf9c70,4,"NiPSysSphericalCollider::NiPSysSphericalCollider(float,bool,bool,NiPSysSpawnModifier*,NiAVObject*,float)"
 333188,0x142527e80,0x1425b1f50,4,"`anonymous_namespace'::MakePathFromNodeCenters(BSScrapArray<BSFastNavmeshTriLocation>&,BSPathingSolution&)"
 333205,0x1403f73d0,0x1403df670,2,TESObjectREFR::IsDragonCrashMarker(void)
@@ -19996,6 +20023,7 @@ id,fo4,vr,status,name
 337473,0x14232fb80,0x1423b9c90,4,Scaleform::Render::RenderQueue::ReserveHead(void)
 337482,0x1421c6e50,0x142250f60,2,Scaleform::GFx::AS3::Instances::fl_net::URLLoader::ExecuteErrorEvent(char*)
 337490,0x143872910,0x1438cf2e0,2,PTR_DAT_143872910
+337503,0x14040f080,0x1403f7390,3,BGSLocation* TESObjectREFR::GetEditorLocation()
 337514,0x1425e6db0,0x142635b00,2,CryptLibrary::Hasher<160>::~Hasher<160>(void)
 337542,0x1458d44f8,0x1459365d8,2,DAT_1458d44f8
 337590,0x141c5caa0,0x141cdc8c0,4,BSPSysInheritVelocityModifier::BSPSysInheritVelocityModifier(void)
@@ -20302,6 +20330,7 @@ id,fo4,vr,status,name
 342806,0x141ac83a0,0x141b4ad20,4,BSSoundHandle::SetEffectChain(BSIAudioEffectChain*)
 342832,0x14168dc10,0x141715a20,2,hkcdDynamicTree::Tree<hkcdDynamicTree::DynamicStorage32>::SAHTask::~SAHTask(void)
 342855,0x141578820,0x1415ffc30,4,"hknpCollisionQueryDispatcherBase::castShape(hknpCollisionQueryContext*,hknpShapeCastQuery&,hknpShapeQueryInfo&,hknpShape*,hknpQueryFilterData&,hknpShapeQueryInfo&,hkTransformf&,bool,hknpCollisionQueryCollector*,hknpCollisionQueryCollector*)"
+342866,0x140401f90,0x1403ea290,3,MagicCaster* TESObjectREFR::GetMagicCaster(MagicSystem::CastingSource a_source)
 342908,0x14384aff0,0x143887060,2,NiFloatsExtraDataPoint3Controller
 342918,0x141a3fa00,0x141ac2370,4,hkbInternal::hks::bitmap_set
 342948,0x14308a7f8,0x1430aa288,3,BSImagespaceShaderBrightPassHDRBlurY15_180CS_2
@@ -20514,6 +20543,7 @@ id,fo4,vr,status,name
 346332,0x145adee28,0x145b40188,2,DAT_145adee24+4
 346340,0x141d6c790,0x141df4eb0,4,hknpBSWorld::RegisterDeferredCommandThread(void)
 346341,0x141240640,0x1412c2410,4,CombatAIFormulas::CalcTimeUntilReload(Actor*)
+346346,0x1403ef150,0x1403d7400,3,"bool TESObjectREFR::SetDialoguewithPlayer(bool a_flag, bool a_forceGreet, TESTopicInfo* a_topicInfo)"
 346357,0x1405ab7c0,0x1405962a0,4,"TESIdleManager::CollectActionIdlesForRoot(uint,IDLE_ANIM_ROOT&,TESObjectREFR*,TESObjectREFR*,BSScrapArray<TESIdleForm*>&,EVENT_COLLECT_FILTER*,bool)"
 346359,0x14373d5f0,0x143765910,3,AutoRegisterCreator_BGSProcedureFlee_BSTCreateFactoryManager_BSFixedString_IProcedure_256__
 346364,0x1428ec220,0x142945510,4,Umbra::RuntimeTomeGenerator::getAABBByIndex(int)
@@ -21863,6 +21893,7 @@ id,fo4,vr,status,name
 369217,0x14194b0c0,0x1419cd9c0,2,hkgpMesh::invalidateConvexHull(void)
 369219,0x142c7df30,0x142cb2e30,3,BSTGlobalEvent__EventSource_ClearQuickContainerEvent__0
 369238,0x14102ef20,0x1410b0c30,4,CombatGroup::SaveGame(BGSSaveGameBuffer*)
+369263,0x1403ed9e0,0x1403d5c90,3,"bool TESObjectREFR::BelongsInGroup(FORM* a_group, bool a_allowParentGroups, bool a_currentOnly)"
 369265,0x141f27690,0x141fd4c70,2,hkInt64Vector4::countLeadingZeros<3>(hkIntVector&)
 369271,0x140284cb0,0x14026af70,4,MovementHandlerAgentPlayerControls::CheckIdleState(void)
 369315,0x140b86620,0x140b92360,4,"PipboyMapMenu::UpdateMarkers(Scaleform::GFx::Value&,MapMarker::MARKER_SCOPE)"
@@ -22044,6 +22075,7 @@ id,fo4,vr,status,name
 371957,0x142392660,0x14241c770,4,Scaleform::Render::Hairliner::buildGraph(void)
 371970,0x1413d8440,0x14145d590,4,"GameScript::`anonymous_namespace'::mem_ScriptObject_RegisterForMagicEffectApplyEvent(BSScript::IVirtualMachine*,uint,BSScript::Object*,BSScript::Object*,BSScript::Object*,TESForm*,bool)"
 371975,0x143718d80,0x143740c78,2,DAT_143718d80
+371976,0x140d8dd00,0x140dde950,3,void Actor::DoTrap(TrapData& a_trapData)
 372006,0x142d485d8,0x142d88988,3,MovementPlannerAgentDirectControl_0
 372098,0x142038260,0x1420c0c30,4,"hkTgaDecoderImpl::flipY(uchar*&,hkImage::Descriptor&)"
 372106,0x14384ca50,0x143888ac0,2,BSQueuedResourceCollection_BSResource__EntryDB_BSStaticTriShapeDB__DBTraits__2_
@@ -22133,6 +22165,7 @@ id,fo4,vr,status,name
 373297,0x142cc0184,0x142cf4448,2,DAT_142cc0184
 373325,0x142d0d0b8,0x142d41ae8,3,CombatBehaviorTreeNodeObjectBase_CombatBehaviorGrenadeFlushTarget__0
 373342,0x1427ca9e0,0x14279e520,2,BSEffectShaderProperty::CreateObject(void)
+373357,0x140ea0ce0,0x140f0a0e0,3,float PlayerCharacter::GetCurrentEyeLevel()
 373367,0x142ebc310,0x142f023d0,2,DAT_142ebc310
 373394,0x141f55ac0,0x142003040,2,hkVariableTweakingHelper::getVector4VariableIndex(char*)
 373406,0x141ac79f0,0x141b4a370,4,hkVertexFormat::hkVertexFormat(void)
@@ -22268,6 +22301,7 @@ id,fo4,vr,status,name
 375468,0x14302ee40,0x143075250,3,MovementAgentNullTracker_IMovementHandlerAgent_MovementHandlerUpdateDataSmallDelta__0
 375483,0x143082780,0x1430a2ac0,3,BSScript__Internal__CachedErrorMessageImpl__lambda_3e02586ccc052d8695ffe8150ef6ce94___0
 375489,0x1400ace10,0x1400ada20,2,NiPointer<NiNode>::operator=(NiNode*)
+375497,0x140d956f0,0x140de6350,3,"void Actor::InitiateFlee(TESObjectREFR* a_fleeFromRef, bool a_runOnce, bool a_knows, bool a_combatMode, TESObjectCELL* a_fleeToCell, TESObjectREFR* a_fleeToRef, float a_fleeFromDist, float a_fleeToDist)"
 375500,0x1420c85f0,0x142152450,2,"Scaleform::ArrayDataBase<Scaleform::GFx::AS3::Tracer::Recalculate,Scaleform::AllocatorDH_POD<Scaleform::GFx::AS3::Tracer::Recalculate,328>,Scaleform::ArrayDefaultPolicy>::Reserve(void*,unsigned___int64)"
 375542,0x140cd3c40,0x140d1c920,2,"BSTScatterTableBase<BSTScatterTableTraits<float,int,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<float>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<float,int,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 375547,0x145edb4fc,0x145f33a0c,2,DAT_145edb4fc
@@ -22716,6 +22750,7 @@ id,fo4,vr,status,name
 383074,0x141a2b330,0x141aadca0,4,"hkbInternal::hks::CodeGenerator::emitJumpOnCondition(hkbInternal::hks::CodeGenerator::ExpDescription&,int)"
 383083,0x142f1a810,0x142f609e0,2,PTR_FUN_142f1a810
 383085,0x143721530,0x143749748,2,DAT_143721530
+383088,0x140d964b0,0x140de7110,3,void Actor::SetDelete(bool a_deleted)
 383094,0x1404269d0,0x14040ed00,2,"BSTObjectArena<HavokBodySaveLoad,BSTObjectArenaScrapAlloc,32>::~BSTObjectArena<HavokBodySaveLoad,BSTObjectArenaScrapAlloc,32>(void)"
 383100,0x142f13e04,0x142f59fd4,2,DAT_142f13e04
 383112,0x142d50d88,0x142d91908,3,BSTDerivedCreator_KnockdownTargetHandler_IHandlerFunctor_Actor_BSFixedString___0
@@ -23063,6 +23098,7 @@ id,fo4,vr,status,name
 389430,0x142f031b0,0x142f49380,2,DAT_142f031b0
 389491,0x14082f2d0,0x14081f990,2,"BGSAudio::ResolveSoundID(uint,BSISoundDescriptor*&)"
 389504,0x14007bd40,0x14007c950,2,MagicSystem::MagicSkillToSchool(ActorValueInfo*)
+389516,0x1403f4b40,0x1403dcde0,3,bool TESObjectREFR::GetIgnoredBySandbox()
 389527,0x142788ee0,0x1427575d0,2,BSScript::ByteCode::Argument::GetTypeName(BSFixedString&)
 389533,0x145ad7400,0x145b38bb0,2,DAT_145ad7400
 389564,0x142c5d3c8,0x142c94038,3,BSMultiBoundSphere_0
@@ -23248,6 +23284,7 @@ id,fo4,vr,status,name
 392733,0x142d3665c,0x142d733fc,2,s_Active_142d3665c
 392746,0x140ed0c90,0x140f46770,2,"CombatGroup::ForEachMemberT<_lambda_620b808ca8d3c5cc09086ec6c3d8b724_>(_lambda_620b808ca8d3c5cc09086ec6c3d8b724_&,Actor*)"
 392755,0x141d75ac0,0x141dfe1e0,4,"`anonymous_namespace'::StepHelper<_lambda_e182d59b7a1bcd26140d945c1cbe4f82_>(hkTaskGraph&,BSJobs::JobList*,uint,bool,_lambda_e182d59b7a1bcd26140d945c1cbe4f82_&)"
+392760,0x1403f8480,0x1403e06e0,3,void TESObjectREFR::PauseCurrentDialogue()
 392768,0x141dc9400,0x141e51d30,2,bhkVisualDebugger::RemoveThread(void)
 392769,0x14129d2b0,0x14131c420,2,LockpickingMenu::CleanupMenu(void)
 392783,0x14379a260,0x1437d5730,2,AutoRegisterMovementAgentCreator_MovementTweenerAgentNodeFollower_
@@ -23276,6 +23313,7 @@ id,fo4,vr,status,name
 393233,0x1410272f0,0x1410a9000,4,"CombatGroup::SplitGroup(BSTObjectArena<BSTTuple<Actor*,CombatMember*>,BSTObjectArenaScrapAlloc,32>&)"
 393238,0x140d01f50,0x140d4c510,4,"BGSSaveLoadStatsMap::AddMiscSaveStat(char*,uint,uint)"
 393279,0x1436d34f8,0x1436f96a0,3,ExtraSayTopicInfoOnceADay
+393307,0x140ea3d90,0x140f0dd30,3,"void PlayerCharacter::GetEyeVector(NiPoint3& a_origin, NiPoint3& a_direction, bool a_includeCameraOffset)"
 393346,0x142d49278,0x142d89660,3,PlayerControls_6
 393386,0x14008b890,0x14008c4a0,2,ExtraDataList::GetLastFinishedSequence(void)
 393411,0x146565414,0x1465c6574,2,DAT_146565414
@@ -23900,6 +23938,7 @@ id,fo4,vr,status,name
 403878,0x1438c5218,0x14391b1e0,2,BSShader
 403882,0x140e85b00,0x140eda2f0,4,"MiddleHighUtil::AddItemToTargetKeywords(BGSObjectInstance&,BSScrapArray<IKeywordFormBase*>&)"
 403885,0x1458e08d8,0x1459427f8,2,DAT_1458e08d8
+403886,0x1403599b0,0x14033ff50,4,bool TESObjectWEAP::GetPlayable(TBO_InstanceData* a_instanceData)
 403945,0x141cbc7c0,0x141d3c650,4,BSPortalGraph::AddOccluder(BSOcclusionShape*)
 403972,0x1430968b0,0x1430b6940,3,NiTPrimitiveArray_BSGraphics__TextureFilterMode__0
 404019,0x143727488,0x14374f6c0,2,DAT_143727488
@@ -24266,6 +24305,7 @@ id,fo4,vr,status,name
 410169,0x14235da10,0x1423e7b20,4,sub_14235DA10
 410206,0x142d13988,0x142d48538,3,HUDActiveEffectsDisplay_0
 410223,0x142d672c8,0x142da7ed8,2,s_Action_Repeat_142d672c8
+410246,0x140ea75b0,0x140f12350,3,void PlayerCharacter::SaveGame(BGSSaveFormBuffer* a_buffer)
 410261,0x142d59eb0,0x142d9aaa0,3,AutoRegisterFactory_BSTDerivedCreator_CombatAreaShape_CombatObjectBase__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512___0
 410267,0x14371d240,0x143745458,2,DAT_14371d240
 410285,0x143770b80,0x14379ab50,3,BSTSingletonSDMBase_BSTSDMTraits_BSTGlobalEvent__EventSource_BSTValueRequestEvent_ShowingVATSCritAnim___BSTSingletonSDMOpStaticBuffer_BSTGlobalEvent__EventSource_BSTValueRequestEvent_ShowingVATSCritAnim_____
@@ -24560,6 +24600,7 @@ id,fo4,vr,status,name
 414995,0x1438c05b0,0x143915c90,2,std___Func_base_bool_BSScript__Variableconst_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_
 415025,0x142d870d8,0x142dc8088,3,FaderMenu_0
 415038,0x140d0ad50,0x140d55310,4,"BGSUnloadedFormBuffer::Initialize(char*,uint,ENUM_FORM_ID,uchar)"
+415063,0x1403eebb0,0x1403d6e60,3,void TESObjectREFR::UpdateSoundCallBack(bool a_endSceneAction)
 415067,0x1400c96f0,0x1400ca2f0,4,_lambda_72dbd5e1d520cd50fe0b8a2a1e9d6779_::operator()
 415069,0x14373d050,0x143765360,2,DAT_14373d050
 415080,0x141450050,0x1414d51a0,4,_GameScript::BindTESWeatherToScript_::_3_::st_Weather_FindWeather::Weather_FindWeather
@@ -24957,6 +24998,7 @@ id,fo4,vr,status,name
 421789,0x142ceb188,0x142d1f518,3,BSFaceGenBaseMorphExtraData_0
 421833,0x140887fb0,0x14087acb0,4,CombatBehaviorGrenadeFlushTarget::Enter(void)
 421841,0x1428a3670,0x1428dbab0,4,"Umbra::checkStatus(Umbra::ImpTome*,bool)"
+421894,0x140eb7ec0,0x140f26290,3,"bool PlayerCharacter::DrinkPotion(AlchemyItem* a_potion, std::uint32_t a_stackID)"
 421925,0x140f5f140,0x140fe1bf0,2,"BSTArray<NiPointer<DetectionListener>,BSTArrayHeapAllocator>::Remove(uint,uint)"
 421929,0x14302ee08,0x143075218,3,AutoRegisterMovementArbiterCreator_MovementHandlerArbiter__0
 421945,0x140c8d6e0,0x140cd49f0,4,TESAudio::ExitAcousticSpaceBound(TESObjectREFR&)
@@ -25394,6 +25436,7 @@ id,fo4,vr,status,name
 429261,0x140125080,0x14012c150,2,TESObjectREFR::operator_new(unsigned___int64)
 429265,0x140606ba0,0x1405f14d0,4,TESRace::CalculateMeleeAttackTime(TESObjectWEAP*)
 429279,0x1424b9530,0x142543490,4,_lambda_aaba3fac521916d0e852aea3035b1b5c_::operator()
+429298,0x140eb4bd0,0x140f22ec0,3,void PlayerCharacter::ClearAllCrimeGold(TESFaction* a_faction)
 429309,0x14308c870,0x1430ac310,3,BSImagespaceShaderDistantBlurFogged_1
 429316,0x140598a30,0x140583540,2,"BGSSceneActionDialogue::CopyHeadTrackArray(BSTArray<uint,BSTArrayHeapAllocator>&)"
 429318,0x14372a860,0x143752a98,2,DAT_14372a860
@@ -25520,6 +25563,7 @@ id,fo4,vr,status,name
 431282,0x140019a80,0x140019aa0,4,"RangeLeaderInfo::Regroup(BSPointerHandle<Actor,BSUntypedPointerHandle<21,5>>)"
 431293,0x143849a50,0x1438859f8,2,NiBSPNode
 431302,0x1436e0d20,0x143707ab0,3,BGSDefaultObject
+431316,0x140da95e0,0x140dfa2d0,3,void Actor::ResumeCurrentDialogue()
 431318,0x1420dc4e0,0x142166340,2,Scaleform::GFx::AS3::TR::State::exec_1OpNumber(void)
 431332,0x1436d3908,0x1436f9ab0,3,ExtraAcousticParent
 431346,0x141ca1d50,0x141d21be0,2,"BSTObjectArena<BSResource::Entry<BSShaderData*,BSResource::EntryDBTraits<BSMaterialDB::DBTraits,BSResource::EntryDB<BSMaterialDB::DBTraits>>::CArgs>*,BSTObjectArenaScrapAlloc,128>::Reserve(void)"
@@ -26097,6 +26141,7 @@ id,fo4,vr,status,name
 440963,0x1436cd000,0x1436f3190,3,BSTArrayAllocatorFunctor_BSTSmallArrayHeapAllocator_8__
 441010,0x140e3cb40,0x140e90e10,4,"AIProcess::SetSoundHandle(ACTOR_SOUND_HANDLE,BSSoundHandle&)"
 441011,0x142c9bb00,0x142cd0e80,2,s_Form_%s_is_not_a_leveled_list._142c9bb00
+441059,0x14040b5b0,0x1403f38c0,3,"void TESObjectREFR::GetFormDetailedString(char* a_buffer, std::uint32_t a_size)"
 441071,0x140c65ca0,0x140cacd00,4,"MagicCaster::ExplodeHitBody(hknpCollisionResult*,bhkWorld*,NiPoint3,EffectItem*,float)"
 441087,0x1414c0390,0x1415469b0,4,hknpWorld::createConstraint(hknpConstraintCinfo&)
 441096,0x14374c638,0x143774ec0,2,PTR_PTR_FUN_14374c638
@@ -27154,6 +27199,7 @@ id,fo4,vr,status,name
 458396,0x145a5f938,0x145ac06f8,2,DAT_145a5f938
 458400,0x1401b3520,0x1401bb580,4,BGSLocalizedStringDL::ResolveID(TESFile&)
 458404,0x141ced2f0,0x141d6f190,2,"BSBTreeFile::PGFSEDL<BSTextureArray::MasterTexture::IDToVirtualEntry,BSResource::ID,2048>::MoveToNode(BSBTreeFile::PGFSEDL<BSTextureArray::MasterTexture::IDToVirtualEntry,BSResource::ID,2048>::LeafNode*,uint,BSBTreeFile::PGFSEDL<BSTextureArray::MasterTexture::IDToVirtualEntry,BSResource::ID,2048>::LeafNode*,uint,uint)"
+458406,0x140e9be00,0x140f04db0,3,"bool PlayerCharacter::ReloadWeapon(BGSObjectInstanceT<TESObjectWEAP>& a_weapon, BGSEquipIndex a_equipIndex)"
 458409,0x14137d810,0x141402420,4,GameScript::FragmentSystem::FragmentSystem(void)
 458425,0x143711a90,0x143739330,3,ConcreteFormFactory_BGSBodyPartData_96_
 458426,0x140d86a10,0x140dd74a0,4,Actor::GetCurrentHeight(void)
@@ -28252,6 +28298,7 @@ id,fo4,vr,status,name
 476921,0x14209c440,0x1421262a0,4,"Scaleform::GFx::AS3::Traits::FindSlotInfo(Scaleform::GFx::AS3::VMAbcFile&,Scaleform::GFx::AS3::Abc::Multiname&)"
 476977,0x1406b0c90,0x14069ee90,4,"BSTArray<ObjectListItem,BSTArrayHeapAllocator>::Insert(uint,ObjectListItem&)"
 477005,0x1410c79f0,0x141149770,4,CombatBehaviorThread::Update(void)
+477009,0x140da2650,0x140df3340,3,"bool Actor::IsAtPoint(NiPoint3& a_point, float a_radius, bool a_expandRadius, bool a_alwaysTestHeight)"
 477029,0x143781010,0x1437b0000,3,BSTSingletonSDMBase_BSTSDMTraits_HolotapeDataManager_BSTSingletonSDMOpStaticBuffer_HolotapeDataManager___
 477038,0x140c8d260,0x140cd4570,4,TESAudio::SetAcousticSpace(BGSAcousticSpace&)
 477046,0x1437202b8,0x1437484d0,2,DAT_1437202b8
@@ -28819,6 +28866,7 @@ id,fo4,vr,status,name
 486601,0x14233f950,0x1423c9a60,4,Scaleform::Render::MatrixPoolImpl::EntryHandle::ReleaseHandle(void)
 486612,0x1421d6c20,0x142260d30,4,"Scaleform::Render::ShapeDataFloatTempl<Scaleform::ArrayLH_POD<uchar,2,Scaleform::ArrayDefaultPolicy>>::EndShape(void)"
 486636,0x1437199b0,0x143741bc8,2,DAT_1437199b0
+486637,0x140d8e930,0x140ddf580,3,"float Actor::AdjustItemWeight(TESBoundObject& a_object, BGSInventoryItem::Stack& a_stack, float a_weight, bool* a_shouldModifyWholeStackOut)"
 486667,0x1437c0c30,0x1437fc9b0,2,__AutoRegisterCombatMagicCaster_CombatMagicCasterLight_
 486668,0x142c94b70,0x142cc9f10,2,s_%s_is_not_an_Interior_142c94b70
 486726,0x142d2e9d8,0x142d6b5c8,3,DisarmEffect_0
@@ -29197,6 +29245,7 @@ id,fo4,vr,status,name
 493041,0x142d09f60,0x142d3e9c0,3,AutoRegisterCombatPathingRequestGeneric_CombatPathingGoalPolicyWithdraw_CombatPathingSearchPolicyWithdraw_CombatPathDestinationLocation__5
 493053,0x143720c30,0x143748e48,2,DAT_143720c30
 493060,0x142db11e0,0x142df2a98,2,s_Cannot_fire_a_weapon_from_a_None_142db11e0
+493085,0x140154550,0x14015b180,3,void TESForm::CopyComponent(BaseFormComponent* a_source)
 493109,0x140e90770,0x140ee66d0,2,BSTEventSource<BGSActorDeathEvent>::RegisterSink(BSTEventSink<BGSActorDeathEvent>*)
 493134,0x1438c2a70,0x143918150,2,BSScript__UnlinkedTypes____CountInstructionInfo
 493142,0x143759d40,0x143783380,3,FastTravelCommand
@@ -29566,6 +29615,7 @@ id,fo4,vr,status,name
 499737,0x143808240,0x143843f70,2,DAT_143808240
 499745,0x1401e8220,0x1401f5c70,4,"VatsEffectControl::Enable(bool,bool)"
 499768,0x14071d690,0x14070b8d0,4,TESPackage::IsTargetAnActor(Actor*)
+499791,0x140e0f050,0x140e63240,3,bool Actor::PutActorOnMountQuick()
 499819,0x142dc9928,0x142e0b438,3,hkDataObjectNative_0
 499833,0x140221440,0x140230ff0,4,"Find<PowerUtils::GridSaveLoadData,_lambda_e577d06be133bb62af0a48d0144361c8_,BSTObjectArenaScrapAlloc,PowerUtils::GridSaveLoadData,32>(BSTObjectArena<PowerUtils::GridSaveLoadData,BSTObjectArenaScrapAlloc,32>&,PowerUtils::GridSaveLoadData&,_lambda_e577d06be133bb62af0a48d0144361c8_&)"
 499884,0x14371eb48,0x143746d60,2,DAT_14371eb48
@@ -29632,6 +29682,7 @@ id,fo4,vr,status,name
 500704,0x142e9b698,0x142ee0e08,3,bhkThreadMemorySource_1
 500714,0x1438046dc,0x143840534,2,DAT_1438046dc
 500728,0x140e72c50,0x140ec6fb0,4,AIProcess::ClearRunOncePackage(Actor&)
+500755,0x1403edd80,0x1403d6030,3,"bool TESObjectREFR::GetEditorLocation(NiPoint3& a_originalLocation, NiPoint3& a_originalAngle, TESForm*& a_locationFormOut, TESForm* a_locationForm)"
 500798,0x142cb73e0,0x142ceb4a0,3,__SceneResultsCallBack_0
 500847,0x140f52fe0,0x140fd5a90,4,DialoguePackage::GetActorStartedConversation(void)
 500856,0x143775330,0x14379fd40,3,BSTSingletonSDMBase_BSTSDMTraits_BSTGlobalEvent__EventSource_BSTValueRequestEvent_IsPipboyActiveEvent___BSTSingletonSDMOpStaticBuffer_BSTGlobalEvent__EventSource_BSTValueRequestEvent_IsPipboyActiveEvent_____
@@ -29690,6 +29741,7 @@ id,fo4,vr,status,name
 501863,0x142ce5f80,0x142d1a2c0,2,s_Required_Components_142ce5f80
 501878,0x143865980,0x1438c0710,2,hkaParameterizedReferenceFrame
 501879,0x1403ae7b0,0x140394f70,2,TESObjectCELL::GetGroupSubBlockKey(void)
+501893,0x1404020f0,0x1403ea3f0,3,MagicTarget* TESObjectREFR::GetMagicTarget()
 501899,0x1458d4980,0x145936a60,2,BGSInventoryInterface* GetSingleton()
 501929,0x1437f7810,0x143833620,2,AutoRegisterCreator_CombatPathT_CombatSharedPathT_CombatCoveredPath__CombatPathRequestWeightedMultiGoal_CombatPathDestinationRefs__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 501932,0x142c17028,0x142c4c028,2,PTR_RegCloseKey_142c17028
@@ -30466,6 +30518,7 @@ id,fo4,vr,status,name
 515168,0x140e2b400,0x140e7f6d0,4,AIProcess::ClearObjectFromAcquireList(TESObjectREFR*)
 515180,0x142d92398,0x142dd3bd8,3,BSScript__ILoader_0
 515211,0x141895aa0,0x141917d50,2,"hkAlgorithm::quickSortRecursive<uchar,`anonymous_namespace'::JacGridPrioritySorter>(uchar*,int,int,`anonymous_namespace'::JacGridPrioritySorter)"
+515227,0x140dbd290,0x140e0e130,3,bool Actor::UpdateFeedbackGraphSpeedAndDirection(ActorMotionFeedbackOutput& a_output)
 515283,0x142cbcac4,0x142cf0b8c,2,s_Maxima_142cbcac4
 515286,0x1436da1a0,0x143701040,3,BSResource__EntryDB_LipSynchAnimDB__DBTraits_
 515297,0x141712540,0x141792fd0,4,"BSTScatterTableKernel<BSTScatterTableTraits<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<SubgraphHandle>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>>,8>>::SetAt<BSTScatterTableKernel<BSTScatterTableTraits<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<SubgraphHandle>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor>(BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>*,uint,SubgraphHandle&,NiPointer<BSSubBehaviorGraphSingletonData>&,BSTScatterTableKernel<BSTScatterTableTraits<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<SubgraphHandle>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor&)"
@@ -30881,6 +30934,7 @@ id,fo4,vr,status,name
 522052,0x142dd67d8,0x142e18088,3,hkpPrismaticConstraintData_0
 522055,0x1411e8520,0x14126a2d0,4,"ArrayQuickSortRecursive<BSTSmartPointer<BSNavmesh,BSTSmartPointerIntrusiveRefCount>,ArrayQuickSortFunctor<BSTSmartPointer<BSNavmesh,BSTSmartPointerIntrusiveRefCount>>,BSScrapArrayAllocator>(BSTArray<BSTSmartPointer<BSNavmesh,BSTSmartPointerIntrusiveRefCount>,BSScrapArrayAllocator>&,ArrayQuickSortFunctor<BSTSmartPointer<BSNavmesh,BSTSmartPointerIntrusiveRefCount>>&,uint,uint)"
 522061,0x143799b68,0x1437d5038,2,IMovementQueryState
+522078,0x140dadd90,0x140dfea80,3,ObjectRefHandle Actor::RemoveItem(TESObjectREFR::RemoveItemData& a_data)
 522091,0x143840de8,0x14387cc48,2,hkxSparselyAnimatedBool
 522113,0x140328ec0,0x14030ee60,2,TESObjectACTI::GetActivateOverrideText(BGSLocalizedString&)
 522142,0x141d4d780,0x141dd74c0,4,"BSTLocklessQueue::PtrMultiProdCons<BSD3DResourceCreator::Request,8192,1>::Add(BSD3DResourceCreator::Request*)"
@@ -31511,6 +31565,7 @@ id,fo4,vr,status,name
 532127,0x145c0bac0,0x1438873d0,2,NiMorphData
 532175,0x141bba5b0,0x141c3acf0,4,NiStream::_SDMShutdown(void)
 532215,0x145adbea0,0x145b3d280,2,DAT_145adbea0
+532262,0x140da21d0,0x140df2e80,3,BSFaceGenNiNode* Actor::GetFaceNodeSkinned()
 532274,0x142d09168,0x142d3dbc8,3,CombatBehaviorTreeChargingMovement_0
 532287,0x142d5caa8,0x142d9d6a8,3,BSTDerivedCreator_CombatInventoryItemOneHandedBlock_CombatObjectBase__0
 532290,0x1406426a0,0x14062d280,2,"AddUnique<hknpBodyId,BSTSmallArrayHeapAllocator<4>>(BSTArray<hknpBodyId,BSTSmallArrayHeapAllocator<4>>&,hknpBodyId&)"
@@ -32189,6 +32244,7 @@ id,fo4,vr,status,name
 543517,0x142c6a698,0x142c9f358,3,std___Func_base_BSContainer__ForEachResult_BSFlattenedBoneTreeconst_int_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil__0
 543528,0x142e26d08,0x142e6a740,2,s_NiPSysInitialRotAngleVarCtlr_142e26d08
 543546,0x142dc5fb0,0x142e079c0,2,s_TtUpdateNonVolatileTree_142dc5fb0
+543552,0x140dfe2c0,0x140e4f360,3,bool Actor::CalculateCachedOwnerIsInCombatantFaction()
 543582,0x142db8b98,0x142dfa4b8,2,s_Extra_non-whitespace_after_JSON_v_142db8b98
 543589,0x140053f30,0x140054b70,2,"BSstristr(char*,char*)"
 543594,0x142ec0b70,0x142f06c30,2,PTR_FUN_142ec0b70
@@ -33216,6 +33272,7 @@ id,fo4,vr,status,name
 559986,0x141715b20,0x141796530,2,"BSTScatterTableKernel<BSTScatterTableTraits<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<SubgraphHandle>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>>,8>>::GetNewEntry(BSTScatterTableEntry<SubgraphHandle,NiPointer<BSSubBehaviorGraphSingletonData>,BSTScatterTableDefaultKVStorage>*)"
 560016,0x143723ca8,0x14374bec0,2,DAT_143723ca8
 560021,0x142db4258,0x142df5b20,3,BSTEventSink_TESLimbCrippleEvent__0
+560024,0x140ea0c00,0x140f0a000,3,"BSTSmartPointer<BipedAnim,BSTSmartPointerIntrusiveRefCount>& PlayerCharacter::GetBiped()"
 560035,0x142e07b98,0x142e49728,2,s_hkArrayBase_142e07b98
 560066,0x145aaac60,0x145b0aba0,2,DAT_145aaac60
 560067,0x140ab9db0,0x140ac60b0,4,_lambda_cbd5779dc508b30efb9b5e3d90f1c272_::operator()
@@ -33228,6 +33285,7 @@ id,fo4,vr,status,name
 560208,0x1420dcff0,0x142166e50,4,Scaleform::GFx::AS3::VM::exec_applytype(ulong)
 560225,0x142455cd0,0x1424dfde0,4,"Scaleform::GFx::Text::TextStyleParserHandler<wchar_t>::HandleLetterSpacing(Scaleform::Array<Scaleform::Render::Text::Style*,2,Scaleform::ArrayDefaultPolicy>&,Scaleform::Array<Scaleform::GFx::Text::CSSToken<wchar_t>,2,Scaleform::ArrayDefaultPolicy>&)"
 560227,0x143788ab0,0x1437c0990,3,BSTSingletonSDMOpStaticBuffer_MenuTopicManager_
+560243,0x140325220,0x14030b180,3,void TESBoundObject::LoadObjectBound(TESFile* a_file)
 560250,0x146594988,0x1465f5b88,2,DAT_146594988
 560264,0x142c4f558,0x142c85f38,3,BSQueuedResourceCollection_BSResource__EntryDB_BSModelDB__DBTraits__2__0
 560275,0x1416ff3a0,0x14177fce0,4,"hkbRagdollDriver::postPhysics(hkbContext&,float,hkbGeneratorOutput&)"
@@ -33467,6 +33525,7 @@ id,fo4,vr,status,name
 564359,0x1458cd160,0x14592ebe0,2,DAT_1458cd160
 564362,0x1405b6f40,0x1405a1a00,2,TESNPC::GetActivateOverrideText(BGSLocalizedString&)
 564370,0x142d24c88,0x142d5aa68,2,PTR_DAT_142d24c88
+564372,0x140e11630,0x140e65800,3,MagicCaster* Actor::GetMagicCaster(MagicSystem::CastingSource a_source)
 564375,0x145add190,0x145b3e4e0,2,DAT_145add190
 564445,0x142d0a458,0x142d3eeb8,3,CombatSharedPathT_CombatCoveredPath__0
 564460,0x1417ba220,0x14183ce70,4,"hknpShapeUtil::buildTriangleMassProperties(hknpShape::MassConfig&,hkVector4f*,float,hkDiagonalizedMassProperties&)"
@@ -34485,6 +34544,7 @@ id,fo4,vr,status,name
 582184,0x142dc1108,0x142e02a18,3,hknpScaledConvexShapeBase_0
 582221,0x140f54d30,0x140fd77e0,2,"FleePackage::AddAvoidedRef(BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>)"
 582351,0x141a4be20,0x141ace790,4,hkbInternal::LuaPlus::LuaTableIterator::Next(void)
+582353,0x1403f3b80,0x1403dbe20,4,bool TESObjectREFR::GetFullLODRef()
 582363,0x14076c860,0x14075ab20,4,"Pathing::GetWorldSpace(BSTSmartPointer<BSPathingCell,BSTSmartPointerIntrusiveRefCount>&)"
 582371,0x141c5bdd0,0x141cdbbf0,2,NiTNewInterface<NiPointer<BSTriShape>>::Deallocate(NiPointer<BSTriShape>*)
 582378,0x145ad6440,0x145b37c80,2,DAT_145ad6440
@@ -34667,6 +34727,7 @@ id,fo4,vr,status,name
 585185,0x140829af0,0x14081a300,2,"`anonymous_namespace'::unwrapMaskedShapeClosestPointsFunc<2>(hknpCollisionQueryContext*,hknpClosestPointsQuery&,hknpShapeQueryInfo&,hknpShape*,hknpQueryFilterData&,hknpShapeQueryInfo&,hkTransformf&,bool,hknpCollisionQueryCollector*)"
 585201,0x142ee31a0,0x142f29280,2,PTR_DAT_142ee31a0
 585204,0x140a39aa0,0x140a3d450,2,nsHUDMarkerData::QCSMonumentMarker(void)
+585210,0x1403ef360,0x1403d7610,3,bool TESObjectREFR::CheckSaveGame(BGSSaveFormBuffer* a_buffer)
 585236,0x142138fc0,0x1421c30d0,4,Scaleform::Render::ImageData::Clear(void)
 585259,0x1437303e8,0x143758638,2,DAT_1437303e8
 585266,0x1430316a0,0x143077b70,2,s_Using_navmeshes_to_build_detaile_1430316a0
@@ -35217,6 +35278,7 @@ id,fo4,vr,status,name
 594428,0x143714568,0x14373be98,3,BGSRelationship
 594440,0x14381c540,0x1438582a0,2,BSScript__NativeFunction1_TESForm_bool_BGSKeyword_
 594453,0x142df8458,0x142e39fd8,2,s_Duplicate_'meta'_slot_definition_142df8458
+594471,0x14040c5f0,0x1403f4900,3,"void TESObjectREFR::ApplyMovementDelta(float a_timeDelta, NiPoint3A& a_delta, NiPoint3& a_angleDelta)"
 594472,0x140c133a0,0x140c26880,4,`anonymous_namespace'::InitResistComparisonDifference(PipboyObject*)
 594503,0x140cba620,0x140d01ae0,2,"BSTScatterTableBase<BSTScatterTableTraits<uint,LooksMenuEvent::EventType,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<uint>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<uint,LooksMenuEvent::EventType,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 594526,0x143855650,0x1438b2010,2,__CharProxyBeforeWholePhysicsUpdateTriggerSeenTask
@@ -36077,6 +36139,7 @@ id,fo4,vr,status,name
 608777,0x14210ea00,0x142198860,2,Scaleform::MemoryHeap::ReleaseOnFree(void*)
 608818,0x140d1a050,0x140d64610,4,BGSImpactManager::CleanCollisionSoundHistory(unsigned___int64)
 608843,0x142c7a5dc,0x142caf4dc,2,DAT_142c7a5dc
+608846,0x140dc12d0,0x140e12230,3,"void Actor::SendContainerChangedEvent(TESObjectREFR* a_oldContainer, TESObjectREFR* a_newContainer, TESBoundObject* a_baseObject, std::int32_t a_count, std::uint32_t a_referenceFormID, std::uint16_t a_uniqueID)"
 608870,0x140e68550,0x140ebc870,2,"BSTScatterTableKernel<BSTScatterTableTraits<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSKeyword*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage>>,8>>::SetAt<BSTScatterTableKernel<BSTScatterTableTraits<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSKeyword*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor>(BSTScatterTableEntry<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage>*,uint,BGSKeyword*&,AITimeStamp&,BSTScatterTableKernel<BSTScatterTableTraits<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSKeyword*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSKeyword*,AITimeStamp,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor&)"
 608886,0x1409da390,0x1409cd100,4,"TESDataHandler::ForEachFormOfType<_lambda_8d7b9fb9dbe05fc09001fe60411c5d46_>(ENUM_FORM_ID,_lambda_8d7b9fb9dbe05fc09001fe60411c5d46_&)"
 608894,0x142d1ae50,0x142d50b78,2,s_ButtonFlashing_142d1ae50
@@ -36680,6 +36743,7 @@ id,fo4,vr,status,name
 619784,0x14035b330,0x140341990,2,"BSTBTreePolicy<SubgraphIdentifier,SubgraphIdentifier,BSTScrapSet<SubgraphIdentifier>::Entry,BSTObjectArenaScrapAlloc,128,0>::ShiftRight(BSTBTreePolicy<SubgraphIdentifier,SubgraphIdentifier,BSTScrapSet<SubgraphIdentifier>::Entry,BSTObjectArenaScrapAlloc,128,0>::Node*,uint,uint)"
 619789,0x1423769f0,0x142400b00,2,"Scaleform::Render::ArrayPaged<Scaleform::Render::Tessellator::ScanChainType,4,8>::allocPage(unsigned___int64)"
 619796,0x141a06f10,0x141a89880,4,"hkbInternal::hks::StringTable::real_intern_inplace(hkbInternal::lua_State*,hkbInternal::hks::InternString*,char*,unsigned___int64,uint)"
+619852,0x140ec0590,0x140f2f400,3,bool PlayerCharacter::GetBehaviorRootNameReplacement(BSFixedString& a_rootName)
 619867,0x142e27528,0x142e6af98,3,NiPSysData_0
 619902,0x14308ae18,0x1430aa8a8,2,s_BSImagespaceShaderBrightPassBlur_14308ae18
 619910,0x14064b670,0x1406381d0,2,"BSTObjectArena<BSCuller,BSCullingGroup::CullerArenaAlloc,1>::Reserve(void)"
@@ -37051,6 +37115,7 @@ id,fo4,vr,status,name
 625752,0x14373e6a8,0x143766a08,2,DAT_14373e6a8
 625755,0x141b50480,0x141bcfde0,4,BSJobs::JobList::InsertSyncPoint(BSJobs::SyncType)
 625768,0x142c65f28,0x142c9d028,2,s_%s_%s_%u_142c65f28
+625770,0x141ba3dc0,0x141c23410,3,"void NiAVObject::SetSelectiveUpdateFlags(bool& a_selectiveUpdate, bool a_selectiveUpdateTransforms, bool& a_rigid)"
 625789,0x140a80e70,0x140a829e0,2,BSTEventSource<BSTValueRequestEvent<HUDPerkVaultBoySwfDisplayEvent>>::UnregisterSink(BSTEventSink<BSTValueRequestEvent<HUDPerkVaultBoySwfDisplayEvent>>*)
 625815,0x142d60ae8,0x142da16e8,3,AutoRegisterCreator_CombatInventoryItemMagicT_CombatInventoryItemScroll_CombatMagicCasterScript__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512___0
 625822,0x140802d50,0x1407f3530,2,AnimationSystemUtils::GetDefaultObjectForUnconsciousStateEnd(void)
@@ -37437,6 +37502,7 @@ id,fo4,vr,status,name
 632286,0x1436e4bd0,0x14370ba00,3,BSTGlobalEvent__EventSource_ClearQuickContainerEvent_
 632323,0x1427d1d50,0x1427a9090,4,BSFadeNode::CheckFadeRadius(NiCamera*)
 632334,0x141010d80,0x141092a50,4,"CombatCoverActorUtilities::EnterCoverLocation(Actor*,CombatCoverLocation*)"
+632367,0x140d92c60,0x140de38c0,3,void Actor::UpdateSoundCallBack(bool a_endSceneAction)
 632373,0x140423180,0x14040b490,2,"BSVisit::TraverseScenegraphAVObjects<_lambda_4ae5afbdce13099843f47c910b7fd7c7_>(NiAVObject*,_lambda_4ae5afbdce13099843f47c910b7fd7c7_&)"
 632379,0x142cf9bf8,0x142d2e2b8,3,BGSProcedureUseIdleMarkerExecState_0
 632384,0x140de65a0,0x140e37500,2,"`anonymous_namespace'::ProcessDamageImpactsVisitor::operator()(bhkNPCollisionObject*,DamageImpactData*)"
@@ -37830,6 +37896,7 @@ id,fo4,vr,status,name
 639494,0x145be7d98,0x145c40718,2,DAT_145be7d98
 639497,0x140b42800,0x140b652e0,4,LooksMenu::MoveAroundBody(float)
 639499,0x14081d460,0x14080dc90,2,IAnimationGraphManagerHolder::IAnimationGraphManagerHolder(void)
+639515,0x141ba3ca0,0x141c232f0,3,void NiAVObject::UpdateControllers(NiUpdateData& a_data)
 639549,0x142451cd0,0x1424dbde0,4,"Scaleform::Alg::QuickSortSliced<Scaleform::Alg::ArrayAdaptor<Scaleform::Render::Rasterizer::Cell*>,bool_(*)(Scaleform::Render::Rasterizer::Cell*,Scaleform::Render::Rasterizer::Cell*)>(Scaleform::Alg::ArrayAdaptor<Scaleform::Render::Rasterizer::Cell*>&,unsigned___int64,unsigned___int64,bool_(*)(Scaleform::Render::Rasterizer::Cell*,Scaleform::Render::Rasterizer::Cell*))"
 639565,0x142d609c8,0x142da15c8,3,AutoRegisterFactory_BSTDerivedCreator_CombatInventoryItemMagicT_CombatInventoryItemStaff_CombatMagicCasterScript__CombatObjectBase__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512___0
 639576,0x140802c30,0x1407f3410,2,AnimationSystemUtils::GetDefaultObjectForActionInitializeToBaseState(void)
@@ -38045,6 +38112,7 @@ id,fo4,vr,status,name
 642981,0x143753390,0x14377c020,3,CombatBehaviorTreeValueNode_float_
 642994,0x14385b368,0x1438ba2e8,2,hkbRebuildScriptsCommand
 643006,0x143745f78,0x14376e368,3,PathingRequestCover
+643034,0x140dadae0,0x140dfe7d0,3,void Actor::InitItemImpl()
 643055,0x142d683b8,0x142da8fd0,3,AutoRegisterCombatObject_CombatPathT_CombatSharedPathT_CombatCoveredPath__CombatPathRequestGeneric_CombatPathingGoalPolicyAvoidThreat_CombatPathingSearchPolicyStandard__CombatPathDestinationNone___0
 643061,0x145ac6524,0x145b27a1c,2,DAT_145ac6524
 643068,0x14302ca00,0x143072bd0,2,DAT_14302ca00
@@ -38138,6 +38206,7 @@ id,fo4,vr,status,name
 644717,0x141b92b00,0x141c11f10,4,NiMatrix3::LoadBinary(NiStream&)
 644734,0x14371ffd0,0x1437481e8,2,DAT_14371ffd0
 644740,0x142db0580,0x142df1e40,2,s_SetNoFavorAllowed_142db0580
+644762,0x1401538f0,0x14015a520,3,"void TESForm::GetFormDetailedString(char* a_buffer, std::uint32_t a_size)"
 644838,0x1438610b8,0x1438b3c78,2,hclStandardLinkConstraintSet
 644843,0x140e219a0,0x140e75bf0,4,"ActorPackage::InitFromPackage(TESPackage*,TESObjectREFR*,Actor&)"
 644848,0x1413033b0,0x1413881c0,2,DAT_1413033b0
@@ -39346,6 +39415,7 @@ id,fo4,vr,status,name
 665183,0x145ad9e30,0x145b3b5e0,2,DAT_145ad9e30
 665195,0x142d75268,0x142db5e80,3,AutoRegisterCombatObject_CombatPathT_CombatSharedPathT_CombatCoveredPath__CombatPathRequestGeneric_CombatPathingGoalPolicySearch_CombatPathingSearchPolicyStandard__CombatPathDestinationNone___0
 665209,0x1411da8f0,0x14125c6a0,4,CombatPath::SetSpeed(float)
+665214,0x140eb5550,0x140f23840,3,"void PlayerCharacter::PayFine(TESFaction* a_faction, bool a_moveToMarker, bool a_removeStolenItems)"
 665222,0x141b9dd10,0x141c1d160,4,"BSGeometrySegmentData::FindFirstEmptyCutOffsetEntry(uint,uint)"
 665226,0x1436d78a0,0x1436fde80,2,PTR_DAT_1436d78a0
 665231,0x14308d1f0,0x1430acdf0,3,BSImagespaceShaderTemporalAAPowerArmorPipboy_1
@@ -41206,6 +41276,7 @@ id,fo4,vr,status,name
 695955,0x14249ecd0,0x142528c30,4,"BSPathingSolution::ComputeApproxLocationForParameter(float,BSPathingLocation&)"
 695957,0x140e46a30,0x140e9ad10,4,AIProcess::ClearDetection(void)
 695971,0x142dad9c8,0x142def288,3,BSScript__NativeFunction4_TESObjectREFR_void_TESObjectREFR_float_float_bool__0
+695975,0x140e9a370,0x140f032e0,3,"bool PlayerCharacter::ProcessInWater(hknpBodyId a_bodyID, float a_waterHeight, float a_deltaTime)"
 695991,0x142d4cc70,0x142d8d7f0,2,s_WeaponSwingHandler_142d4cc70
 696033,0x140fe8870,0x14106c170,4,_lambda_e0e0cb4529ca56ae417b824ffbc301e1_::operator()
 696063,0x14671ea70,0x146875328,2,DAT_14671ea70
@@ -42478,6 +42549,7 @@ id,fo4,vr,status,name
 715945,0x1414aea50,0x141534e80,4,"hkMemoryRouter::easyFree(hkMemoryAllocator&,void*)"
 715958,0x141502390,0x141589260,4,_anonymous_namespace_::loadXmlTagfileIntoWorld
 715965,0x143842cd0,0x14387eb30,2,DAT_143842cd0
+715966,0x140eb7c50,0x140f26000,3,bool PlayerCharacter::IsInFaction(TESFaction* a_faction)
 715992,0x14372d8e0,0x143755b30,2,DAT_14372d8e0
 716007,0x142d097f8,0x142d3e258,3,AutoRegisterSmartPtrDerivedPathingType_CombatPathingRequestGeneric_CombatPathingGoalPolicyCharge_CombatPathingSearchPolicyCharge__BSPathingRequest_64__0
 716016,0x1436ccb88,0x1436f2d08,2,DAT_1436ccb88
@@ -42541,6 +42613,7 @@ id,fo4,vr,status,name
 717036,0x140ee67f0,0x140f60e00,2,BSTEventSource<FirstThirdPersonSwitch::Event>::Notify(FirstThirdPersonSwitch::Event&)
 717037,0x142d457b0,0x142d85980,2,s_UIPipBoyLightOn_142d457b0
 717040,0x1400951e0,0x140095df0,4,ExtraDataList::SetRegionList(TESRegionList*)
+717046,0x140d7dac0,0x140dce580,3,void Actor::UpdateNonRenderSafe(float a_delta)
 717051,0x141d8b620,0x141e13d70,4,"bhkCollisionFilter::SetLayerCollision(COL_LAYER,COL_LAYER,bool)"
 717064,0x1458e0870,0x145942790,2,DAT_1458e0870
 717077,0x143864458,0x1438c1018,2,hkbSetWorldFromModelModifier
@@ -43236,6 +43309,7 @@ id,fo4,vr,status,name
 728954,0x14144ede0,0x1414d3f30,4,"GameScript::BindTESTopicInfoToScript(BSTSmartPointer<BSScript::IVirtualMachine,BSTSmartPointerIntrusiveRefCount>&)"
 728962,0x1436db088,0x143702218,2,PTR_s_Hours_Slept_1436db088
 728985,0x14302fc80,0x1430760f8,3,BSNavmeshObstacleCoverData_0
+728988,0x140eab920,0x140f168d0,2,void PlayerCharacter::InitLoadGame(BGSLoadFormBuffer* a_buffer)
 728989,0x1421de820,0x142268930,4,"Scaleform::Render::ShapeMeshProvider::getComplexFill(uint,uint,uint*)"
 729031,0x140fa64e0,0x14102ab60,4,ProjectileLaunchData::ProjectileLaunchData(ProjectileLaunchData&)
 729034,0x145a012e8,0x145a62528,2,DAT_145a012e8
@@ -43257,6 +43331,7 @@ id,fo4,vr,status,name
 729200,0x142d6f6e8,0x142db02f8,3,CombatNavmeshSearchT_CombatPathingGoalPolicyFlee_CombatPathingSearchPolicyStandard__0
 729204,0x142cbb050,0x142cef120,2,s_Face_skin_142cbb050
 729224,0x142c5a278,0x142c90ee8,3,TESReactionForm_0
+729226,0x141b98190,0x141c175a0,3,NiObjectNET* NiObjectNET::Dtor(std::uint32_t a_flags)
 729235,0x143087670,0x1430a7100,3,BSImagespaceShaderBlur7_1
 729239,0x1400b1d00,0x1400b2910,2,"BSTArray<BGSObjectInstance,BSTArrayHeapAllocator>::Clear(bool)"
 729256,0x14042ab00,0x140412e40,4,"GetBestArmorFunctor::EvaluateObject(BGSInventoryItem&,BGSObjectInstance&)"
@@ -44405,6 +44480,7 @@ id,fo4,vr,status,name
 748946,0x1406a7c20,0x140695e20,4,BGSPackageDataList::GetNextUID(void)
 748971,0x140592830,0x14057d340,4,"BSTArray<BGSSceneAction*,BSTArrayHeapAllocator>::ForEach<CalculateActorScenePackageFunctor>(CalculateActorScenePackageFunctor&)"
 748986,0x142c4be60,0x142c82850,3,ExtraInitActions_0
+749058,0x14040f2d0,0x1403f75e0,3,TESObjectCELL* TESObjectREFR::GetSaveParentCell()
 749092,0x1438049f0,0x143840860,2,DAT_1438049f0
 749105,0x1409eb8a0,0x1409eabe0,4,"BuildABot::DetachMod3d(NiAVObject*,BGSObjectInstanceExtra*,BSTTuple<BGSMod::Attachment::Mod*,uchar>&)"
 749107,0x142de0908,0x142e221e0,2,s_-1.#INF00_142de0908
@@ -44459,6 +44535,7 @@ id,fo4,vr,status,name
 749907,0x14048d700,0x140476820,4,TESWeather::InitializeData(void)
 749943,0x142c4ed08,0x142c856e8,3,IngredientItem_0
 749981,0x14014da10,0x140154640,4,"TESBipedModelForm::GetWorldModel(TESForm*,TESObjectREFR*)"
+750030,0x140d74840,0x140dc5120,3,bool Actor::TryChangeSkyCellActorsProcessLevel()
 750035,0x140a4f4a0,0x140a52e50,4,nsHUDModes::GetCharGenHUDMode(uint)
 750087,0x14384ddc0,0x143889e30,2,BSTEventSource_BSTaskManagerTaskCycleComleteEvent_
 750140,0x140328a80,0x14030ea20,4,TESObjectACTI::IsSwitch(TESForm*)
@@ -44749,6 +44826,7 @@ id,fo4,vr,status,name
 755190,0x142849a10,0x14283cf60,2,"BSTScatterTableBase<BSTScatterTableTraits<BSStaticTriShapeDB::CpuBuffer*,uint,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSStaticTriShapeDB::CpuBuffer*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSStaticTriShapeDB::CpuBuffer*,uint,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 755192,0x1459db870,0x145a3cef0,2,DAT_1459db870
 755198,0x1421ff2d0,0x1422893e0,4,"Scaleform::HashSetBase<Scaleform::HashNode<Scaleform::Render::ShapeMeshProvider*,Scaleform::Ptr<Scaleform::Render::ShapeMeshProvider>,Scaleform::FixedSizeHash<Scaleform::Render::ShapeMeshProvider*>>,Scaleform::HashNode<Scaleform::Render::ShapeMeshProvider*,Scaleform::Ptr<Scaleform::Render::ShapeMeshProvider>,Scaleform::FixedSizeHash<Scaleform::Render::ShapeMeshProvider*>>::NodeHashF,Scaleform::HashNode<Scaleform::Render::ShapeMeshProvider*,Scaleform::Ptr<Scaleform::Render::ShapeMeshProvider>,Scaleform::FixedSizeHash<Scaleform::Render::ShapeMeshProvider*>>::NodeAltHashF,Scaleform::AllocatorLH<Scaleform::Render::ShapeMeshProvider*,2>,Scaleform::HashsetCachedNodeEntry<Scaleform::HashNode<Scaleform::Render::ShapeMeshProvider*,Scaleform::Ptr<Scaleform::Render::ShapeMeshProvider>,Scaleform::FixedSizeHash<Scaleform::Render::ShapeMeshProvider*>>,Scaleform::HashNode<Scaleform::Render::ShapeMeshProvider*,Scaleform::Ptr<Scaleform::Render::ShapeMeshProvider>,Scaleform::FixedSizeHash<Scaleform::Render::ShapeMeshProvider*>>::NodeHashF>>::setRawCapacity(void*,unsigned___int64)"
+755213,0x1403f3bc0,0x1403dbe60,4,void TESObjectREFR::SetFullLODRef(bool a_fullLOD)
 755231,0x14177a400,0x1417fd040,4,"hknpMultithreadedSimulation::processNarrowPhaseResults(hknpSimulationContext&,hknpCollisionCacheManager&,hknpSolverData&)"
 755233,0x140603b70,0x1405ee4a0,4,TESRace::GetOnCrippleGenericDebris(BGSBodyPart*)
 755238,0x145ad6480,0x145b37cc0,2,DAT_145ad6480
@@ -45782,6 +45860,7 @@ id,fo4,vr,status,name
 771830,0x142e4d308,0x142e9fc38,3,hkbComputeRotationFromAxisAngleModifierInternalState_0
 771840,0x143810698,0x14384c3b8,2,BSTEventSink_TESQuestStartStopEvent_
 771849,0x142ea0c48,0x142ee8058,2,s_The_maximum_distance_to_a_handle_142ea0c48
+771875,0x14034c0b0,0x140332360,3,void TESObjectWEAP::InitItemImpl()
 771901,0x140ecbb40,0x140f40230,2,"BSTArray<uint,BSTSmallArrayHeapAllocator<16>>::CopyTo<uint,BSTSmallArrayHeapAllocator<16>>(BSTArray<uint,BSTSmallArrayHeapAllocator<16>>&)"
 771913,0x142ee7170,0x142f2d250,2,PTR_FUN_142ee7170
 771923,0x1438aa500,0x143906f30,2,AutoRegisterCreator_MovementAgentActorAvoider_BSTCreateFactoryManager_BSFixedString_MovementAgent_64__
@@ -45813,6 +45892,7 @@ id,fo4,vr,status,name
 772480,0x143083cf8,0x1430a4210,2,s_bWetnessControl_ScreenSpaceRefle_143083cf8
 772495,0x142e66930,0x142eb8da0,3,hkbSetBehaviorCommand_0
 772501,0x142db2298,0x142df3b48,2,s_Attempting_to_stop_an_invalid_so_142db2298
+772506,0x140e9ec40,0x140f07e30,3,void PlayerCharacter::UpdateAlpha()
 772510,0x142c494e8,0x142c7fdd8,2,DAT_142c494e8
 772519,0x142e05bd8,0x142e47768,2,s_Actions_142e05bd8
 772543,0x14073f110,0x14072d3d0,4,NavMesh::FixPortalsFromNavMeshDeletion(NavMeshInfo*)
@@ -45926,6 +46006,7 @@ id,fo4,vr,status,name
 774404,0x14270cbe0,0x1426db2d0,2,BSTEventSource<BSScript::LogEvent>::Notify(BSScript::LogEvent&)
 774445,0x1438c9878,0x143924750,2,ImageSpaceEffectHDR
 774451,0x14035e010,0x140344670,4,"BGSCombinedCellGeometryDB::CDX::QueueVisibility(BSBTreeFile::BPTree<BGSCombinedCellGeometryDB::CDX::Pager,BSBTreeFile::PGFSEDL<BGSCombinedCellGeometryDB::CDXInfoKey,BGSCombinedCellGeometryDB::CDXInfoKey,4096>,3>::Cursor&,BGSCombinedCellGeometryDB::CDXInfoKey&,BGSCombinedCellGeometryDB::LoadTask*)"
+774474,0x140d74d70,0x140dc5650,3,void Actor::TryUpdateActorLastSeenTime()
 774520,0x141351340,0x1413d5f50,4,"GameScript::QuestMgrInternal::WaitingOnProcessEventScripts::AddWaitingScript(uint,BSScript::IVirtualMachine*)"
 774556,0x1405a70d0,0x140591bb0,2,BSSimpleList<RANK_DATA*>::~BSSimpleList<RANK_DATA*>(void)
 774558,0x143738f00,0x1437611a0,3,BSTDerivedCreator_BGSProcedureDoneExecState_IProcedureTreeExecState_
@@ -46738,6 +46819,7 @@ id,fo4,vr,status,name
 787948,0x143716450,0x14373de10,2,DAT_143716450
 788005,0x1438bec9c,0x14391437c,2,DAT_1438bec9c
 788009,0x142d38890,0x142d75780,2,s__Total_%s_Count:_%u_Total_%s_Siz_142d38890
+788020,0x140d70ba0,0x140dc14c0,3,"bool Actor::SetDialoguewithPlayer(bool a_flag, bool a_forceGreet, TESTopicInfo* a_topicInfo)"
 788023,0x141577950,0x1415febd0,4,"hkcdDynamicTree::DynamicStorage<0,hkcdDynamicTree::AnisotropicMetric,hkcdDynamicTree::CodecRawUlong>::reserveNodes(int)"
 788055,0x1437a2ea0,0x1437dea80,2,AutoRegisterFactory_BSTDerivedCreator_HeadTrackingOffHandler_IHandlerFunctor_Actor_BSFixedString___BSTCreateFactoryManager_BSFixedString_IHandlerFunctor_Actor_BSFixedString__256__
 788059,0x140af2a80,0x140b11030,4,_lambda_f530f1fcf40b3d602433948da56ba533_::operator()
@@ -47544,6 +47626,7 @@ id,fo4,vr,status,name
 801416,0x1437587a8,0x143781458,3,IBSTCreator_RefrInteraction_
 801417,0x140837680,0x140827ed0,4,"CompanionWarpUtil::CheckDistancesWarpRequest(Actor&,Actor&,bool)"
 801425,0x14151fe40,0x1415a6d00,3,"void hknpWorld::queryPoint(hknpPointQuery& a_query, hknpCollisionQueryCollector* a_collector)"
+801458,0x140dc0310,0x140e11270,3,"void Actor::AddWornOutfitImpl(BGSOutfit* a_outfit, bool a_queueItem)"
 801469,0x14379ecd0,0x1437da8b0,2,BSTDerivedCreator_WeaponBeginDrawHandler_IHandlerFunctor_Actor_BSFixedString__
 801473,0x140e13c50,0x140e67e20,4,Actor::HasCastableSpell(MagicSystem::CastingSource)
 801482,0x142e2f280,0x142e73450,2,s_BSWindModifier_142e2f280
@@ -47741,6 +47824,7 @@ id,fo4,vr,status,name
 804611,0x142d5fc48,0x142da0848,3,AutoRegisterFactory_BSTDerivedCreator_CombatMagicCasterArmor_CombatObjectBase__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512___0
 804632,0x1404dcb10,0x1404c5b70,4,BGSListForm::ForEachInList<`anonymous_namespace'::GetItemCountFunctor>(`anonymous_namespace'::GetItemCountFunctor&)
 804635,0x1401b7650,0x1401bf6b0,2,"BSTScatterTableBase<BSTScatterTableTraits<BSFixedString,`anonymous_namespace'::PersistentStringInfo*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSFixedString,`anonymous_namespace'::PersistentStringInfo*,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
+804641,0x140e9ff30,0x140f09320,3,"void PlayerCharacter::Set3D(NiAVObject* a_object, bool a_queue3DTasks)"
 804646,0x142c4a7d8,0x142c810d8,3,hknpCollisionQueryCollector_0
 804663,0x143715bc0,0x14373d540,2,PTR_PTR_FUN_143715bc0
 804681,0x1405d76d0,0x1405c2190,2,TESQuest::GetCurrentStage(void)
@@ -48345,6 +48429,7 @@ id,fo4,vr,status,name
 815619,0x142e446d8,0x142e89e78,3,hkSignal2_hknpEventHandlerInputconst_hknpEventconst___MemberSlot_bhkCharRigidBodyController_void_bhkCharRigidBodyController____hknpEventHandlerInputconst_hknpEventconst___0
 815628,0x1437533d0,0x14377c060,3,CombatBehaviorTreeConditionalNode_CombatBehaviorExpression_CombatBehaviorFunc1_bool___float__CombatBehaviorExpression_CombatBehaviorFunc_float___void______
 815659,0x140e6f5d0,0x140ec3910,4,EquippedWeaponData::StopLoopingFireSounds(void)
+815719,0x140e01460,0x140e52500,3,"void Actor::HandleHealthDamage(Actor* a_attacker, float a_damage)"
 815731,0x142d683f8,0x142da9010,3,AutoRegisterCombatPathingRequestGenericPath_CombatPathingGoalPolicyAvoidThreat_CombatPathingSearchPolicyStandard_CombatPathDestinationNone__1
 815800,0x14115f910,0x1411e16c0,4,CombatBehaviorContextMagic::LoadGame(BGSLoadFormBuffer*)
 815818,0x142cece70,0x142d21540,2,s_CritChance_142cece70
@@ -48893,6 +48978,7 @@ id,fo4,vr,status,name
 825010,0x1420c8c50,0x142152ab0,2,"Scaleform::ArrayDataBase<Scaleform::GFx::AS3::SPtr<Scaleform::GFx::AS3::VMAbcFile>,Scaleform::AllocatorLH<Scaleform::GFx::AS3::SPtr<Scaleform::GFx::AS3::VMAbcFile>,2>,Scaleform::ArrayDefaultPolicy>::Reserve(void*,unsigned___int64)"
 825026,0x14211c590,0x1421a6890,4,DebugTextData::~DebugTextData(void)
 825031,0x142e04cc0,0x142e46850,2,s_Bool_attribute_142e04cc0
+825034,0x1401546f0,0x14015b320,3,"bool TESForm::BelongsInGroup(FORM* a_groupFORM, bool a_allowParentGroups, bool a_currentOnly)"
 825052,0x140cd42a0,0x140d1cf80,2,"BSTScatterTableBase<BSTScatterTableTraits<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,`anonymous_namespace'::SceneChannel::Handles,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,`anonymous_namespace'::SceneChannel::Handles,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 825082,0x1426f8b60,0x1426c7250,4,"BSScript::ObjectTypeInfo::ForEachPropertyGroup<_lambda_35d1acc042f17d463c383fc1615b6c90_>(_lambda_35d1acc042f17d463c383fc1615b6c90_&,BSScript::ObjectTypeInfo::ParentTraversalOrder)"
 825090,0x140730de0,0x14071f0d0,2,BSTempEffectGeometryDecal::DecalProjection(void)
@@ -49343,6 +49429,7 @@ id,fo4,vr,status,name
 833008,0x1438ad250,0x143909c80,2,IPathingNodeGenerator
 833017,0x142c183d0,0x142c4d358,2,PTR_X3DAudioInitialize_142c183d0
 833040,0x142d73d78,0x142db4998,3,CombatBehaviorTreeValueNodeT_unsignedint_CombatBehaviorExpression_CombatBehaviorFunc1_bool___Actor__CombatBehaviorTree__CombatBehaviorAttacker____0
+833059,0x140eb4060,0x140f22350,3,"void PlayerCharacter::RemoveCrimeGoldValue(TESFaction* a_faction, bool a_violent, std::int32_t a_value)"
 833080,0x143729cf0,0x143751f28,2,DAT_143729cf0
 833115,0x1437d0f70,0x14380cd50,2,CombatBehaviorTreeNodeObject1_CombatBehaviorResetResource_BSFixedString_
 833128,0x142dace88,0x142dee748,3,BSScript__NativeFunction0_TESObjectREFR_BGSVoiceType__0
@@ -50421,6 +50508,7 @@ id,fo4,vr,status,name
 851364,0x1419fbdf0,0x141a7e760,4,"hkbLuaBase::hkBool_check(hkbInternal::lua_State*,int)"
 851375,0x14071c830,0x14070aa70,4,TESPackage::CalculateProcedureType(TESObjectREFR*)
 851376,0x142d825a0,0x142dc31c0,3,CombatPathT_CombatSharedPathT_CombatCoveredPath__CombatPathRequestGeneric_CombatPathingGoalPolicyFollow_CombatPathingSearchPolicyStandard__CombatPathDestinationFollowActor__1
+851386,0x140dba8b0,0x140e0b750,3,"bool Actor::HasKeywordHelper(BGSKeyword* a_keyword, TBO_InstanceData* a_data)"
 851397,0x142466490,0x1424f05a0,4,png_get_IHDR
 851409,0x142d75188,0x142db5da0,3,BSTDerivedCreator_CombatPathT_CombatSharedPathT_CombatPath__CombatPathRequestGeneric_CombatPathingGoalPolicySearch_CombatPathingSearchPolicyStandard__CombatPathDestinationNone__CombatObjectBase__0
 851410,0x1414ac270,0x1415326c0,4,"BSTArray<LoadedBehavior,BSTSmallArrayHeapAllocator<8>>::DestructItems(uint,uint)"
@@ -50491,6 +50579,7 @@ id,fo4,vr,status,name
 852675,0x141322850,0x1413a7630,4,"BSTScatterTableKernel<BSTScatterTableTraits<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage>>,8>>::SetAt<BSTScatterTableKernel<BSTScatterTableTraits<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor>(BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage>*,uint,unsigned___int64&,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>&,BSTScatterTableKernel<BSTScatterTableTraits<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<GameScript::ObjectBindPolicy::QueuedObject>,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor&)"
 852725,0x142ea2998,0x142ee9c68,3,hkbCustomTestGeneratorHiddenTypes_0
 852746,0x142d8d5a8,0x142dce498,2,s_$Show_All_Saves_142d8d5a8
+852754,0x14034de00,0x140334290,3,"float TESObjectWEAP::GetDesirability(TBO_InstanceData* a_instanceData, TESForm* a_user)"
 852758,0x14135b960,0x1413e0570,4,"GameScript::SaveObjectReferenceHandle(BSStorage&,BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>&)"
 852771,0x140ba84f0,0x140bb92b0,2,"BSTScatterTableBase<BSTScatterTableTraits<TESBoundObject*,uint,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<TESBoundObject*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<TESBoundObject*,uint,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 852777,0x142ee8ec0,0x142f2f090,2,s__HasFont:_font_id_=_%d_142ee8ec0
@@ -52460,6 +52549,7 @@ id,fo4,vr,status,name
 884993,0x143859c00,0x1438b8bc0,2,hkbTimerModifierInternalState
 885034,0x145ad8c30,0x145b3a3e0,2,DAT_145ad8c30
 885039,0x140fc9740,0x14104ddc0,4,Projectile::Manager::ForceCleanup(void)
+885066,0x140eb4350,0x140f22640,3,std::uint32_t PlayerCharacter::GetViolentCrimeGoldValue(TESFaction* a_faction)
 885067,0x1421e7250,0x142271360,4,Scaleform::GFx::DisplayObjectBase::IsAncestor(Scaleform::GFx::DisplayObjectBase*)
 885074,0x14021f4c0,0x14022efa0,2,"ClearArray<Workshop::DeletedItemInfo,BSTArrayHeapAllocator>(BSTArray<Workshop::DeletedItemInfo*,BSTArrayHeapAllocator>&,bool)"
 885081,0x1403dbb40,0x1403c38e0,2,"BSTBTreePolicy<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,BSTScrapSet<BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>>::Entry,BSTObjectArenaScrapAlloc,128,0>::QContainsKeyImpl(BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>&)"
@@ -52990,6 +53080,7 @@ id,fo4,vr,status,name
 893505,0x143736fb0,0x14375f250,3,BGSProcedureFindExecState
 893512,0x142dc7560,0x142e09070,2,s_enum_142dc7560
 893542,0x14069fd40,0x14068df40,4,"ActorValueInfo::CallModifiedCallback(Actor*,float,float,Actor*)"
+893544,0x140ea6af0,0x140f11890,3,float PlayerCharacter::GetHeading()
 893545,0x14037a9a0,0x140361090,4,`anonymous_namespace'::IsPoweredItem(TESObjectREFR&)
 893556,0x14307e790,0x14309ea50,2,s_Stack_%u_is_not_running_but_was_r_14307e790
 893562,0x14270ed40,0x1426dd430,2,BSScript::Internal::ReadableTypeTable::ReadableTypeTable(void)
@@ -55953,6 +56044,7 @@ id,fo4,vr,status,name
 943122,0x14371bfd8,0x1437441f0,2,DAT_14371bfd8
 943179,0x1458dfee4,0x145941dc4,2,DAT_1458dfee4
 943188,0x140195e20,0x14019de30,4,GrassType::`scalar_deleting_destructor'(uint)
+943233,0x1403f9830,0x1403e1a90,3,"BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>> TESObjectREFR::RemoveItem(TESObjectREFR::RemoveItemData& a_data)"
 943238,0x1400d4370,0x1400d4f70,2,"BSTSmartPointer<ExtraAnimSounds::SoundData,BSTSmartPointerIntrusiveRefCount>::operator=(BSTSmartPointer<ExtraAnimSounds::SoundData,BSTSmartPointerIntrusiveRefCount>&)"
 943252,0x140127cc0,0x14012ebb0,4,"BSTScatterTableKernel<BSTScatterTableTraits<BSFixedString,BSTSmartPointer<BSResource::Stream,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSFixedString,BSTSmartPointer<BSResource::Stream,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage>>,8>>::ConstructEntry(BSTScatterTableEntry<BSFixedString,BSTSmartPointer<BSResource::Stream,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage>*,BSTScatterTableEntry<BSFixedString,BSTSmartPointer<BSResource::Stream,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage>*,BSFixedString&,BSTSmartPointer<BSResource::Stream,BSTSmartPointerIntrusiveRefCount>&)"
 943257,0x142468830,0x1424f2940,4,Scaleform::Render::Font::calcTopBound(ushort)
@@ -56773,6 +56865,7 @@ id,fo4,vr,status,name
 956986,0x1458dfdc4,0x145941d0c,2,DAT_1458dfdc4
 957007,0x141b66da0,0x141be61b0,4,IDDQueueCollection::UnregisterQueue(IGCQueue&)
 957036,0x141a519b0,0x141ad4320,4,"hkbInternal::hksi_lua_insert(hkbInternal::lua_State*,int)"
+957046,0x140dbcb30,0x140e0d9d0,3,"void Actor::ApplyMovementDelta(float a_timeDelta, NiPoint3A& a_delta, NiPoint3& a_angleDelta)"
 957069,0x1407c5d30,0x1407b4260,4,BGSTerrainNode::UnloadData(BGSTerrainNode::CONTENT_TYPE)
 957077,0x1437eee30,0x14382ac40,2,CombatBehaviorTreeNodeObjectBase_CombatBehaviorFallbackSelector_RandomChanceChildSelector__
 957087,0x1401cee10,0x1401d7030,4,"GetCollisionObjectIndexInSceneGraph(NiAVObject*,bhkNPCollisionObject*,bool,bool,bool)"
@@ -56790,6 +56883,7 @@ id,fo4,vr,status,name
 957249,0x1403fd7c0,0x1403e5ac0,4,TESObjectREFR::InitInventoryIfRequired(bool)
 957286,0x1424c0100,0x14254a060,4,"BSTBTreePolicy<ushort,ushort,BSTScrapSet<ushort>::Entry,BSTObjectArenaScrapAlloc,128,0>::MoveToNode(BSTBTreePolicy<ushort,ushort,BSTScrapSet<ushort>::Entry,BSTObjectArenaScrapAlloc,128,0>::Node*,uint,BSTBTreePolicy<ushort,ushort,BSTScrapSet<ushort>::Entry,BSTObjectArenaScrapAlloc,128,0>::Node*,uint,uint)"
 957302,0x142dcedf8,0x142e106a8,2,DAT_142dcedf8
+957309,0x140ebb7a0,0x140f2a090,3,void PlayerCharacter::CreateMovementController()
 957310,0x142d1a760,0x142d50448,3,ContainerMenuBase__IValidFunc_0
 957311,0x1421ee6a0,0x1422787b0,4,"Scaleform::HashSetBase<Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>,Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>::NodeHashF,Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>::NodeAltHashF,Scaleform::AllocatorLH<Scaleform::GFx::ResourceId,2>,Scaleform::HashsetCachedNodeEntry<Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>,Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>::NodeHashF>>::add<Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>>(void*,Scaleform::HashNode<Scaleform::GFx::ResourceId,Scaleform::StringLH,Scaleform::FixedSizeHash<Scaleform::GFx::ResourceId>>&,unsigned___int64)"
 957322,0x142d6e0a0,0x142daecb0,2,s_Flee_Context_142d6e0a0
@@ -57088,6 +57182,7 @@ id,fo4,vr,status,name
 962283,0x1410ef610,0x141171390,2,"CombatPathRequest<CombatPathingRequestGeneric<CombatPathingGoalPolicyAvoidThreat,CombatPathingSearchPolicyStandard>>::LoadGame(BGSLoadGameBuffer*)"
 962303,0x1404ae0d0,0x140497140,2,"BSTScatterTableKernel<BSTScatterTableTraits<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSMaterialType*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage>>,8>>::SetAt<BSTScatterTableKernel<BSTScatterTableTraits<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSMaterialType*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor>(BSTScatterTableEntry<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage>*,uint,BGSMaterialType*&,BGSImpactData*&,BSTScatterTableKernel<BSTScatterTableTraits<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSMaterialType*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSMaterialType*,BGSImpactData*,BSTScatterTableDefaultKVStorage>>,8>>::NoOpPreviousValueFunctor&)"
 962329,0x140d5c100,0x140dacac0,4,TaskQueueInterface::QueueDeleteActiveEffect(ActiveEffect*)
+962336,0x1403ec620,0x1403d48d0,3,bool TESObjectREFR::Load(TESFile* a_file)
 962353,0x140c46d10,0x140c5b2c0,2,"BSTScatterTableKernel<BSTScatterTableTraits<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<uint>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage>>,8>>::ConditionalRemoveAt<BSTScatterTableKernel<BSTScatterTableTraits<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<uint>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage>>,8>>::AlwaysMatchExtractValueFunctor>(BSTScatterTableEntry<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage>*,uint,uint&,BSTScatterTableKernel<BSTScatterTableTraits<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<uint>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<uint,IPipboyThrottledValue*,BSTScatterTableDefaultKVStorage>>,8>>::AlwaysMatchExtractValueFunctor&)"
 962360,0x14378e400,0x1437c6930,2,PTR_s_Fallout4_14378e400
 962374,0x14383c08c,0x143877eec,2,DAT_14383c08c
@@ -57161,6 +57256,7 @@ id,fo4,vr,status,name
 963477,0x14140e4f0,0x141493640,2,"GameScript::`anonymous_namespace'::mem_ObjectReference_SetActivateTextOverride(BSScript::IVirtualMachine*,uint,TESObjectREFR*,BGSMessage*)"
 963504,0x142d7e688,0x142dbf2a8,3,CombatPathT_CombatSharedPathT_CombatCoveredPath__CombatPathRequestStandard_CombatPathDestinationRef__0
 963519,0x1438499f0,0x143885998,2,NiBinaryExtraData
+963546,0x140da9580,0x140dfa270,3,void Actor::PauseCurrentDialogue()
 963556,0x142298af0,0x142322c00,4,"Scaleform::RangeDataArray<Scaleform::GFx::TextField::CSSHolderBase::UrlZone,Scaleform::Array<Scaleform::RangeData<Scaleform::GFx::TextField::CSSHolderBase::UrlZone>,2,Scaleform::ArrayDefaultPolicy>>::SetRange(Scaleform::RangeData<Scaleform::GFx::TextField::CSSHolderBase::UrlZone>&)"
 963562,0x142d10518,0x142d44f38,3,CombatViewControllerGlance_0
 963571,0x1436d38a8,0x1436f9a50,3,ExtraLevCreaModifier
@@ -58021,6 +58117,7 @@ id,fo4,vr,status,name
 977554,0x142cec860,0x142d21050,2,s_Helps_Nobody_142cec860
 977588,0x141259ec0,0x1412daf80,4,"BSTArray<BSScaleformExternalTexture,BSTArrayHeapAllocator>::Add(void)"
 977591,0x142d93ae0,0x142dd5330,2,s_Cannot_play_a_None_idle_on_an_ac_142d93ae0
+977594,0x1404089d0,0x1403f0ce0,3,NiPoint3 TESObjectREFR::GetBoundMax()
 977608,0x1425e0700,0x14262ea00,2,bnet::_impl::UniquePtrFactory::Create<bnet::BaseHttpRequest>(bnet::BaseHttpRequest*)
 977618,0x142e3ad60,0x142e802c0,2,DAT_142e3ad60
 977622,0x14230eca0,0x142398db0,4,Scaleform::GFx::FontData::ReadCodeTable(Scaleform::GFx::Stream*)
@@ -58869,6 +58966,7 @@ id,fo4,vr,status,name
 991317,0x142d6bd78,0x142dac990,3,AutoRegisterCombatPathingRequestGenericPath_CombatPathingGoalPolicyFlank_CombatPathingSearchPolicyFlank_CombatPathDestinationActor__1
 991339,0x143782a48,0x1437b1f58,3,TerminalMenuButtons
 991342,0x1436ce3b0,0x1436f4540,3,BGSTerminal
+991360,0x140d96c70,0x140de78b0,3,"void Actor::PutCreatedPackage(TESPackage* a_pack, bool a_tempPack, bool a_isACreatedPackage, bool a_allowFromFurniture)"
 991377,0x142767bf0,0x1427362e0,2,DAT_142767bf0
 991382,0x142e05be0,0x142e47770,2,s_SetupJobs_142e05be0
 991389,0x140637140,0x140621a60,4,LoadedAreaBound::Clear(void)
@@ -59368,6 +59466,7 @@ id,fo4,vr,status,name
 999485,0x1436f1b00,0x143719340,3,Script__ResetDialogueFlags__2__MobDialogueFlagResetter
 999498,0x141404b00,0x141489c50,4,"GameScript::`anonymous_namespace'::DisableImpl(TESObjectREFR*,bool,bool,BSScript::IVirtualMachine*,uint)"
 999512,0x14129bdd0,0x14131a860,2,"BSTArray<TESLoadScreen*,BSTArrayHeapAllocator>::Remove(uint,uint)"
+999550,0x140eb4f80,0x140f23270,3,"void PlayerCharacter::GoToPrison(TESFaction* a_faction, bool a_removeItems, bool a_realJail)"
 999560,0x142e1bf18,0x142e5f3e8,3,NiBoundingVolume_0
 999589,0x14302bec8,0x143072098,2,s_Duplicate_iCCP_chunk_14302bec8
 999594,0x14377e550,0x1437adb40,3,LooksMenuUtils__ChangePresetConfirmCallback
@@ -59810,6 +59909,7 @@ id,fo4,vr,status,name
 1006982,0x1412b3310,0x1413307a0,4,SubtitleManager::KillSubtitles(void)
 1006987,0x1438beca4,0x143914384,2,DAT_1438beca4
 1007008,0x1421aba80,0x142235b90,4,Scaleform::GFx::ASStringManager::AllocateStringNodes(void)
+1007041,0x1403f3cb0,0x1403dbf50,4,bool TESObjectREFR::GetObstacle()
 1007044,0x1400ce7f0,0x1400cf3f0,4,"BSTScatterTableBase<BSTScatterTableTraits<BGSMaterialType*,BSTSmallArray<BSMagicShaderParticles*,5>*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BGSMaterialType*>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BGSMaterialType*,BSTSmallArray<BSMagicShaderParticles*,5>*,BSTScatterTableDefaultKVStorage>>,8>>::ForEachImpl<_lambda_843c60b0812a9ca0a45449253c30cf7f_>(_lambda_843c60b0812a9ca0a45449253c30cf7f_&)"
 1007051,0x143742150,0x14376a4f0,2,DAT_143742150
 1007055,0x1420e9fd0,0x142173e30,4,Scaleform::GFx::AS3::TR::State::exec_nextname(void)
@@ -61463,6 +61563,7 @@ id,fo4,vr,status,name
 1034718,0x1403bea10,0x1403a50e0,4,"TESObjectCELL::RenderTestCell(TESObjectCELL*,TESObjectCELL::RENDER_TEST_DATA*,NiPoint3*)"
 1034723,0x1408a0420,0x140893120,4,CombatController::CheckAim(NiPoint3&)
 1034754,0x140e290b0,0x140e7d380,4,AIProcess::GetTimeDelta(void)
+1034790,0x1403f7b20,0x1403dfdc0,2,"bool TESObjectREFR::UpdateInDialogue(DialogueResponse* a_response, bool a_flag)"
 1034807,0x142d21ed8,0x142d57720,2,s_UITerminalHolotapeProgramQuit_142d21ed8
 1034840,0x143840b80,0x14387c9e0,2,hkDisplayBox
 1034859,0x1400b7e30,0x1400b8a20,4,REFR_LOCK::IsBroken(void)
@@ -62146,6 +62247,7 @@ id,fo4,vr,status,name
 1046489,0x1424e55a0,0x14256f670,4,"BSTArray<DynamicNavmesh::BuildThread::NavmeshReplacementRecord,BSTArrayHeapAllocator>::DestructItems(uint,uint)"
 1046494,0x141b75ac0,0x141bf4ed0,4,BSResource::Archive2::Index::Entry::operator=(BSResource::Archive2::Index::Entry&)
 1046499,0x140d245d0,0x140d6eb90,2,DeferredDeleter::DeleteAll(void)
+1046528,0x140408430,0x1403f0740,3,TESModel* TESObjectREFR::GetTESModel()
 1046540,0x1415d2600,0x141659a90,4,"hkcdTreeQueries<hkcdTreeQueriesStacks::Dynamic,64,0>::unary<hknpCompressedMeshShapeTree,hkcdTreeQueriesStacks::Dynamic<64,hkcdStaticTree::Tree<hkcdStaticTree::DynamicStorage5>::Slot>,hknpCompressedMeshShapeInternals::GetClosestPointsToHeightFieldQueryScaled0>(hknpCompressedMeshShapeTree&,hkcdTreeQueriesStacks::Dynamic<64,hkcdStaticTree::Tree<hkcdStaticTree::DynamicStorage5>::Slot>&,hknpCompressedMeshShapeInternals::GetClosestPointsToHeightFieldQueryScaled0&)"
 1046590,0x1436e8760,0x14370f650,3,BSTCommonStaticMessageQueue_BGSCombinedCellGeometryDB__PreloadTask__PreloadRequest_1024_
 1046599,0x1438a4dd0,0x1439017d0,2,IMovementSetTweener
@@ -62729,6 +62831,7 @@ id,fo4,vr,status,name
 1056249,0x1423192c0,0x1423a33d0,4,Scaleform::GFx::SwfShapeCharacterDef::SwfShapeCharacterDef(Scaleform::GFx::ShapeDataBase*)
 1056252,0x142d90ce8,0x142dd2528,3,GameScript__Profiler_0
 1056276,0x14108d640,0x14110f380,4,CombatState::GetTargetLastSuspectedLocation(NiPoint3&)
+1056291,0x1403f87c0,0x1403e0a20,3,void TESObjectREFR::SetStartingPosition(NiPoint3& a_position)
 1056349,0x1436d8af0,0x1436ff3a8,2,DAT_1436d8af0
 1056363,0x1408bf9a0,0x1408b26a0,2,CombatPositionMap::CombatPositionMap(void)
 1056374,0x142dbc9e0,0x142dfe5a0,3,hkTagfileWriter__AddDataObjectListener_0
@@ -62826,6 +62929,7 @@ id,fo4,vr,status,name
 1057962,0x141fc0b60,0x142057d00,4,hkaNURBS::Point::mag(void)
 1057966,0x141c9b7c0,0x141d1b660,2,"BSResource::Streamer<BSResource::RHandleType<BSResource::Entry<NiPointer<NiTexture>,BSResource::EntryDBTraits<BSTextureDB::DBTraits,BSResource::EntryDB<BSTextureDB::DBTraits>>::CArgs>,BSResource::EntryDB<BSTextureDB::DBTraits>>,1024>::PopRequestIfSameOrBetter(uint,BSResource::EntryDBTraits<BSTextureDB::DBTraits,BSResource::EntryDB<BSTextureDB::DBTraits>>::CArgs&)"
 1058006,0x142224450,0x1422ae560,4,Scaleform::GFx::AS3::Instances::fl_events::EventDispatcher::MayHaveRenderHandler(void)
+1058013,0x140d88820,0x140dd9390,3,"void Actor::SetBiped(BSTSmartPointer<BipedAnim,BSTSmartPointerIntrusiveRefCount>& a_biped)"
 1058024,0x1437671e0,0x143791a10,3,BSTValueEventSource_PlayerAmmoCountEvent_
 1058067,0x14204d5b0,0x1420d7400,4,BSScaleformRenderer::~BSScaleformRenderer(void)
 1058068,0x142dea378,0x142e2bed8,2,s_removeDefaultProcess_142dea378
@@ -64647,6 +64751,7 @@ id,fo4,vr,status,name
 1087633,0x14372a878,0x143752ab0,2,DAT_14372a878
 1087683,0x1422d5290,0x14235f3a0,4,Scaleform::Render::DICommand_PixelDissolve::DICommand_PixelDissolve(Scaleform::Render::DICommand_PixelDissolve&)
 1087698,0x1438cc6b8,0x14392def0,2,PTR_DAT_1438cc6b8
+1087727,0x140d77bb0,0x140dc8490,3,bool Actor::OnAddCellPerformQueueReference(TESObjectCELL& a_cell)
 1087750,0x14385e548,0x1438bd480,2,hkpLinearClearanceConstraintData
 1087754,0x1437a9eb0,0x1437e5a90,2,AutoRegisterCreator_AttackStateChangeHandler_BSTCreateFactoryManager_BSFixedString_IHandlerFunctor_Actor_BSFixedString__256__
 1087775,0x141835b90,0x1418b8d70,4,"hkAlgorithm::quickSortRecursive<weldVerticesVirtualNs::VertexRef,hkAlgorithm::less<weldVerticesVirtualNs::VertexRef>>(weldVerticesVirtualNs::VertexRef*,int,int,hkAlgorithm::less<weldVerticesVirtualNs::VertexRef>)"
@@ -65249,6 +65354,7 @@ id,fo4,vr,status,name
 1098504,0x14371dab0,0x143745cc8,2,DAT_14371dab0
 1098526,0x141fb0540,0x142038f10,4,"hclBufferUsageTracker::flagAllVerticesRead(uint,hclBufferUsage::Component)"
 1098531,0x14030db60,0x1402f3a20,4,BGSInventoryItem::ForEachStack<_lambda_6d0ff64618133919ea31a0498591426b_>(_lambda_6d0ff64618133919ea31a0498591426b_&)
+1098567,0x140d78200,0x140dc8ae0,3,void Actor::Update3DPosition(bool a_warp)
 1098576,0x1438bf8f0,0x143914fd0,2,BSScript__Internal__CachedErrorMessageImpl__lambda_48fecc7c9fa931e834800d15848059e6__
 1098577,0x142d93830,0x142dd5080,2,s_GetBaseObject_142d93830
 1098580,0x14380b258,0x143846f78,2,DAT_14380b258
@@ -66138,6 +66244,7 @@ id,fo4,vr,status,name
 1112915,0x142ea78f8,0x142eeebb8,2,s_TtBatched_Bend_Stiffness_142ea78f8
 1112944,0x140678100,0x140666340,4,std::vector<FanFgResidualS>::_Tidy(void)
 1112965,0x142c7d118,0x142cb2028,3,TESObjectCONT_5
+1112998,0x140e10d40,0x140e64f10,3,void Actor::SetAlpha(float a_alpha)
 1113022,0x140cfb950,0x140d459c0,2,"BSTScatterTableBase<BSTScatterTableTraits<unsigned___int64,BSFixedString,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSFixedString,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 1113025,0x141d094b0,0x141d8b850,4,BSTableCurve::BSTableCurve(void)
 1113045,0x142d6a8c0,0x142dab4e8,2,s_FindAttackLocation_142d6a8c0
@@ -66386,6 +66493,7 @@ id,fo4,vr,status,name
 1117331,0x1458d06fc,0x1459321dc,2,DAT_1458d06fc
 1117333,0x140885530,0x140878230,2,CombatBehaviorWaitForMovementRequest::`scalar_deleting_destructor'(uint)
 1117368,0x1407c3a80,0x1407b1f90,4,BGSTerrainManager::SetupActiveCullState(void)
+1117393,0x140eb5440,0x140f23730,3,void PlayerCharacter::ServePrisonTime()
 1117405,0x1465443c0,0x1465a5520,2,DAT_1465443c0
 1117415,0x1413ea790,0x14146f8e0,2,"GameScript::BindTESFactionTypeToScript(BSTSmartPointer<BSScript::IVirtualMachine,BSTSmartPointerIntrusiveRefCount>&)"
 1117428,0x142dbb680,0x142dfd240,2,s_TtCollide_142dbb680
@@ -68392,6 +68500,7 @@ id,fo4,vr,status,name
 1151661,0x142c17488,0x142c4c3e8,2,PTR_CreateFileW_142c17488
 1151669,0x142dd3b88,0x142e15438,2,s_(unknown_-_see_comments_in_hkSta_142dd3b88
 1151672,0x1425187d0,0x1425a28a0,4,MovementManager::~MovementManager(void)
+1151674,0x140ec0530,0x140f2f3a0,3,bool PlayerCharacter::GetBehaviorRootNameOverrides(BSScrapArray<BSFixedString>& a_behaviorRoots)
 1151717,0x1436d5468,0x1436fb9f8,3,TESObjectSTAT
 1151728,0x14308adb8,0x1430aa848,3,BSImagespaceShaderBrightPassBlurY13_270CS_2
 1151734,0x143728da8,0x143750fe0,2,DAT_143728da8
@@ -68889,6 +68998,7 @@ id,fo4,vr,status,name
 1159982,0x1404eb800,0x1404d48a0,4,ScriptCompiler::GetFunctionDef(SCRIPT_OUTPUT)
 1160067,0x145a57f28,0x145ab8b28,2,BGSStoryEventManager* GetSingleton()
 1160092,0x142dfb388,0x142e3cf08,2,s_value_expected_142dfb388
+1160118,0x14040f520,0x1403f7830,4,bool TESObjectREFR::IsDead(bool a_notEssential)
 1160236,0x141b47b50,0x141bc7460,4,BSSystemFile::DoFlush(void)
 1160248,0x1437896b8,0x1437c1660,2,DAT_1437896b8
 1160253,0x1436d5020,0x1436fb260,3,TES
@@ -69105,6 +69215,7 @@ id,fo4,vr,status,name
 1163745,0x1436cf5f8,0x1436f5788,2,DAT_1436cf5f8
 1163755,0x142d5fba8,0x142da07a8,3,__AutoRegisterCombatMagicCaster_CombatMagicCasterBoundItem__1
 1163763,0x140ce3820,0x140d2ce70,2,"BSTBTreePolicy<__int64,int,`anonymous_namespace'::ExpiredCellMapEntry,BSTObjectArenaScrapAlloc,128,0>::NewNode(void)"
+1163772,0x140e9fe90,0x140f09280,3,NiAVObject* PlayerCharacter::Get3D()
 1163781,0x145a5cfbc,0x145abdbfc,2,DAT_145a5cfbc
 1163816,0x140793ca0,0x140781f60,4,PathingRequestFlyHover::PathingRequestFlyHover(void)
 1163823,0x145c0c264,0x145c64b74,2,DAT_145c0c264
@@ -69142,6 +69253,7 @@ id,fo4,vr,status,name
 1164265,0x142d4d4d8,0x142d8e058,3,AutoRegisterFactory_BSTDerivedCreator_AnticipateAttackHandler_IHandlerFunctor_Actor_BSFixedString___BSTCreateFactoryManager_BSFixedString_IHandlerFunctor_Actor_BSFixedString__256___0
 1164286,0x143872b8c,0x1438cf55c,2,DAT_143872b8c
 1164297,0x1467330fc,0x14689b40c,2,DAT_1467330fc
+1164313,0x1404088f0,0x1403f0c00,3,NiPoint3 TESObjectREFR::GetBoundMin()
 1164348,0x143749978,0x143771d68,2,DAT_143749978
 1164360,0x14379d2b8,0x1437d8e98,2,KnockdownTargetHandler
 1164362,0x141889cf0,0x14190dc60,4,hkbEventQueue::enqueueAll(hkbEventQueue&)
@@ -69362,6 +69474,7 @@ id,fo4,vr,status,name
 1167734,0x145c07f90,0x145c608d0,2,DAT_145c07f90
 1167741,0x14375e780,0x143787f50,3,BSTGlobalEvent__EventSource_BSTValueRequestEvent_PlayerCrosshairModeEvent__
 1167759,0x140e27040,0x140e7b310,4,"`anonymous_namespace'::LoadActorValueData<float>(BGSLoadFormBuffer*,BSTArray<BSTTuple<uint,float>,BSTArrayHeapAllocator>&)"
+1167825,0x140db8ed0,0x140e09cb0,3,"void Actor::UnequipArmorFromSlot(BIPED_OBJECT a_bipedObject, bool a_markAsReequippable)"
 1167882,0x142d66390,0x142da6fa0,3,CombatBehaviorTree_0
 1167889,0x142cb1cf8,0x142ce5dc8,3,ConcreteFormFactory_TESWordOfPower_122__0
 1167894,0x143729720,0x143751958,2,DAT_143729720
@@ -70426,6 +70539,7 @@ id,fo4,vr,status,name
 1186423,0x142599b90,0x14261b110,2,"std::vector<bnet::_impl::FixedString<64,1,1,bnet::_impl::StdAllocator<char>>,bnet::_impl::StdAllocator<bnet::_impl::FixedString<64,1,1,bnet::_impl::StdAllocator<char>>>>::clear(void)"
 1186427,0x1417486a0,0x1417c90c0,4,hkLoader::~hkLoader(void)
 1186480,0x14385e800,0x1438bd740,2,hkpRackAndPinionConstraintData
+1186493,0x1403faf70,0x1403e3240,3,"bool TESObjectREFR::AddWornItem(TESBoundObject* a_object, BSTSmartPointer<ExtraDataList,BSTSmartPointerIntrusiveRefCount> a_extra, std::int32_t a_count, bool a_forceEquip, BGSEquipIndex a_equipIndex)"
 1186496,0x141408ad0,0x14148dc20,4,"GameScript::`anonymous_namespace'::mem_ObjectReference_IgnoreFriendlyHits(BSScript::IVirtualMachine*,uint,TESObjectREFR*,bool)"
 1186503,0x143749410,0x143771800,3,BSTSingletonSDMOpStaticBuffer_BSResource__EntryDB_BGSBttDB__DBTraits__
 1186515,0x142d25328,0x142d52ce0,2,s_onVirtualKeyboardResult_142d25328
@@ -71055,6 +71169,7 @@ id,fo4,vr,status,name
 1196198,0x1423e80e0,0x1424721f0,4,"Scaleform::Render::Text::Highlighter::GetRangeIterator(unsigned___int64,uint)"
 1196225,0x14248f360,0x1425192c0,4,"BSPathing::GetNavmeshNormalForLocation(BSPathingLocation&,NiPoint3&)"
 1196226,0x146098cc8,0x1460f09e8,2,BSDamageStage
+1196267,0x140d75610,0x140dc5ef0,3,"bool Actor::GetEditorLocation(NiPoint3& a_originalLocation, NiPoint3& a_originalAngle, TESForm*& a_locationFormOut, TESForm* a_locationForm)"
 1196290,0x142902c00,0x14295bef0,4,Umbra::QueryContext::~QueryContext(void)
 1196315,0x1437fb250,0x143837060,2,AutoRegisterCombatObject_CombatPathT_CombatSharedPathT_CombatPath__CombatPathRequestFlight_CombatPathDestinationRef__
 1196346,0x141d68940,0x141df1060,4,BSConnectPoint::`anonymous_namespace'::FindRoot(NiAVObject*)
@@ -71512,6 +71627,7 @@ id,fo4,vr,status,name
 1204143,0x14379b2b8,0x1437d6ba0,2,GuardPackageData
 1204145,0x142c6f1f8,0x142ca3f28,3,ConcreteFormFactory_BGSArtObject_129__0
 1204153,0x140711460,0x1406ff6a0,4,BGSProcedureUseWeapon::ProcessLow(BGSProcessContext&)
+1204158,0x1403ec0c0,0x1403d4370,3,"TESForm* TESObjectREFR::CreateDuplicateForm(bool a_createEditorID, BSTHashMap<TESForm*,TESForm*,BSTDefaultScatterTable>* a_copyMap)"
 1204165,0x1420e23e0,0x14216c240,4,Scaleform::GFx::AS3::TR::State::exec_declocal_i(ulong)
 1204180,0x1412e4830,0x141369640,2,"GameScript::DataFileHandleReaderWriter::DataFileHandleReaderWriter(TESFile&,BSScript::IObjectHandlePolicy&)"
 1204181,0x1436d9808,0x1437000d8,3,BGSPrimitiveEllipsoid
@@ -73179,6 +73295,7 @@ id,fo4,vr,status,name
 1232876,0x1458e3f78,0x145945bb0,2,DAT_1458e3f78
 1232887,0x142d3ba70,0x142d78ab0,2,s_Fallout4Prefs.ini_142d3ba70
 1232892,0x14008b4a0,0x14008c0b0,4,ExtraDataList::GetSound(BSSoundHandle&)
+1232894,0x140d73d80,0x140dc4660,3,void Actor::Disable()
 1232924,0x142eeacc8,0x142f30e98,2,s_morph_fsr_BitmapChar_=_%d_142eeacc8
 1232948,0x141baaa40,0x141c2a120,4,"BSPositionData::LoadData(NiStream&,uint)"
 1232955,0x141d670b0,0x141def7d0,4,"BSConnectPoint::Parent::FindParent(NiNode*,char*,NiNode*)"
@@ -73773,6 +73890,7 @@ id,fo4,vr,status,name
 1243130,0x1436cb5f8,0x1436f15f8,2,DAT_1436cb5f8
 1243136,0x143080f48,0x1430a1278,3,BSScript__Internal__CachedErrorMessageImpl__lambda_0bf7f2a013840c8c83f46a5799c25cac___0
 1243141,0x1424a07f0,0x14252a750,4,"`anonymous_namespace'::FindClosestPointFunctor(NiPoint3&,NiPoint3&,NiPoint3&,NiPoint3&,float&,float&)"
+1243143,0x14031c400,0x1403023f0,3,TESLevCharacter* TESLevCharacter::Dtor(std::uint32_t a_flags)
 1243147,0x14371ef38,0x143747150,2,DAT_14371ef38
 1243148,0x14265ce60,0x1426795f0,2,"bnet::VerifyFingerprintRequest::VerifyFingerprintRequest(bnet::GlobalInfo&,bnet::User&,char*,char*,bnet::Callback<bool,bnet::HttpResponseInfo>&)"
 1243184,0x142f0ae00,0x142f50fd0,2,s_greenOffset=_142f0ae00
@@ -73911,6 +74029,7 @@ id,fo4,vr,status,name
 1245410,0x140ced6d0,0x140d36fa0,2,"BGSSaveLoadManager::LoadGame(char*,int,uint,bool,bool)"
 1245427,0x1436cc090,0x1436f2090,3,BSTDerivedCreator_BGSProcedurePlayIdle_IProcedure_
 1245437,0x14371f9d0,0x143747be8,2,DAT_14371f9d0
+1245440,0x140d94950,0x140de55b0,3,"Actor* Actor::SetUpTalkingActivatorActor(Actor* a_target, Actor*& a_talkingActivator)"
 1245449,0x141757d70,0x1417da810,4,hknpDeactivationStepInfo::addActiveBodyPairsBegin(void)
 1245457,0x143773310,0x14379d300,3,BSTEventSource_QuickContainerStateEvent_
 1245468,0x142d4f228,0x142d8fda8,3,BSTDerivedCreator_DisableCharacterPitchHandler_IHandlerFunctor_Actor_BSFixedString___0
@@ -75734,6 +75853,7 @@ id,fo4,vr,status,name
 1276377,0x145edb500,0x145f33a10,2,DAT_145edb500
 1276401,0x1402a90c0,0x14028f440,2,"TESFile::GetChunkDataStructArrayStream<BGSCharacterTint::Template::Palette::ColorValue>(BGSCharacterTint::Template::Palette::ColorValue*,uint)"
 1276419,0x1417ebf70,0x14186ec70,4,`anonymous_namespace'::Writer::MemberWriteFlags::toBytes(uchar*)
+1276461,0x140dba9e0,0x140e0b880,3,"void Actor::InitDefaultWornImpl(bool a_weapon, bool a_allowChanges)"
 1276462,0x1420ed8e0,0x142177740,2,Scaleform::GFx::AS3::TR::State::exec_si32(void)
 1276501,0x1421e84a0,0x1422725b0,2,Scaleform::GFx::DisplayObjectBase::SetDirtyFlag(void)
 1276525,0x145a6bcc0,0x145ace370,2,DAT_145a6bcc0
@@ -76842,6 +76962,7 @@ id,fo4,vr,status,name
 1295283,0x14382f360,0x14386b1c0,2,hkaFootPlacementIkSolver
 1295305,0x142ca2548,0x142cd6828,3,std___Func_impl_std___Callable_obj__lambda_8698aa507c43b9faeedde86dfe883944__0__BSTThreadScrapSTLAllocator_void__void_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil__0
 1295310,0x1423e7190,0x1424712a0,2,"Scaleform::ArrayData<uchar,Scaleform::AllocatorLH_POD<uchar,74>,Scaleform::ArrayDefaultPolicy>::Resize(unsigned___int64)"
+1295382,0x140d746c0,0x140dc4fa0,3,void Actor::TryMoveToMiddleLow()
 1295432,0x14235e7f0,0x1423e8900,4,"Scaleform::SysFile::SysFile(Scaleform::String&,int,int)"
 1295440,0x140396a70,0x14037d180,4,"ImageSpaceModifierInstanceForm::TriggerIfNotActive(TESImageSpaceModifier*,float,NiAVObject*)"
 1295458,0x142893b40,0x142818470,2,"BSTScatterTableBase<BSShaderTechniqueIDMap::Traits<uint,BSGraphics::HullShader*>>::~BSTScatterTableBase<BSShaderTechniqueIDMap::Traits<uint,BSGraphics::HullShader*>>(void)"
@@ -77300,6 +77421,7 @@ id,fo4,vr,status,name
 1302648,0x140776520,0x1407647e0,4,PathingCell::GetCell(void)
 1302675,0x1413498f0,0x1413ce500,4,"GameScript::QuestCallbackMgr::WaitForQuestStage(uint,uint,uint,BSScript::IVirtualMachine*)"
 1302676,0x14081d7a0,0x14080dfd0,4,IAnimationGraphManagerHolder::CreateAnimationGraphManager(BSScrapArray<BSStaticStringT<260>>&)
+1302686,0x140ebb820,0x140f2a110,3,void PlayerCharacter::UpdateMotionDrivenState()
 1302704,0x142cb9a88,0x142cedb48,3,TESActorBase_4
 1302714,0x142dc1a60,0x142e03370,3,BSiStateTaggingListenerSingleton_0
 1302717,0x140c3d700,0x140c51ba0,4,_lambda_bb1b755a867d9392595fdaf7942e5cdd_::operator()
@@ -77686,6 +77808,7 @@ id,fo4,vr,status,name
 1308711,0x141dcd8e0,0x141e56210,4,bhkCharacterRigidBody::SetPosition(hkVector4f&)
 1308718,0x14012adf0,0x140131bc0,2,BSTSingletonImplicit<NavMeshObstacleCoverManager>::QInstance(void)
 1308723,0x141c64bb0,0x141ce49d0,2,NiPSysModifierCtlr::NiPSysModifierCtlr(BSFixedString&)
+1308725,0x140e136c0,0x140e67890,4,"bool Actor::CheckCast(MagicItem* a_spell, bool a_dualCast, MagicSystem::CannotCastReason* a_reason)"
 1308735,0x142d7a658,0x142dbb268,3,AutoRegisterFactory_BSTDerivedCreator_CombatPathingRequestAdapter_BSPathingRequest__BSTSmartPointerPathingFactoryManager_BSPathingRequest_64___0
 1308758,0x1438459c0,0x143881820,2,CompactingStore__MoveCallback
 1308770,0x1430925e0,0x1430b2450,3,BSImagespaceShaderAmbientOcclusion_1
@@ -78708,6 +78831,7 @@ id,fo4,vr,status,name
 1325737,0x1401bb050,0x1401c30b0,2,"BSTScatterTableKernel<BSTScatterTableTraits<uint,BGSObjectVisibilityManager::ObjectVisibilityData,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<uint>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<uint,BGSObjectVisibilityManager::ObjectVisibilityData,BSTScatterTableDefaultKVStorage>>,8>>::GetNewEntry(BSTScatterTableEntry<uint,BGSObjectVisibilityManager::ObjectVisibilityData,BSTScatterTableDefaultKVStorage>*)"
 1325739,0x1409c1f20,0x1409b4b70,4,"`anonymous_namespace'::CatmullRomInterpolate(void*,uint,float,float*)"
 1325768,0x1437195c0,0x1437417d8,2,DAT_1437195c0
+1325769,0x140d8e540,0x140ddf190,3,"float Actor::GetDesirability(TBO_InstanceData* a_instanceData, TESForm* a_form)"
 1325782,0x142cf54d8,0x142d29b98,3,AutoRegisterCreator_BGSProcedureForceGreet_BSTCreateFactoryManager_BSFixedString_IProcedure_256___0
 1325792,0x14014cee0,0x140153b10,2,TESAIForm::GetAggroRadius(uint)
 1325798,0x142c94780,0x142cc9b20,2,s_PC_Is_an_Enemy_of_the_faction._142c94780
@@ -78737,6 +78861,7 @@ id,fo4,vr,status,name
 1326140,0x142361ef0,0x1423ec000,4,Scaleform::Render::SortKey::MatchSingleItemOverlap(Scaleform::Render::SortKey&)
 1326148,0x142d25280,0x142d5b088,2,s_CancelReset_142d25280
 1326155,0x1405567e0,0x1405412c0,4,ScriptRunner::Endian(Script*)
+1326164,0x1403edab0,0x1403d5d60,3,"void TESObjectREFR::CreateGroupData(FORM* a_outGroupFORM, FORM_GROUP* a_parentGroup)"
 1326170,0x1405aa120,0x140594c00,4,TESIdleManager::TESIdleManager(void)
 1326178,0x142dcc500,0x142e0e030,2,DAT_142dcc500
 1326183,0x142d17e68,0x142d4cd18,3,BSTGlobalEvent__EventSource_ShowingVATSCritAnim__0
@@ -79032,6 +79157,7 @@ id,fo4,vr,status,name
 1331072,0x142e32838,0x142e76d88,3,BSReference_0
 1331109,0x143734118,0x14375c388,3,BSFaceGenMorphDataHead
 1331123,0x14383c0f0,0x143877f50,2,DAT_14383c0f0
+1331124,0x140eb1070,0x140f1e5b0,3,void PlayerCharacter::UpdateRefLight(float a_delta)
 1331130,0x143787a58,0x1437bf8e8,3,TargetValueModifierEffect
 1331152,0x141a84440,0x141b06db0,4,hkaAnnotationTrack::hkaAnnotationTrack(hkaAnnotationTrack&)
 1331163,0x14377a640,0x1437a7e10,3,BSTSDMTraits_BSTGlobalEvent__EventSource_BSTValueRequestEvent_CompanionMenuEnabled___BSTSingletonSDMOpStaticBuffer_BSTGlobalEvent__EventSource_BSTValueRequestEvent_CompanionMenuEnabled____
@@ -79106,6 +79232,7 @@ id,fo4,vr,status,name
 1332319,0x142d50098,0x142d90c18,3,BSTDerivedCreator_ReevaluateGraphStateHandler_IHandlerFunctor_Actor_BSFixedString___0
 1332346,0x141371d90,0x1413f69a0,2,GameVM::PostThreadInit(void)
 1332359,0x1426f85d0,0x1426c6cc0,4,"BSTArray<BSTSmartPointer<BSScript::PropertyGroupInfo,BSTSmartPointerIntrusiveRefCount>,BSScrapArrayAllocator>::CopyTo<BSTSmartPointer<BSScript::PropertyGroupInfo,BSTSmartPointerIntrusiveRefCount>,BSTArrayHeapAllocator>(BSTArray<BSTSmartPointer<BSScript::PropertyGroupInfo,BSTSmartPointerIntrusiveRefCount>,BSTArrayHeapAllocator>&)"
+1332367,0x14040b4b0,0x1403f37c0,3,void TESObjectREFR::SetAltered(bool a_altered)
 1332376,0x142426b70,0x1424b0c80,4,"Scaleform::GFx::FontCompactor::MoveTo(short,short)"
 1332421,0x1436eb7e0,0x1437129f0,3,ConcreteFormFactory_BGSCameraPath_100_
 1332425,0x140a3b3c0,0x140a3ed70,2,nsHUDMarkerData::QCSPlayerLocMarker(void)
@@ -79129,6 +79256,7 @@ id,fo4,vr,status,name
 1332797,0x142df8a6c,0x142e3a5ec,2,DAT_142df8a6c
 1332809,0x140dd6a30,0x140e27960,2,"TESEnchantableForm::ForEachEnchantingOnForm<_lambda_7ec0060fc7c1f2b50b85337231f66672_>(TESForm*,ExtraDataList*,TBO_InstanceData*,_lambda_7ec0060fc7c1f2b50b85337231f66672_&)"
 1332823,0x142d3d9c8,0x142d7ac60,3,IMemoryManagerFileFactory_0
+1332863,0x1403f8de0,0x1403e1040,3,void TESObjectREFR::UpdateRefLight(float a_delta)
 1332891,0x140ca6e10,0x140cee2c0,4,"ActorUtils::SnapIntoInteraction(Actor&,TESObjectREFR&)"
 1332909,0x14250f060,0x142599130,4,"BSNavmeshInfo::PrintDebugText(char*,uint)"
 1332926,0x142cb5028,0x142ce90f8,3,BGSIdleMarker_3
@@ -83342,6 +83470,7 @@ id,fo4,vr,status,name
 1403110,0x1436f0f90,0x143718550,3,std___Func_impl_std___Callable_obj__lambda_fad6a62dfe7fdb293fc18fb1b8f8cdfb__0__BSTThreadScrapSTLAllocator_void__void_BSFixedString_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_std___Nil_
 1403119,0x1438532b4,0x1438afc80,2,DAT_1438532b4
 1403141,0x141af5950,0x141b782d0,4,BSXAudio2DataSrc::GetStreamPacket(void)
+1403170,0x140eb4410,0x140f22700,3,std::uint32_t PlayerCharacter::GetNonViolentCrimeGoldValue(TESFaction* a_faction)
 1403180,0x14021f580,0x14022f060,2,"ClearArray<PowerUtils::PowerGrid,BSTArrayHeapAllocator>(BSTArray<PowerUtils::PowerGrid*,BSTArrayHeapAllocator>&,bool)"
 1403198,0x142e6ece8,0x142ec11c8,3,hkbParticleSystemEventPayload_0
 1403200,0x145a6ab30,0x145acd1d0,2,DAT_145a6ab30
@@ -83830,6 +83959,7 @@ id,fo4,vr,status,name
 1411455,0x1436d6318,0x1436fc8c0,3,TESImageSpaceModifiableForm
 1411457,0x14016a990,0x1401715e0,4,"ActionInput::ActionInput(ActionInput::ACTIONPRIORITY,TESObjectREFR*,BGSAction*,TESObjectREFR*,ActionInput::Data)"
 1411462,0x141ca4760,0x141d245f0,4,IOManager::ScheduleTask(IOTask*)
+1411483,0x140ea6bb0,0x140f11950,3,"void PlayerCharacter::PickUpObject(TESObjectREFR* a_ref, std::int32_t a_count, bool a_playPickUpSounds)"
 1411484,0x142d05b70,0x142d3a340,2,s_(At_Mark)_142d05b70
 1411514,0x143770180,0x14379a150,3,BSTEventSink_HUDPerkVaultBoyData_
 1411559,0x1403b3b70,0x14039a240,4,TESObjectCELL::QueueCombinedObjectArt(void)
@@ -85239,6 +85369,7 @@ id,fo4,vr,status,name
 1433923,0x142338f10,0x1423c3020,2,"Scaleform::ArrayDataBase<Scaleform::Render::D3D1x::MeshBuffer*,Scaleform::AllocatorLH<Scaleform::Render::D3D1x::MeshBuffer*,2>,Scaleform::ArrayDefaultPolicy>::Reserve(void*,unsigned___int64)"
 1433932,0x140208430,0x140217d60,4,Workshop::FindLocation(void)
 1433948,0x143712f70,0x14373a810,2,DAT_143712f70
+1433949,0x140d87ef0,0x140dd8a60,3,void Actor::CollectPickNodes()
 1433999,0x14380db30,0x143849850,2,_lambda_b71d28fc0f58e163d52c746c9185a6bc_
 1434015,0x1426ead00,0x1426b93f0,2,"BSTScatterTableBase<BSTScatterTableTraits<BSFixedString,BSScript::MergedBoundScript,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableScrapAllocator<BSTScatterTableEntry<BSFixedString,BSScript::MergedBoundScript,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
 1434021,0x1428a7370,0x1428df7b0,4,"Umbra::DownsampledDepthBuffer::DownsampledDepthBuffer(Umbra::Matrix4x4&,Umbra::Matrix4x4&,Umbra::Vector3&,Umbra::ImpOcclusionBuffer*)"
@@ -85761,6 +85892,7 @@ id,fo4,vr,status,name
 1443027,0x1437b4af0,0x1437f0820,2,AutoRegisterCreator_CombatAreaReference_BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 1443053,0x14002bda0,0x14002c9a0,4,"BSTArray<ImportantEventData,BSTArrayHeapAllocator>::Add<BSFixedString&>(BSFixedString&)"
 1443075,0x14156ed70,0x1415f5cb0,2,"hkcdTreeQueries<hkcdTreeQueriesStacks::Dynamic,64,0>::visible<hknpStaticCompoundShapeTree,hknpCompoundShapeInternals<hknpStaticCompoundShapeInternals>::RayCast<1>>(hknpStaticCompoundShapeTree&,hkcdRay&,hknpCompoundShapeInternals<hknpStaticCompoundShapeInternals>::RayCast<1>&)"
+1443080,0x1403f84e0,0x1403e0740,3,void TESObjectREFR::ResumeCurrentDialogue()
 1443081,0x14172b3e0,0x1417abdf0,4,"`anonymous_namespace'::GraphInspectionInactiveHelper(hkbContext&,hkbNode&,hkbNodeType&,bool)"
 1443098,0x14379a2c0,0x1437d5790,2,AutoRegisterCreator_MovementTweenerAgentNodeFollower_BSTCreateFactoryManager_BSFixedString_MovementAgent_64__
 1443138,0x142ed1af0,0x142f17bc0,2,s_tabEnabledChange_142ed1af0
@@ -86251,6 +86383,7 @@ id,fo4,vr,status,name
 1451226,0x1436d0268,0x1436f63f8,3,MagicItemFindKeywordFunctor
 1451253,0x140699d50,0x140687f50,4,ActorCause::GetActorCauseByID(int)
 1451322,0x14035a180,0x140340720,2,"BSTBTreePolicy<SubgraphIdentifier,SubgraphIdentifier,BSTScrapSet<SubgraphIdentifier>::Entry,BSTObjectArenaScrapAlloc,128,0>::NewNode(void)"
+1451361,0x140dc4820,0x140e15760,3,bool Actor::ShouldPerformRevert()
 1451391,0x1424c3d40,0x14254dca0,2,BSTSingletonImplicit<NullPathBuilderTracker>::QInstance(void)
 1451411,0x143795dc8,0x1437d0608,2,DAT_143795dc8
 1451415,0x145ad68a8,0x145b380e8,2,DAT_145ad68a8
@@ -86791,6 +86924,7 @@ id,fo4,vr,status,name
 1460046,0x142d75948,0x142db6558,3,BSTDerivedCreator_CombatPathT_CombatPath_CombatPathRequestGeneric_CombatPathingGoalPolicyInvestigateLocation_CombatPathingSearchPolicyStandard__CombatPathDestinationLocation__CombatObjectBase__0
 1460049,0x1437ed370,0x1437f2640,2,AutoRegisterFactory_BSTDerivedCreator_CombatPathT_CombatCoveredPath_CombatPathRequestGeneric_CombatPathingGoalPolicyFindFlankCover_CombatPathingSearchPolicyStandard__CombatPathDestinationNone__CombatObjectBase__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 1460054,0x141b4aab0,0x141bca450,2,"BSTLocklessQueue::PtrMultiProdCons<BSSystemFileStreamer::ControlRequest,16384,0>::Add(BSSystemFileStreamer::ControlRequest*)"
+1460064,0x140eb5c30,0x140f23f20,3,NiPoint3 PlayerCharacter::GetLookingAtLocation()
 1460083,0x1437dff58,0x1437ef4a8,2,CombatDisableActionController
 1460109,0x1422e36f0,0x14236d800,4,Scaleform::GFx::TextField::IsIMEEnabled(void)
 1460131,0x143826480,0x143862280,2,BSScript__Internal__CachedErrorMessageImpl__lambda_a066242f84b30c708d1a072e17408fc6__
@@ -88222,6 +88356,7 @@ id,fo4,vr,status,name
 1483792,0x140af40b0,0x140b12660,2,_lambda_aca54ab589a798452c1dc4fdbea8c1f1_::operator()
 1483805,0x1437f7e10,0x143833c20,2,AutoRegisterCreator_CombatPathT_CombatPath_CombatPathRequestStraightPath_CombatPathDestinationLocation__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 1483810,0x142c17628,0x142c4c648,2,PTR_setg_142c17628
+1483816,0x140ec06d0,0x140f2f540,3,"bool PlayerCharacter::GetBehaviorRootData(bool a_onlyCollectActiveRoots, BSScrapArray<BGSBehaviorRootData>& a_behaviorRoots)"
 1483822,0x141ba8e90,0x141c28570,4,NiQuaternion::Log(NiQuaternion&)
 1483823,0x142edbd00,0x142f21de0,2,s_multiply_142edbd00
 1483824,0x145ad7b98,0x145b39348,2,DAT_145ad7b98
@@ -88316,6 +88451,7 @@ id,fo4,vr,status,name
 1485263,0x142516560,0x1425a0630,2,"BSTArray<BSTArray<BSNavmeshInfo*,BSTArrayHeapAllocator>*,BSTArrayHeapAllocator>::ForEach<BSContainer::ArrayElementDeleter<BSTArray<BSNavmeshInfo*,BSTArrayHeapAllocator>>>(BSContainer::ArrayElementDeleter<BSTArray<BSNavmeshInfo*,BSTArrayHeapAllocator>>&)"
 1485265,0x143849340,0x143885440,2,NiTStringPointerMap_NiObject___void__
 1485275,0x1436e0610,0x143707390,3,ConcreteObjectFormFactory_BGSAudioEffectChain_149_117_8_
+1485290,0x140da8ed0,0x140df9bc0,3,void Actor::StopCurrentDialogue(bool a_force)
 1485296,0x142dc4500,0x142e05f10,2,DAT_142dc4500
 1485305,0x143787890,0x1437bf708,3,StimpakEffect
 1485307,0x142c5b750,0x142c92388,2,DAT_142c5b750
@@ -89332,6 +89468,7 @@ id,fo4,vr,status,name
 1502849,0x140315150,0x1402fb050,4,TESFurniture::IsSpecial(void)
 1502853,0x143717c88,0x14373f660,2,DAT_143717c88
 1502859,0x14381fc60,0x14385b9c0,2,BSScript__NativeFunction2_TESObjectREFR_BSScript__ArrayWrapper_TESObjectREFR__BGSKeyword_BGSKeyword_
+1502880,0x140d7f7f0,0x140dd02b0,3,TESPackage* Actor::CheckForCurrentAliasPackage()
 1502881,0x1465774a0,0x1465d8600,2,DAT_1465774a0
 1502908,0x1458dbb94,0x14593dc74,2,DAT_1458dbb94
 1502917,0x141b0f230,0x141b91bb0,4,"MemoryManager::Reallocate(void*,unsigned___int64,uint,bool)"
@@ -89737,6 +89874,7 @@ id,fo4,vr,status,name
 1509668,0x142c69118,0x142c9ddc8,3,MovementHandlerAgentGraphDrivenAnimationDriven_0
 1509675,0x1436e0b40,0x1437078d0,3,AutoRegisterFactory_BSTDerivedCreator_BGSCompoundSoundDef_BGSSoundDescriptor__BSTCreateFactoryManager_unsignedint_BGSSoundDescriptor_8__
 1509684,0x142d16da4,0x142d4bcb4,2,DAT_142d16da4
+1509693,0x140da9400,0x140dfa0f0,3,void Actor::FadeCurrentDialogue()
 1509700,0x143035738,0x14307bc28,3,MovementTweenerAgentTargetPosAndVel_3
 1509725,0x146593c98,0x1465f4e88,2,DAT_146593c98
 1509766,0x141a77390,0x141af9d00,4,"hkServerProcessHandler::hkServerProcessHandler(hkArray<hkProcessContext*,hkContainerHeapAllocator>&,hkStreamReader*,hkStreamWriter*)"
@@ -90085,6 +90223,7 @@ id,fo4,vr,status,name
 1515725,0x140f64b90,0x140fe91e0,2,"BSTScatterTableBase<BSTScatterTableTraits<BSFixedString,BSTSmartPointer<IHandlerFunctor<Actor,BSFixedString>,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSFixedString,BSTSmartPointer<IHandlerFunctor<Actor,BSFixedString>,BSTSmartPointerIntrusiveRefCount>,BSTScatterTableDefaultKVStorage>>,8>>::KillTable<void_(BSFixedString&,BSTSmartPointer<IHandlerFunctor<Actor,BSFixedString>,BSTSmartPointerIntrusiveRefCount>&)>(void_(&)(BSFixedString&,BSTSmartPointer<IHandlerFunctor<Actor,BSFixedString>,BSTSmartPointerIntrusiveRefCount>&),bool)"
 1515731,0x142d0f4b8,0x142d43eb8,3,CombatNavmeshSearchTunnel_CombatPathingGoalPolicyCovered_CombatPathingSearchPolicyStandard__0
 1515747,0x143088198,0x1430a7c28,3,BSImagespaceShaderNonHDRBlur9_2
+1515756,0x140323650,0x1403095b0,3,bool TESObject::IsMarker()
 1515767,0x145a66c18,0x145ac8cf8,2,DAT_145a66c18
 1515785,0x142e0a078,0x142e4bbf8,2,DAT_142e0a078
 1515788,0x145a05ec0,0x145a672c0,2,BSTempEffectParticle
@@ -90784,6 +90923,7 @@ id,fo4,vr,status,name
 1526865,0x141da4000,0x141e2c910,4,"bhkCharacterControllerShapeManager::GetCapsuleShape(NiPoint3&,NiPoint3&,float)"
 1526877,0x142f13df4,0x142f59fc4,2,DAT_142f13df4
 1526881,0x145a01258,0x145a62498,2,DAT_145a01258
+1526887,0x140154e40,0x14015ba70,4,std::uint32_t TESForm::GetFilledSlots()
 1526892,0x1437c87a0,0x143804520,2,CombatInventoryItemMagicT_CombatInventoryItemStaff_CombatMagicCasterParalyze_
 1526893,0x142c9c6e0,0x142cd1bd0,2,s_AI_Detection_stats_printing_is_%_142c9c6e0
 1526929,0x145c0a84c,0x145c6315c,2,DAT_145c0a84c
@@ -91194,6 +91334,7 @@ id,fo4,vr,status,name
 1534607,0x142d44720,0x142d81de8,3,PlayerCharacter_21
 1534643,0x14247bf50,0x142506060,4,png_handle_sRGB
 1534645,0x14162aa60,0x1416b2420,4,"BSTScatterTableBase<BSTScatterTableTraits<BSFixedString,int,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSFixedString,int,BSTScatterTableDefaultKVStorage>>,8>>::ForEachImpl<BShkbAnimationGraphInternal::PublishChannelsFunctor>(BShkbAnimationGraphInternal::PublishChannelsFunctor&)"
+1534655,0x14034b4a0,0x140331750,3,bool TESObjectWEAP::Load(TESFile* a_file)
 1534658,0x14374dfd8,0x143776c68,3,CombatBehaviorTreeNode
 1534669,0x1459da3d0,0x145a3ba50,2,DAT_1459da3d0
 1534687,0x142d7d830,0x142dbe450,3,AutoRegisterPathBuilderFactory_CombatPathingRequestGeneric_CombatPathingGoalPolicyRetreat_CombatPathingSearchPolicyStandard__CombatPathingRequestBuilder__0
@@ -91285,6 +91426,7 @@ id,fo4,vr,status,name
 1536064,0x142d27ae0,0x142d5e048,3,BSTEventSink_BSTValueRequestEvent_ShowingVATSCritAnim___0
 1536071,0x1436eae70,0x143712078,2,DAT_1436eae70
 1536128,0x1404eaed0,0x1404d3f70,4,"ScriptCompiler::MessageBoxCompile(ushort,SCRIPT_PARAMETER*,SCRIPT_LINE*,ScriptCompileData*,bool,bool)"
+1536131,0x140cf1c80,0x140d3b380,3,"BSEventNotifyControl BGSSaveLoadManager::ProcessEvent(SPECIALMenuEvent::NameChangedEvent& a_event, BSTEventSource<SPECIALMenuEvent::NameChangedEvent>* a_source)"
 1536143,0x145a6b41c,0x145acdabc,2,DAT_145a6b41c
 1536171,0x142769e80,0x142738570,4,"BSTScatterTableBase<BSTScatterTableTraits<unsigned___int64,BSTSmallSharedArray<BSScript::Internal::AttachedScript>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<BSScript::Internal::AttachedScript>,BSTScatterTableDefaultKVStorage>>,8>>::RemoveAtImpl(BSTScatterTableBase<BSTScatterTableTraits<unsigned___int64,BSTSmallSharedArray<BSScript::Internal::AttachedScript>,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<unsigned___int64>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<unsigned___int64,BSTSmallSharedArray<BSScript::Internal::AttachedScript>,BSTScatterTableDefaultKVStorage>>,8>>::Iterator&)"
 1536177,0x14211f740,0x1421a9850,2,"Scaleform::RadixTree<Scaleform::HeapMH::NodeMH,Scaleform::HeapMH::TreeNodeAccessor>::Remove(Scaleform::HeapMH::NodeMH*)"
@@ -92300,6 +92442,7 @@ id,fo4,vr,status,name
 1553621,0x142db94a4,0x142dfadc4,2,DAT_142db94a4
 1553622,0x140163220,0x140169e70,2,"BSVisit::TraverseScenegraphAVObjects<_lambda_1649b116a161923bccb8df30a2dc0f96_>(NiAVObject*,_lambda_1649b116a161923bccb8df30a2dc0f96_&)"
 1553638,0x141cf0930,0x141d727d0,4,BSCompoundFrustum::Allocate(void)
+1553642,0x140e9f440,0x140f08630,3,void PlayerCharacter::ResetHavokPhysics()
 1553652,0x142ebaa70,0x142f00b30,2,s__PlaceObject2Tag_142ebaa70
 1553677,0x141d97bb0,0x141e204b0,4,bhkCharacterControllerCinfo::ReleaseDefaultManager(void)
 1553685,0x142cf0fe8,0x142d256a8,3,BSTDerivedCreator_BGSProcedureHeadtrackExecState_IProcedureTreeExecState__0
@@ -92936,6 +93079,7 @@ id,fo4,vr,status,name
 1564407,0x1459d6b78,0x145a38198,2,DAT_1459d6b78
 1564429,0x145975e20,0x1459d7550,2,DAT_145975e20
 1564436,0x141348390,0x1413ccfa0,2,"BSTScatterTableBase<BSTScatterTableTraits<BSFixedString,BSLog*,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableHeapAllocator<BSTScatterTableEntry<BSFixedString,BSLog*,BSTScatterTableDefaultKVStorage>>,8>>::Rehash(void)"
+1564447,0x140eba2c0,0x140f28b00,3,bool PlayerCharacter::IsReadyForAttach(IO_TASK_PRIORITY& a_priority)
 1564448,0x142d19280,0x142d4e588,3,BSTValueEventSink_HUDRolloverStateEvent__0
 1564468,0x14372ff50,0x1437581a0,2,PTR_DAT_14372ff50
 1564476,0x142d0be68,0x142d408c8,3,CombatBehaviorTreeConditionalNode_CombatBehaviorExpression_CombatBehaviorFunc1_bool___float__CombatBehaviorExpression_CombatBehaviorMemberFunc1_CombatBehaviorContextChargingMovement_float_CombatBehaviorContextChargingMovement____bool__bool______0
@@ -93017,6 +93161,7 @@ id,fo4,vr,status,name
 1565584,0x140fc91f0,0x14104d870,4,Projectile::Manager::Add(Projectile*)
 1565608,0x1411d91a0,0x14125af50,4,CombatPath::Start(void)
 1565611,0x14383ee80,0x14387ace0,2,hkSignal2_hknpEventHandlerInputconst_hknpEventconst___MemberSlot_hknpCharacterRigidBody_void_hknpCharacterRigidBody____hknpEventHandlerInputconst_hknpEventconst__
+1565612,0x140eb3e00,0x140f220f0,3,"void PlayerCharacter::SetCrimeGoldValue(TESFaction* a_faction, bool a_violent, std::uint32_t a_value)"
 1565619,0x141b9c5c0,0x141c1ba00,2,"BSGeometrySegmentData::BSGeometrySegmentData(uint,uint)"
 1565645,0x142dba040,0x142dfbbf0,2,DAT_142dba040
 1565673,0x140cdcf60,0x140d26860,4,"BGSSaveLoadGame::GetOldChange(TESForm*,BGSChangeFlags)"
@@ -93471,6 +93616,7 @@ id,fo4,vr,status,name
 1572429,0x14041fa30,0x140407d40,4,BGSInventoryItem::ForEachExtraList<CollectUsedUniqueIDsVisitor>(CollectUsedUniqueIDsVisitor&)
 1572446,0x1422d23c0,0x14235c4d0,4,Scaleform::Render::DrawableImage::addCommand<Scaleform::Render::DICommand_Draw>(Scaleform::Render::DICommand_Draw&)
 1572449,0x140c7a120,0x140cc0da0,4,_lambda_3101fc7cb63ebc25e95b01dee629b5b3_::operator()
+1572485,0x140d74ce0,0x140dc55c0,3,void Actor::SaveGameTest()
 1572498,0x143807d38,0x143843a50,2,DAT_143807d38
 1572538,0x14001e290,0x14001e290,4,"BSTBTreePolicy<BSFixedString,Setting*,SettingCollectionMap<Setting>::Entry,BSTObjectArenaHeapAlloc,128,0>::Search<BSTBTreePolicy<BSFixedString,Setting*,SettingCollectionMap<Setting>::Entry,BSTObjectArenaHeapAlloc,128,0>::ExtractValueFunctor>(BSTBTreePolicy<BSFixedString,Setting*,SettingCollectionMap<Setting>::Entry,BSTObjectArenaHeapAlloc,128,0>::Node*,BSFixedString&,BSTBTreePolicy<BSFixedString,Setting*,SettingCollectionMap<Setting>::Entry,BSTObjectArenaHeapAlloc,128,0>::ExtractValueFunctor&)"
 1572553,0x14251b480,0x1425a5550,4,BSPathingLOSGridMap::Clear(void)
@@ -93564,6 +93710,7 @@ id,fo4,vr,status,name
 1573973,0x1409c4b90,0x1409b77e0,4,`anonymous_namespace'::InitializeInternalHandleData(void)
 1573975,0x14302a900,0x143070ad0,2,s_zlib_error_14302a900
 1573976,0x14069f7f0,0x14068d9f0,2,ActorValueInfo::QAbbreviation(void)
+1573977,0x140ea65a0,0x140f11340,3,"bool PlayerCharacter::PopulateGraphProjectsToLoad(NiAVObject* a_obj3D, BSScrapArray<BSStaticStringT<260>>& a_projectFilenames)"
 1573997,0x141be26a0,0x141c623f0,4,"NiBoxBV::NiBoxBV(NiPoint3&,NiPoint3&,NiPoint3&,NiPoint3&,NiPoint3&)"
 1573999,0x14371c230,0x143744448,2,DAT_14371c230
 1574018,0x143715824,0x14373d1a4,2,DAT_143715824
@@ -93734,6 +93881,7 @@ id,fo4,vr,status,name
 1576769,0x140f9c940,0x141021070,4,"`anonymous_namespace'::RevertRagdollState(A0x2e0db649::ContactListenerData&,NiAVObject*)"
 1576811,0x143865f10,0x1438c2880,2,BSTSDMTraits_UI_BSTSingletonSDMOpStaticBuffer_UI__
 1576815,0x141bc3650,0x141c43d90,4,"BSDynamicTriShape::UpdateDynamicPositionsEyeData(NiPoint3*,float*,bool)"
+1576827,0x140402680,0x1403ea980,3,void TESObjectREFR::InitHavok()
 1576834,0x1458d4f10,0x145936ff0,2,DAT_1458d4f10
 1576855,0x140612630,0x1405fcf40,4,TESResponse::GetAnimFaceArchType(void)
 1576868,0x142c175b8,0x142c4c070,2,PTR_Sleep_142c175b8
@@ -93952,6 +94100,7 @@ id,fo4,vr,status,name
 1580666,0x140cdaa30,0x140d236f0,4,BGSSaveLoadFileEntry::GetPlayerLevel(void)
 1580676,0x142cf6060,0x142d2a720,2,s_Hold_Until_Engaged_Location_142cf6060
 1580757,0x14385b230,0x1438ba1b0,2,hkbRaiseEventCommand
+1580775,0x1403f79a0,0x1403dfc40,3,void TESObjectREFR::SetCurrentScene(BGSScene* a_scene)
 1580778,0x1400d24e0,0x1400d30e0,4,BSSpline::BSSpline(SPLINE_TYPE)
 1580780,0x141405500,0x14148a650,4,"GameScript::`anonymous_namespace'::latentMem_ObjectReference_Enable(BSScript::IVirtualMachine*,uint,TESObjectREFR*,bool)"
 1580788,0x141aa3580,0x141b25f00,4,createNewNode
