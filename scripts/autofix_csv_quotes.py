@@ -23,7 +23,7 @@ def process_file(filepath: str) -> int:
     writer = csv.writer(output, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
     writer.writerows(rows)
     new_content = output.getvalue()
-    # fo4_database.csv is committed without a final newline; keep it that way.
+    # A file committed without a final newline keeps it that way.
     if not original_content.endswith("\n"):
         new_content = new_content.rstrip("\n")
 
