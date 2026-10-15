@@ -59558,7 +59558,7 @@ id,fo4,vr,status,name
 1004784,0x1408acfe0,0x14089fce0,4,CombatCoveredPath::LeaveCoverLocation(void)
 1004786,0x143719a70,0x143741c88,2,DAT_143719a70
 1004855,0x1403b0da0,0x140397530,2,TESObjectCELL::GetDataFogPower(void)
-1004882,0x140132b60,0x1401397a0,3,"TESFile* TESFile::sub_140132B60(std::uint32_t a_threadID, std::uint32_t a_value)"
+1004882,0x140132b60,0x1401397a0,3,"TESFile* TESFile::GetThreadSafeFileForThread(std::uint32_t a_threadID, std::uint32_t a_value)"
 1004897,0x1437f9e00,0x143835c10,2,AutoRegisterFactory_BSTDerivedCreator_CombatPathT_CombatPath_CombatPathRequestFlight_CombatPathDestinationLocation__CombatObjectBase__BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 1004918,0x1423b1c30,0x14243bd40,2,"Scaleform::GFx::AS3::CSSTextFormatLoader::Process(Scaleform::GFx::AS3::Instances::fl_text::TextFormat*,Scaleform::GFx::AS3::Object*)"
 1004919,0x1436e4a10,0x14370b840,2,DAT_1436e4a10
@@ -77846,7 +77846,7 @@ id,fo4,vr,status,name
 1314028,0x1401fa080,0x140209990,2,"`anonymous_namespace'::hknpClosestPointFuncs::compoundVsShape(hknpCollisionQueryContext*,hknpClosestPointsQuery&,hknpShapeQueryInfo&,hknpShape*,hknpQueryFilterData&,hknpShapeQueryInfo&,hkTransformf&,bool,hknpCollisionQueryCollector*)"
 1314046,0x140d79b80,0x140dca5f0,4,Actor::ReserveFurniture(TESObjectREFR*)
 1314059,0x1418f9610,0x14197b8c0,2,"hknpSimulation::checkConsistencyOfCacheGrids(hknpWorld*,int,hkBlockStream<hknpCollisionCache>&,hknpCollisionCacheStream&,hknpGrid<hkBlockStreamBase::Range>*,hknpGrid<hkBlockStreamBase::Range>*,bool)"
-1314081,0x141627bb0,0x1416af570,4,bool BShkbAnimationGraph::sub_141627BB0()
+1314081,0x141627bb0,0x1416af570,4,void BShkbAnimationGraph::RagdollInstanceCreatedImpl(hknpBSWorld* a_world)
 1314095,0x1421a7640,0x142231750,4,"Scaleform::HashSetBase<Scaleform::GFx::AS3::Instances::fl::Namespace*,Scaleform::GFx::AS3::NamespaceInstanceFactory::NamespaceHashFunc,Scaleform::GFx::AS3::NamespaceInstanceFactory::NamespaceHashFunc,Scaleform::AllocatorLH<Scaleform::GFx::AS3::Instances::fl::Namespace*,2>,Scaleform::HashsetEntry<Scaleform::GFx::AS3::Instances::fl::Namespace*,Scaleform::GFx::AS3::NamespaceInstanceFactory::NamespaceHashFunc>>::setRawCapacity(void*,unsigned___int64)"
 1314101,0x14082a000,0x14081a810,2,"`anonymous_namespace'::unwrapMaskedShapeShapeCastFunc<1>(hknpCollisionQueryContext*,hknpShapeCastQuery&,hknpShapeQueryInfo&,hknpShape*,hknpQueryFilterData&,hknpShapeQueryInfo&,hkTransformf&,bool,hknpCollisionQueryCollector*,hknpCollisionQueryCollector*)"
 1314121,0x14188b4a0,0x14190f410,4,"hkbGeneratorOutputUtils::computeTrackBufferSizeBytes(int,hkbGeneratorOutputUtils::TrackInfo*)"
