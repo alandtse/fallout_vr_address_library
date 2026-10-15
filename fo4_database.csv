@@ -7534,7 +7534,7 @@ id,fo4,vr,status,name
 124875,0x142ec7cc0,0x142f0dd80,2,PTR_FUN_142ec7cc0
 124910,0x142eba8a8,0x142f00968,2,s__GFx_DefineBitsJpeg3Loader:_char_142eba8a8
 124943,0x14381cee0,0x143858c40,2,BSScript__NativeFunction1_TESObjectCELL_void_TESNPC_
-124946,0x1426a6770,0x1426919c0,2,"std::_Uninit_move<bnet::MediaImage*,bnet::MediaImage*,bnet::_impl::StdAllocator<bnet::MediaImage>,bnet::MediaImage>(bnet::MediaImage*,bnet::MediaImage*,bnet::MediaImage*,std::_Wrap_alloc<bnet::_impl::StdAllocator<bnet::MediaImage>>&,bnet::MediaImage*,std::_Nonscalar_ptr_iterator_tag)"
+124946,0x1426a6770,0x142691730,3,"bnet::MediaImage* std::_Uninit_move<bnet::MediaImage*,bnet::MediaImage*,bnet::_impl::StdAllocator<bnet::MediaImage>,bnet::MediaImage>(bnet::MediaImage* a_first, bnet::MediaImage* a_last, bnet::MediaImage* a_dest, std::_Wrap_alloc<bnet::_impl::StdAllocator<bnet::MediaImage>>& a_alloc, bnet::MediaImage* a_valueType, std::_Nonscalar_ptr_iterator_tag a_tag)"
 124994,0x1437aed70,0x1437ea950,2,AutoRegisterFactory_BSTDerivedCreator_EjectShellCasingHandler_IHandlerFunctor_Actor_BSFixedString___BSTCreateFactoryManager_BSFixedString_IHandlerFunctor_Actor_BSFixedString__256__
 125023,0x1409e9560,0x1409e88a0,4,"BuildABot::CanModBePlacedAtIdx(BGSMod::Attachment::Mod&,uchar)"
 125102,0x145ac7bb8,0x145b29140,2,DAT_145ac7bb8
@@ -11943,7 +11943,7 @@ id,fo4,vr,status,name
 201289,0x145b67548,0x145bbc9d8,2,DAT_145b67548
 201301,0x1414853d0,0x14150aac0,2,"std::_Uninit_move<Json::OurReader::StructuredError*,Json::OurReader::StructuredError*,std::allocator<Json::OurReader::StructuredError>,Json::OurReader::StructuredError>(Json::OurReader::StructuredError*,Json::OurReader::StructuredError*,Json::OurReader::StructuredError*,std::_Wrap_alloc<std::allocator<Json::OurReader::StructuredError>>&,Json::OurReader::StructuredError*,std::_Nonscalar_ptr_iterator_tag)"
 201304,0x142d4e2e8,0x142d8ee68,3,BSTDerivedCreator_BowZoomStartHandler_IHandlerFunctor_Actor_BSFixedString___0
-201308,0x14030eb40,0x1402f4a70,2,TESCombatStyle::QHoverChance(void)
+201308,0x14030eb40,0x1402f4a60,4,float TESCombatStyle::QHoverChance()
 201311,0x145b067f0,0x145b67160,2,DAT_145b067f0
 201321,0x142ced590,0x142d21c60,2,s_ConditionRateMult_142ced590
 201345,0x14157ff90,0x1416073a0,4,hknpCompressedMeshShape::computeRuntimeInfo(void)
@@ -14396,7 +14396,7 @@ id,fo4,vr,status,name
 244088,0x1438c2210,0x1439178f0,2,BSScript__Internal__CachedErrorMessageImpl__lambda_55b0c554b1350278029c169d86615681__
 244092,0x140c11df0,0x140c252d0,4,PipboyInventoryData::ClearAllItemsOnSection(ENUM_FORM_ID)
 244095,0x14274baa0,0x14271a190,4,BSScript::Internal::`anonymous_namespace'::BuildReloadListFunctor::ProcessType(BSFixedString&)
-244096,0x141c1f950,0x141c9f610,2,NiSingleInterpController::IsEqual(NiObject*)
+244096,0x141c1f950,0x141c9f6a0,3,bool NiSingleInterpController::IsEqual(NiObject* a_object)
 244120,0x146721a28,0x146878088,2,DAT_146721a28
 244123,0x143800760,0x14383c570,2,AutoRegisterCreator_CombatApproachTargetPathController_BSTCreateFactoryManager_unsignedint_CombatObjectBase_512__
 244124,0x140e756e0,0x140ec9ab0,2,AIProcess::SetFurnitureEntryFootstepDeltaTarget(float)
@@ -28410,7 +28410,7 @@ id,fo4,vr,status,name
 480782,0x14302d010,0x1430731e0,2,s_Invalid_image_color_type_specifi_14302d010
 480783,0x143833d30,0x14386fb90,2,hknpBuildConstraintJacobiansTask
 480818,0x143772280,0x14379c260,3,BSTEventSink_HUDNotificationDisplayEvent_
-480840,0x14030e9f0,0x1402f4900,2,TESCombatStyle::QAttackWhenIncapacitatedMult(void)
+480840,0x14030e9f0,0x1402f4910,4,float TESCombatStyle::QAttackWhenIncapacitatedMult()
 480841,0x1416418f0,0x1416c92b0,4,"BSTScatterTableKernel<BSTScatterTableTraits<BSFixedString,BShkbUtils::SavedDirectAtModifierData,BSTScatterTableDefaultKVStorage,BSTScatterTableDefaultHashPolicy<BSFixedString>,BSTScatterTableScrapAllocator<BSTScatterTableEntry<BSFixedString,BShkbUtils::SavedDirectAtModifierData,BSTScatterTableDefaultKVStorage>>,8>>::GetNewEntry(BSTScatterTableEntry<BSFixedString,BShkbUtils::SavedDirectAtModifierData,BSTScatterTableDefaultKVStorage>*)"
 480866,0x142d40d80,0x142d7e0f0,3,EquipActorOutfitItemsFunctor_0
 480883,0x14024cf40,0x14025dfe0,4,"PowerUtils::PowerGrid::Split(TESObjectREFR*,TESObjectREFR*,BSScrapArray<TESObjectREFR*>*)"
@@ -31670,7 +31670,7 @@ id,fo4,vr,status,name
 536261,0x14080e860,0x1407ff070,4,BGSSynchronizedAnimationInstance::UpdateModelSpace(void)
 536268,0x143030c40,0x1430770b0,3,AutoRegisterFactory_BSTDerivedCreator_MovementAgentPathFollowerStandard_MovementAgent__BSTCreateFactoryManager_BSFixedString_MovementAgent_64___0
 536310,0x14382a548,0x143866388,2,hkContainerHeapAllocator__Allocator
-536352,0x1400413d0,0x140042060,2,sub_1400413D0
+536352,0x1400413d0,0x140041f60,3,void BGSObjectInstanceExtra::sub_1400413D0(void* a_functor)
 536374,0x142df263c,0x142e341ac,2,s___sub_142df263c
 536381,0x1458dfa70,0x145941988,2,DAT_1458dfa70
 536398,0x14146e680,0x1414f39f0,4,"GameScript::TimerEventHandler::ForEachGameTimeTimer(BSScript::Object&,BSTThreadScrapFunction<BSContainer::ForEachResult_(uint,float)>&)"
@@ -46037,7 +46037,7 @@ id,fo4,vr,status,name
 777873,0x140a71bf0,0x140a756d0,2,BSTEventSource<HUDObjectiveDisplayEvent>::Notify(HUDObjectiveDisplayEvent&)
 777908,0x142cf0b10,0x142d251d0,3,BSTDerivedCreator_BGSProcedureAcquireExecState_IProcedureTreeExecState__0
 777909,0x140365a00,0x14034c0d0,4,BGSCombinedCellGeometryDB::Unpacker::ThreadData::~ThreadData(void)
-777914,0x1426a6460,0x1426912e0,2,"std::_Uninit_copy<std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>>,bnet::MediaImage*,bnet::_impl::StdAllocator<bnet::MediaImage>>(std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>>,std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>>,bnet::MediaImage*,std::_Wrap_alloc<bnet::_impl::StdAllocator<bnet::MediaImage>>&,std::_Nonscalar_ptr_iterator_tag)"
+777914,0x1426a6460,0x1426914d0,3,"bnet::MediaImage* std::_Uninit_copy<std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>>,bnet::MediaImage*,bnet::_impl::StdAllocator<bnet::MediaImage>>(std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>> a_first, std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<bnet::MediaImage>>>> a_last, bnet::MediaImage* a_dest, std::_Wrap_alloc<bnet::_impl::StdAllocator<bnet::MediaImage>>& a_alloc, std::_Nonscalar_ptr_iterator_tag a_tag)"
 777919,0x142df8ae8,0x142e3a668,2,s_operator_%s_is_not_supported_for_142df8ae8
 777945,0x1458df510,0x145941400,2,DAT_1458df510
 777983,0x142366890,0x1423f09a0,4,"Scaleform::Render::GradientImage::GradientImage(Scaleform::Render::PrimitiveFillManager*,Scaleform::Render::GradientData*,float)"
@@ -69426,7 +69426,7 @@ id,fo4,vr,status,name
 1171852,0x14371ea40,0x143746c58,2,DAT_14371ea40
 1171857,0x14307bac7,0x14309bd27,2,DAT_14307bac7
 1171866,0x141756de0,0x1417d9880,4,hknpDeactivationManager::addInactiveBody(hknpBodyId)
-1171895,0x14030eaf0,0x1402f4a00,2,TESCombatStyle::QAdjustRangeMult(void)
+1171895,0x14030eaf0,0x1402f4a10,4,float TESCombatStyle::QAdjustRangeMult()
 1171896,0x145b067a0,0x145b67110,2,DAT_145b067a0
 1171930,0x1437b88a8,0x1437f4618,2,DAT_1437b88a8
 1171944,0x1400e41f0,0x1400e4df0,4,ModelLoader::CancelReference(TESObjectREFR*)
@@ -93526,7 +93526,7 @@ id,fo4,vr,status,name
 1577322,0x140023870,0x1400240d0,2,"BSPointerHandleManagerInterface<Actor,HandleManager>::GetSmartPointer(BSPointerHandle<Actor,BSUntypedPointerHandle<21,5>>&,NiPointer<Actor>&)"
 1577323,0x141e829e0,0x141f0b310,2,"hclBoneSpaceSkinOperator::_executeCpu<hclBoneSpaceDeformer::LocalBlockPNTB,hclNSBoneSpaceDeformer::PackedBlockData,hclNSBoneSpaceDeformer::SIMDComponent,hclNSBoneSpaceDeformer::SIMDComponent,hclNSBoneSpaceDeformer::FloatComponent,hclNSBoneSpaceDeformer::FloatComponent>(hclBoneSpaceDeformer::LocalBlockPNTB*,hclTransformSet&,hclBuffer&)"
 1577378,0x141e14870,0x141e9d1a0,2,hknpMaskedShape::MaskWrapper::MaskWrapper(void)
-1577388,0x140171d70,0x141d409b0,2,BGSParticleArrayAttach::Init(void)
+1577388,0x140171d70,0x140178270,3,void BGSParticleArrayAttach::Init()
 1577415,0x14239d500,0x142427610,4,Scaleform::Render::Matrix4x4<float>::SetInverse(Scaleform::Render::Matrix4x4<float>&)
 1577497,0x141a66b30,0x141ae94a0,4,hkbProceduralBlenderGenerator::destroyBlender(void)
 1577498,0x1438c5a60,0x14391ba30,2,BSImagespaceShaderBlurX7_480CS
