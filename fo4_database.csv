@@ -83235,11 +83235,8 @@ id,fo4,vr,status,name
 1401391,0x142c920f8,0x142cc7458,3,ConcreteFormFactory_BGSSoundCategory_134__0
 1401423,0x140e25d20,0x140e79ff0,4,ActorValueStorage::RemoveBaseActorValue(ActorValueInfo&)
 1401441,0x1458d4438,0x145936538,2,DAT_1458d4438
-<<<<<<< HEAD
 1401451,0x142043830,0x1420cc510,3,bool UI::CustomRendererHasQuads(BSFixedString& a_customRendererName)
-=======
 1401454,0x14284a5e0,0x14283db30,3,void BSParticleShaderEmitter::UpdateParticles(float a_timeDelta)
->>>>>>> origin/main
 1401467,0x1436ef2f0,0x143716560,3,ConcreteFormFactory_BGSMaterialObject_130_
 1401498,0x143796570,0x1437d0fa0,2,BSTEventSink_BSTValueRequestEvent_PlayerCommandTypeEvent__
 1401553,0x141bee870,0x141c6e5c0,4,"NiHalfSpaceBV::HalfSpaceSphereTestIntersect(float,NiBoundingVolume&,NiPoint3&,NiBoundingVolume&,NiPoint3&)"
