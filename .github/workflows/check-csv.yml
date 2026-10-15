@@ -1,0 +1,97 @@
+name: Validate and Fix CSV Name Field
+
+on:
+  pull_request:
+    paths:
+      - 'fo4_database.csv'
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR merge ref
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verify CSV formatting against trusted base script
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          # Always run the BASE branch's copy of the script, never the PR's own
+          # copy -- otherwise a PR could edit the script to silence the check.
+          git show "$BASE_SHA:scripts/autofix_csv_quotes.py" > "$RUNNER_TEMP/autofix.py"
+
+          # NUL-delimited and never interpolated into shell or template text,
+          # so an attacker-chosen file name can't inject commands or corrupt
+          # output.
+          git diff -z --name-only --diff-filter=AM "$BASE_SHA" "$HEAD_SHA" -- 'fo4_database.csv' \
+            | xargs -0 -r python "$RUNNER_TEMP/autofix.py"
+
+          if ! git diff --quiet -- 'fo4_database.csv'; then
+            {
+              echo '### CSV formatting needs fixing'
+              echo 'Run `python scripts/autofix_csv_quotes.py` and commit the result.'
+              echo '```diff'
+              git diff -- 'fo4_database.csv'
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::fo4_database.csv is not normalized; see job summary for the diff."
+            exit 1
+          fi
+
+  scheduled_cleanup:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run CSV autofix script on fo4_database.csv
+        id: fix
+        run: |
+          output=$(python scripts/autofix_csv_quotes.py fo4_database.csv)
+          echo "$output"
+          if echo "$output" | grep -q '✅ Fixed [0-9]'; then
+            echo "modified=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "modified=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open PR with fixes
+        if: steps.fix.outputs.modified == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "style(csv): normalize quoting and id ordering"
+          title: "style(csv): scheduled CSV cleanup"
+          body: |
+            Automated cleanup from the `check-csv.yml` ${{ github.event_name }} run.
+
+            Catches drift the PR `check` job can't see -- e.g. rows added
+            while this workflow was disabled, or manual commits that
+            bypassed a PR.
+          branch: automated/csv-cleanup
+          delete-branch: true

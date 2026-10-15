@@ -13,7 +13,17 @@ repos:
       - id: check-added-large-files
         args: ["--maxkb=80000"] # Allow large database files (fo4.csv is ~70MB)
 
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.0
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.12
     hooks:
       - id: actionlint
+
+ci:
+  autoupdate_commit_msg: "chore(deps): pre-commit autoupdate"
