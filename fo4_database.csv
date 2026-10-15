@@ -6356,7 +6356,7 @@ id,fo4,vr,status,name
 105623,0x1413d0310,0x141455460,2,"GameScript::`anonymous_namespace'::mem_InputEnableLayer_EnableZKey(BSScript::IVirtualMachine*,uint,BSInputEnableLayer*,bool)"
 105627,0x14609be70,0x1460f3b90,2,DAT_14609be70
 105680,0x142cdf750,0x142d13ae0,2,s_LEVEL_UP!_142cdf750
-105704,0x140d6b3a0,0x140dbbd70,2,bool ProcessObjects::sub_140D6B3A0(NiTexture* a_texture)
+105704,0x140d6b3a0,0x140dbbd70,2,std::int32_t ProcessObjects::operator()(NiTexture* a_texture)
 105708,0x140a46000,0x140a499b0,4,BSTValueEventSink<HUDMessageDisplayDataEvent>::OnEventReceived(BSTOptional<ShowHUDMessageEvent>&)
 105744,0x1438a5678,0x143902078,2,BSNavmeshObstacleCoverData
 105749,0x14118b300,0x14120d0b0,4,CombatBehaviorContextRangedMovement::CheckOutOfRange(void)
@@ -19172,7 +19172,7 @@ id,fo4,vr,status,name
 324181,0x142df5d50,0x142e378c8,2,s_format_142df5d50
 324207,0x14067abf0,0x140668db0,4,"BSFaceGenPendingHeadData::BSFaceGenPendingHeadData(TESNPC*,BSPointerHandle<TESObjectREFR,BSUntypedPointerHandle<21,5>>,bool,bool,bool,IO_TASK_PRIORITY,QueuedFile*)"
 324222,0x142d342a0,0x142d70ee0,3,__CategoryPrefSettingApplier_0
-324232,0x140d6c5b0,0x140dbced0,3,std::int32_t ProcessObjects4::sub_140D6C5B0()
+324232,0x140d6c5b0,0x140dbced0,3,BSVisitControl ProcessObjects4::Run()
 324262,0x142d26e88,0x142d5d460,2,s_FinishAnimatingText_142d26e88
 324268,0x145adf390,0x145b406f0,2,DAT_145adf390
 324274,0x142d7a7c8,0x142dbb3d8,3,AutoRegisterCombatObject_CombatPathingSearchArea__0
