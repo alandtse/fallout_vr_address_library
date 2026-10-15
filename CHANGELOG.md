@@ -1,3 +1,19 @@
+# [1.14.0](https://github.com/alandtse/fallout_vr_address_library/compare/v1.13.1...v1.14.0) (2026-10-15)
+
+
+### Bug Fixes
+
+* correct combat style and particle attach rows ([#11](https://github.com/alandtse/fallout_vr_address_library/issues/11)) ([6533da6](https://github.com/alandtse/fallout_vr_address_library/commit/6533da6357ff5b8609ec0818e421b790577c3d7f))
+
+
+### Features
+
+* add Actor and REFR virtual function rows ([#15](https://github.com/alandtse/fallout_vr_address_library/issues/15)) ([8f574ff](https://github.com/alandtse/fallout_vr_address_library/commit/8f574ff17084139b98753e451b37681ffd7c09eb))
+* add Buffout4 and loading screen addresses ([#14](https://github.com/alandtse/fallout_vr_address_library/issues/14)) ([c50c813](https://github.com/alandtse/fallout_vr_address_library/commit/c50c8137a2ef794e49a1df0245643205b0dd8866))
+* add Community Shaders and mirror addresses ([#13](https://github.com/alandtse/fallout_vr_address_library/issues/13)) ([bbb0ec6](https://github.com/alandtse/fallout_vr_address_library/commit/bbb0ec67887eef3632870b44b90f8673f98eb33b))
+* add FRIK, ROCK and Heisenberg addresses ([#12](https://github.com/alandtse/fallout_vr_address_library/issues/12)) ([27f4c8a](https://github.com/alandtse/fallout_vr_address_library/commit/27f4c8a1d7b2c5460f71587771e576af6ab555d8))
+* add missing commonlibf4 addresses ([#10](https://github.com/alandtse/fallout_vr_address_library/issues/10)) ([6c233f8](https://github.com/alandtse/fallout_vr_address_library/commit/6c233f88fafa985c82235d0c708e65bb7fb9f2b9))
+
 ## [1.13.1](https://github.com/alandtse/fallout_vr_address_library/compare/v1.13.0...v1.13.1) (2025-07-04)
 
 
