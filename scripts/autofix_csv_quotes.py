@@ -1,0 +1,79 @@
+import csv
+import io
+import os
+
+
+def process_file(filepath: str) -> int:
+    # Read original content
+    with open(filepath, "r", newline="", encoding="utf-8") as f:
+        original_content = f.read()
+
+    # Parse with csv.reader
+    with open(filepath, "r", newline="", encoding="utf-8") as f:
+        rows = list(csv.reader(f))
+
+    # Keep the header in place, sort the data rows numerically by id.
+    if rows:
+        header, data_rows = rows[0], rows[1:]
+        data_rows.sort(key=lambda r: int(r[0]))
+        rows = [header] + data_rows
+
+    # Write back with csv.writer using QUOTE_MINIMAL
+    output = io.StringIO()
+    writer = csv.writer(output, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
+    writer.writerows(rows)
+    new_content = output.getvalue()
+    # fo4_database.csv is committed without a final newline; keep it that way.
+    if not original_content.endswith("\n"):
+        new_content = new_content.rstrip("\n")
+
+    # Only count lines that actually have different content
+    changes_count = 0
+    if original_content != new_content:
+        original_lines = original_content.strip().split("\n")
+        new_lines = new_content.strip().split("\n")
+
+        for orig_line, new_line in zip(original_lines, new_lines):
+            # Only count as changed if the content is actually different
+            # This catches cases where quoting was added/modified or rows
+            # were reordered by id.
+            if orig_line.strip() != new_line.strip():
+                changes_count += 1
+
+        # A reorder can leave every zipped pair equal (same lines, shifted
+        # position) even though the file content differs overall.
+        changes_count = max(changes_count, 1)
+
+        # Write the updated file
+        with open(filepath, "w", newline="", encoding="utf-8") as f:
+            f.write(new_content)
+
+    return changes_count
+
+
+def main():
+    import sys
+
+    # If specific files are provided as arguments, process only those
+    if len(sys.argv) > 1:
+        files_to_process = sys.argv[1:]
+    else:
+        # Keep the default scoped to fo4_database.csv; other CSV schemas are not
+        # safe to numeric-sort.
+        files_to_process = ["fo4_database.csv"]
+
+    total_fixes = 0
+    for filepath in files_to_process:
+        if filepath.endswith(".csv") and os.path.exists(filepath):
+            fixes_count = process_file(filepath)
+            if fixes_count > 0:
+                entry_word = "entry" if fixes_count == 1 else "entries"
+                print(f"✅ Fixed {fixes_count} {entry_word} in: {filepath}")
+                total_fixes += fixes_count
+
+    if total_fixes == 0:
+        print("✅ No fixes necessary.")
+
+
+if __name__ == "__main__":
+    main()
